@@ -1,0 +1,99 @@
+version: '3.8'
+
+networks:
+  pipenetwork:
+    driver: bridge
+
+services:
+
+  spark:
+    build: ./spark-server
+    container_name: spark-server
+    hostname: spark-server
+    stdin_open: true
+    tty: true
+    volumes:
+      - spark-volume:/spark-warehouse
+      - input-data-volume:/app/datasets
+    networks:
+      - pipenetwork
+    ports:
+      - "8080:8080"
+      - "7077:7077"
+      - "4040:4040"
+      - "18080:18080"
+      - "10000:10000"
+    command: ["/entrypoint_master.sh"]
+    depends_on:
+      - metastore-db
+  
+  spark_worker:
+    build: ./spark-server
+    container_name: spark-worker
+    hostname: spark-worker
+    stdin_open: true
+    tty: true
+    volumes:
+      - spark-volume:/spark-warehouse
+      - input-data-volume:/app/datasets
+    depends_on:
+      - spark
+    networks:
+      - pipenetwork
+    command: ["/entrypoint_worker.sh"]
+
+  metastore-db:
+    build: ./metastore-db
+    container_name: metastore-db
+    ports:
+      - "5432:5432"
+      - "9083:9083"
+    volumes:
+      - pipedata:/var/lib/postgresql/data
+      - spark-volume:/spark-warehouse
+    networks:
+      - pipenetwork
+    stdin_open: true
+    tty: true
+
+  transformation:
+    build: ./transformation
+    container_name: transformation
+    stdin_open: true
+    tty: true
+    volumes:
+      - ./transformation:/app
+      - spark-volume:/spark-warehouse
+      - input-data-volume:/app/datasets
+    working_dir: /app
+    networks:
+      - pipenetwork    
+    depends_on:
+      - spark
+      - spark_worker
+
+  kafka:
+    build: ./kafka-server
+    hostname: kafka-server
+    container_name: kafka-server
+    ports:
+      - "9092:9092"
+      - "9093:9093"
+    env_file:
+      - ./kafka-server/kafka.env
+    networks:
+      - pipenetwork
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - ./kafka-server/kafka_log_data:/var/lib/kafka/data  # Store Kafka logs on your local machine.
+
+volumes:
+  pipedata:
+    driver: local
+  spark-volume:
+    driver: local
+  input-data-volume:
+    driver: local
+  kafka_log_data:
+    driver: local
+

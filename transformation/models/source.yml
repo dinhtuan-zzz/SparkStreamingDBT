@@ -1,0 +1,6 @@
+sources:
+  - name: raw_data
+    description: raw input data
+    schema: raw
+    tables: 
+     - name: daily

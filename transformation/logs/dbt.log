@@ -1,0 +1,1510 @@
+[0m09:34:25.159300 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5273a5fdf0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5272bb12e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5272bb1190>]}
+
+
+============================== 09:34:25.174023 | 96378ebf-ea94-4283-a833-9a4ee2179787 ==============================
+[0m09:34:25.174023 [info ] [MainThread]: Running with dbt=1.9.3
+[0m09:34:25.175317 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': '/app', 'log_path': '/app/logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'invocation_command': 'dbt deps', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m09:34:25.351743 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '96378ebf-ea94-4283-a833-9a4ee2179787', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5272b936d0>]}
+[0m09:34:25.368072 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m09:34:25.370138 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m09:34:25.371606 [debug] [MainThread]: Resource report: {"command_name": "deps", "command_success": true, "command_wall_clock_time": 0.31879568, "process_in_blocks": "0", "process_kernel_time": 0.295282, "process_mem_max_rss": "87496", "process_out_blocks": "648", "process_user_time": 1.927318}
+[0m09:34:25.372258 [debug] [MainThread]: Command `dbt deps` succeeded at 09:34:25.372103 after 0.32 seconds
+[0m09:34:25.372703 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5273a5fdf0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5272b0b190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5272b936d0>]}
+[0m09:34:25.373165 [debug] [MainThread]: Flushing usage events
+[0m09:34:26.704527 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m13:55:03.479155 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f449950db50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4498654220>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4498654280>]}
+
+
+============================== 13:55:03.485204 | 1b977a2d-def0-4131-a2af-b013adcd3b13 ==============================
+[0m13:55:03.485204 [info ] [MainThread]: Running with dbt=1.9.3
+[0m13:55:03.485969 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/app', 'debug': 'False', 'warn_error': 'None', 'log_path': '/app/logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt deps', 'send_anonymous_usage_stats': 'True'}
+[0m13:55:03.663247 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '1b977a2d-def0-4131-a2af-b013adcd3b13', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f44986546a0>]}
+[0m13:55:03.692277 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m13:55:03.694886 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m13:55:03.696739 [debug] [MainThread]: Resource report: {"command_name": "deps", "command_success": true, "command_wall_clock_time": 0.30297112, "process_in_blocks": "68520", "process_kernel_time": 1.761446, "process_mem_max_rss": "86704", "process_out_blocks": "16", "process_user_time": 1.051185}
+[0m13:55:03.697267 [debug] [MainThread]: Command `dbt deps` succeeded at 13:55:03.697137 after 0.30 seconds
+[0m13:55:03.697663 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f449950db50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4498564e80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f44986546a0>]}
+[0m13:55:03.698113 [debug] [MainThread]: Flushing usage events
+[0m13:55:05.142296 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m13:23:09.039910 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd22b4d0b50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd22a616190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd22a6161f0>]}
+
+
+============================== 13:23:09.046046 | 5bad9070-0442-425f-b362-215d1eab10f2 ==============================
+[0m13:23:09.046046 [info ] [MainThread]: Running with dbt=1.9.3
+[0m13:23:09.046765 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/app', 'version_check': 'True', 'debug': 'False', 'log_path': '/app/logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt deps', 'send_anonymous_usage_stats': 'True'}
+[0m13:23:09.225806 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '5bad9070-0442-425f-b362-215d1eab10f2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd22a616130>]}
+[0m13:23:09.256902 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m13:23:09.260653 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m13:23:09.262988 [debug] [MainThread]: Resource report: {"command_name": "deps", "command_success": true, "command_wall_clock_time": 0.39878252, "process_in_blocks": "69544", "process_kernel_time": 1.750491, "process_mem_max_rss": "87104", "process_out_blocks": "8", "process_user_time": 0.995142}
+[0m13:23:09.263675 [debug] [MainThread]: Command `dbt deps` succeeded at 13:23:09.263517 after 0.40 seconds
+[0m13:23:09.264243 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd22b4d0b50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd22a527e80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd22a4c4880>]}
+[0m13:23:09.264721 [debug] [MainThread]: Flushing usage events
+[0m13:23:10.699794 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:41:27.844939 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3282d94b20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3281ede310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3281ede280>]}
+
+
+============================== 14:41:27.850436 | c2b2b5c4-135f-4b23-bc9e-8e5be497a6c9 ==============================
+[0m14:41:27.850436 [info ] [MainThread]: Running with dbt=1.9.3
+[0m14:41:27.851347 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'debug': 'False', 'log_path': '/app/logs', 'version_check': 'True', 'profiles_dir': '/app', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'invocation_command': 'dbt seed', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m14:41:28.034452 [debug] [MainThread]: Spark adapter: Setting pyhive.hive logging to ERROR
+[0m14:41:28.035179 [debug] [MainThread]: Spark adapter: Setting thrift.transport logging to ERROR
+[0m14:41:28.035588 [debug] [MainThread]: Spark adapter: Setting thrift.protocol logging to ERROR
+[0m14:41:28.232433 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'c2b2b5c4-135f-4b23-bc9e-8e5be497a6c9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f32819b14c0>]}
+[0m14:41:28.312568 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'c2b2b5c4-135f-4b23-bc9e-8e5be497a6c9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f32818c2ee0>]}
+[0m14:41:28.313396 [info ] [MainThread]: Registered adapter: spark=1.9.2
+[0m14:41:28.458953 [debug] [MainThread]: checksum: 5671c00892cdbcef29c3b00cc5ba7510c3d18a35c883caeb9ab9ee266dc29c8f, vars: {}, profile: , target: , version: 1.9.3
+[0m14:41:28.460069 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m14:41:28.460632 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'c2b2b5c4-135f-4b23-bc9e-8e5be497a6c9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3281788a00>]}
+[0m14:41:29.647190 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 4 unused configuration paths:
+- models.pipeml.staging
+- models.pipeml.marts
+- models.pipeml
+- seeds.pipeml
+[0m14:41:29.653689 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'c2b2b5c4-135f-4b23-bc9e-8e5be497a6c9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f328157a130>]}
+[0m14:41:29.713936 [debug] [MainThread]: Wrote artifact WritableManifest to /app/target/manifest.json
+[0m14:41:29.717535 [debug] [MainThread]: Wrote artifact SemanticManifest to /app/target/semantic_manifest.json
+[0m14:41:29.745290 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'c2b2b5c4-135f-4b23-bc9e-8e5be497a6c9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f328147c040>]}
+[0m14:41:29.745907 [info ] [MainThread]: Found 473 macros
+[0m14:41:29.746501 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'c2b2b5c4-135f-4b23-bc9e-8e5be497a6c9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f32814f6430>]}
+[0m14:41:29.747833 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m14:41:29.748559 [debug] [MainThread]: Command end result
+[0m14:41:29.777190 [debug] [MainThread]: Wrote artifact WritableManifest to /app/target/manifest.json
+[0m14:41:29.779137 [debug] [MainThread]: Wrote artifact SemanticManifest to /app/target/semantic_manifest.json
+[0m14:41:29.783066 [debug] [MainThread]: Wrote artifact RunExecutionResult to /app/target/run_results.json
+[0m14:41:29.783404 [info ] [MainThread]: 
+[0m14:41:29.784121 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m14:41:29.784642 [info ] [MainThread]: 
+[0m14:41:29.785186 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=0 SKIP=0 TOTAL=0
+[0m14:41:29.786451 [debug] [MainThread]: Resource report: {"command_name": "seed", "command_success": true, "command_wall_clock_time": 2.0299892, "process_in_blocks": "6192", "process_kernel_time": 2.055049, "process_mem_max_rss": "101784", "process_out_blocks": "2856", "process_user_time": 1.907976}
+[0m14:41:29.786905 [debug] [MainThread]: Command `dbt seed` succeeded at 14:41:29.786796 after 2.03 seconds
+[0m14:41:29.787306 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3282d94b20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3282be29a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3281ce1a00>]}
+[0m14:41:29.787696 [debug] [MainThread]: Flushing usage events
+[0m14:41:31.214390 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m15:59:28.406589 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f79e5e29e20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f79e4f7b340>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f79e4f7b2e0>]}
+
+
+============================== 15:59:28.417440 | a6811c87-6024-4e72-8b9e-12dce5a0338f ==============================
+[0m15:59:28.417440 [info ] [MainThread]: Running with dbt=1.9.3
+[0m15:59:28.418340 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/app', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': '/app/logs', 'version_check': 'True', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt deps', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m15:59:28.592379 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'a6811c87-6024-4e72-8b9e-12dce5a0338f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f79e6ef6d90>]}
+[0m15:59:28.609098 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m15:59:28.611408 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m15:59:28.612877 [debug] [MainThread]: Resource report: {"command_name": "deps", "command_success": true, "command_wall_clock_time": 0.28559527, "process_in_blocks": "832", "process_kernel_time": 0.37057, "process_mem_max_rss": "86952", "process_out_blocks": "640", "process_user_time": 1.648267}
+[0m15:59:28.613467 [debug] [MainThread]: Command `dbt deps` succeeded at 15:59:28.613329 after 0.29 seconds
+[0m15:59:28.613929 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f79e5e29e20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f79e4f0aeb0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f79e6ef6d90>]}
+[0m15:59:28.614444 [debug] [MainThread]: Flushing usage events
+[0m15:59:30.087694 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m15:59:52.091419 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4dc3226af0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4dc236e2e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4dc236e2b0>]}
+
+
+============================== 15:59:52.096655 | 579e7959-9541-48ab-9f3b-bafcec44eda9 ==============================
+[0m15:59:52.096655 [info ] [MainThread]: Running with dbt=1.9.3
+[0m15:59:52.097598 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/app', 'version_check': 'True', 'debug': 'False', 'log_path': '/app/logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt seed', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m15:59:52.187996 [debug] [MainThread]: Spark adapter: Setting pyhive.hive logging to ERROR
+[0m15:59:52.188758 [debug] [MainThread]: Spark adapter: Setting thrift.transport logging to ERROR
+[0m15:59:52.189210 [debug] [MainThread]: Spark adapter: Setting thrift.protocol logging to ERROR
+[0m15:59:52.385255 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '579e7959-9541-48ab-9f3b-bafcec44eda9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4dc1e44af0>]}
+[0m15:59:52.465564 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '579e7959-9541-48ab-9f3b-bafcec44eda9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4dc2355c10>]}
+[0m15:59:52.466478 [info ] [MainThread]: Registered adapter: spark=1.9.2
+[0m15:59:52.605476 [debug] [MainThread]: checksum: 5671c00892cdbcef29c3b00cc5ba7510c3d18a35c883caeb9ab9ee266dc29c8f, vars: {}, profile: , target: , version: 1.9.3
+[0m15:59:52.697427 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m15:59:52.697941 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m15:59:52.698908 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 4 unused configuration paths:
+- models.pipeml
+- models.pipeml.marts
+- models.pipeml.staging
+- seeds.pipeml
+[0m15:59:52.706589 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '579e7959-9541-48ab-9f3b-bafcec44eda9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4dc1910130>]}
+[0m15:59:52.771140 [debug] [MainThread]: Wrote artifact WritableManifest to /app/target/manifest.json
+[0m15:59:52.775215 [debug] [MainThread]: Wrote artifact SemanticManifest to /app/target/semantic_manifest.json
+[0m15:59:52.796583 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '579e7959-9541-48ab-9f3b-bafcec44eda9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4dc1a49730>]}
+[0m15:59:52.797259 [info ] [MainThread]: Found 473 macros
+[0m15:59:52.798024 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '579e7959-9541-48ab-9f3b-bafcec44eda9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4dc197c9d0>]}
+[0m15:59:52.799383 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m15:59:52.801948 [debug] [MainThread]: Command end result
+[0m15:59:52.827512 [debug] [MainThread]: Wrote artifact WritableManifest to /app/target/manifest.json
+[0m15:59:52.829492 [debug] [MainThread]: Wrote artifact SemanticManifest to /app/target/semantic_manifest.json
+[0m15:59:52.834745 [debug] [MainThread]: Wrote artifact RunExecutionResult to /app/target/run_results.json
+[0m15:59:52.835323 [info ] [MainThread]: 
+[0m15:59:52.835945 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m15:59:52.836358 [info ] [MainThread]: 
+[0m15:59:52.836830 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=0 SKIP=0 TOTAL=0
+[0m15:59:52.838110 [debug] [MainThread]: Resource report: {"command_name": "seed", "command_success": true, "command_wall_clock_time": 0.8239291, "process_in_blocks": "0", "process_kernel_time": 0.306662, "process_mem_max_rss": "101464", "process_out_blocks": "1928", "process_user_time": 2.007245}
+[0m15:59:52.838644 [debug] [MainThread]: Command `dbt seed` succeeded at 15:59:52.838514 after 0.82 seconds
+[0m15:59:52.839153 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4dc3226af0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4dc2355c10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4dc1a49730>]}
+[0m15:59:52.839606 [debug] [MainThread]: Flushing usage events
+[0m15:59:54.165620 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m13:27:56.182348 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6c09632f40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6c08784460>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6c08784400>]}
+
+
+============================== 13:27:56.191653 | 7a6f5f0a-e58d-48b3-88c1-55aee5a934a2 ==============================
+[0m13:27:56.191653 [info ] [MainThread]: Running with dbt=1.9.3
+[0m13:27:56.195320 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': '/app/logs', 'debug': 'False', 'profiles_dir': '/app', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'invocation_command': 'dbt deps', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m13:27:56.351223 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '7a6f5f0a-e58d-48b3-88c1-55aee5a934a2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6c08750af0>]}
+[0m13:27:56.366958 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m13:27:56.368856 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m13:27:56.370284 [debug] [MainThread]: Resource report: {"command_name": "deps", "command_success": true, "command_wall_clock_time": 0.2749909, "process_in_blocks": "0", "process_kernel_time": 0.418243, "process_mem_max_rss": "87716", "process_out_blocks": "640", "process_user_time": 1.609842}
+[0m13:27:56.370861 [debug] [MainThread]: Command `dbt deps` succeeded at 13:27:56.370672 after 0.28 seconds
+[0m13:27:56.371356 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6c09632f40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6c08694370>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6c08750af0>]}
+[0m13:27:56.371791 [debug] [MainThread]: Flushing usage events
+[0m13:27:57.685492 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m13:28:25.102742 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f935075cd00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f934f8a8dc0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f934f8a8e20>]}
+
+
+============================== 13:28:25.108165 | c86fb4c5-e9cd-4f3d-9bba-d73e2f71be64 ==============================
+[0m13:28:25.108165 [info ] [MainThread]: Running with dbt=1.9.3
+[0m13:28:25.109213 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'profiles_dir': '/app', 'log_path': '/app/logs', 'debug': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': 'dbt seed', 'send_anonymous_usage_stats': 'True'}
+[0m13:28:25.246836 [debug] [MainThread]: Spark adapter: Setting pyhive.hive logging to ERROR
+[0m13:28:25.247529 [debug] [MainThread]: Spark adapter: Setting thrift.transport logging to ERROR
+[0m13:28:25.248154 [debug] [MainThread]: Spark adapter: Setting thrift.protocol logging to ERROR
+[0m13:28:25.455265 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'c86fb4c5-e9cd-4f3d-9bba-d73e2f71be64', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9351795e80>]}
+[0m13:28:25.537118 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'c86fb4c5-e9cd-4f3d-9bba-d73e2f71be64', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f934ff81e20>]}
+[0m13:28:25.538132 [info ] [MainThread]: Registered adapter: spark=1.9.2
+[0m13:28:25.685315 [debug] [MainThread]: checksum: 5671c00892cdbcef29c3b00cc5ba7510c3d18a35c883caeb9ab9ee266dc29c8f, vars: {}, profile: , target: , version: 1.9.3
+[0m13:28:25.799376 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m13:28:25.800083 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m13:28:25.801227 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 4 unused configuration paths:
+- models.pipeml
+- models.pipeml.marts
+- models.pipeml.staging
+- seeds.pipeml
+[0m13:28:25.810875 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'c86fb4c5-e9cd-4f3d-9bba-d73e2f71be64', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f934ee49130>]}
+[0m13:28:25.877253 [debug] [MainThread]: Wrote artifact WritableManifest to /app/target/manifest.json
+[0m13:28:25.881596 [debug] [MainThread]: Wrote artifact SemanticManifest to /app/target/semantic_manifest.json
+[0m13:28:25.913604 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'c86fb4c5-e9cd-4f3d-9bba-d73e2f71be64', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f934ee98e80>]}
+[0m13:28:25.914337 [info ] [MainThread]: Found 473 macros
+[0m13:28:25.915059 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'c86fb4c5-e9cd-4f3d-9bba-d73e2f71be64', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f934eeba1f0>]}
+[0m13:28:25.916471 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m13:28:25.919200 [debug] [MainThread]: Command end result
+[0m13:28:25.949111 [debug] [MainThread]: Wrote artifact WritableManifest to /app/target/manifest.json
+[0m13:28:25.951267 [debug] [MainThread]: Wrote artifact SemanticManifest to /app/target/semantic_manifest.json
+[0m13:28:25.955961 [debug] [MainThread]: Wrote artifact RunExecutionResult to /app/target/run_results.json
+[0m13:28:25.956402 [info ] [MainThread]: 
+[0m13:28:25.957226 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m13:28:25.957827 [info ] [MainThread]: 
+[0m13:28:25.958431 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=0 SKIP=0 TOTAL=0
+[0m13:28:25.959876 [debug] [MainThread]: Resource report: {"command_name": "seed", "command_success": true, "command_wall_clock_time": 0.9412656, "process_in_blocks": "0", "process_kernel_time": 1.571273, "process_mem_max_rss": "101572", "process_out_blocks": "1928", "process_user_time": 1.316687}
+[0m13:28:25.960397 [debug] [MainThread]: Command `dbt seed` succeeded at 13:28:25.960272 after 0.94 seconds
+[0m13:28:25.960966 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f935075cd00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f93505ac400>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f934ff81e20>]}
+[0m13:28:25.961431 [debug] [MainThread]: Flushing usage events
+[0m13:28:27.618889 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:00:23.599607 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f49aa926ca0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f49a9a6c340>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f49a9a6c2e0>]}
+
+
+============================== 14:00:23.604183 | aa203904-3d3f-49f7-b763-b85e88d09bf2 ==============================
+[0m14:00:23.604183 [info ] [MainThread]: Running with dbt=1.9.3
+[0m14:00:23.605309 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': '/app/logs', 'profiles_dir': '/app', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt run', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m14:00:23.690355 [debug] [MainThread]: Spark adapter: Setting pyhive.hive logging to ERROR
+[0m14:00:23.691006 [debug] [MainThread]: Spark adapter: Setting thrift.transport logging to ERROR
+[0m14:00:23.691360 [debug] [MainThread]: Spark adapter: Setting thrift.protocol logging to ERROR
+[0m14:00:23.867605 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'aa203904-3d3f-49f7-b763-b85e88d09bf2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f49a9465250>]}
+[0m14:00:23.942074 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'aa203904-3d3f-49f7-b763-b85e88d09bf2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f49aa114130>]}
+[0m14:00:23.942944 [info ] [MainThread]: Registered adapter: spark=1.9.2
+[0m14:00:24.078932 [debug] [MainThread]: checksum: 5671c00892cdbcef29c3b00cc5ba7510c3d18a35c883caeb9ab9ee266dc29c8f, vars: {}, profile: , target: , version: 1.9.3
+[0m14:00:24.138187 [info ] [MainThread]: Unable to do partial parsing because profile has changed
+[0m14:00:24.139315 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'aa203904-3d3f-49f7-b763-b85e88d09bf2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f49aaae7ac0>]}
+[0m14:00:25.645144 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 2 unused configuration paths:
+- models.pipeml.marts
+- seeds.pipeml
+[0m14:00:25.660765 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'aa203904-3d3f-49f7-b763-b85e88d09bf2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f49a8727130>]}
+[0m14:00:25.764016 [debug] [MainThread]: Wrote artifact WritableManifest to /app/target/manifest.json
+[0m14:00:25.767678 [debug] [MainThread]: Wrote artifact SemanticManifest to /app/target/semantic_manifest.json
+[0m14:00:25.780424 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'aa203904-3d3f-49f7-b763-b85e88d09bf2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f49a85fa610>]}
+[0m14:00:25.781048 [info ] [MainThread]: Found 1 model, 1 source, 473 macros
+[0m14:00:25.781698 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'aa203904-3d3f-49f7-b763-b85e88d09bf2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f49a8619fa0>]}
+[0m14:00:25.783565 [info ] [MainThread]: 
+[0m14:00:25.784183 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m14:00:25.784729 [info ] [MainThread]: 
+[0m14:00:25.785547 [debug] [MainThread]: Acquiring new spark connection 'master'
+[0m14:00:25.786701 [debug] [ThreadPool]: Acquiring new spark connection 'list_schemas'
+[0m14:00:25.799951 [debug] [ThreadPool]: Using spark connection "list_schemas"
+[0m14:00:25.800470 [debug] [ThreadPool]: On list_schemas: /* {"app": "dbt", "dbt_version": "1.9.3", "profile_name": "pipeml", "target_name": "dev", "connection_name": "list_schemas"} */
+
+    show databases
+  
+[0m14:00:25.800874 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m14:00:28.404413 [debug] [ThreadPool]: Spark adapter: Poll status: 2, query complete
+[0m14:00:28.404981 [debug] [ThreadPool]: SQL status: OK in 2.604 seconds
+[0m14:00:28.487785 [debug] [ThreadPool]: On list_schemas: Close
+[0m14:00:28.512389 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_schemas, now create__raw_staging)
+[0m14:00:28.513244 [debug] [ThreadPool]: Creating schema "schema: "raw_staging"
+"
+[0m14:00:28.518852 [debug] [ThreadPool]: Spark adapter: NotImplemented: add_begin_query
+[0m14:00:28.519211 [debug] [ThreadPool]: Using spark connection "create__raw_staging"
+[0m14:00:28.519519 [debug] [ThreadPool]: On create__raw_staging: /* {"app": "dbt", "dbt_version": "1.9.3", "profile_name": "pipeml", "target_name": "dev", "connection_name": "create__raw_staging"} */
+create schema if not exists raw_staging
+  
+[0m14:00:28.519820 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m14:00:28.757993 [debug] [ThreadPool]: Spark adapter: Poll status: 2, query complete
+[0m14:00:28.758608 [debug] [ThreadPool]: SQL status: OK in 0.239 seconds
+[0m14:00:28.759825 [debug] [ThreadPool]: Spark adapter: NotImplemented: commit
+[0m14:00:28.760230 [debug] [ThreadPool]: On create__raw_staging: ROLLBACK
+[0m14:00:28.760561 [debug] [ThreadPool]: Spark adapter: NotImplemented: rollback
+[0m14:00:28.760866 [debug] [ThreadPool]: On create__raw_staging: Close
+[0m14:00:28.772051 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly create__raw_staging, now list_None_raw_staging)
+[0m14:00:28.779438 [debug] [ThreadPool]: Spark adapter: NotImplemented: add_begin_query
+[0m14:00:28.779932 [debug] [ThreadPool]: Using spark connection "list_None_raw_staging"
+[0m14:00:28.780358 [debug] [ThreadPool]: On list_None_raw_staging: /* {"app": "dbt", "dbt_version": "1.9.3", "profile_name": "pipeml", "target_name": "dev", "connection_name": "list_None_raw_staging"} */
+show table extended in raw_staging like '*'
+  
+[0m14:00:28.780763 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m14:00:28.960202 [debug] [ThreadPool]: Spark adapter: Poll status: 2, query complete
+[0m14:00:28.960760 [debug] [ThreadPool]: SQL status: OK in 0.180 seconds
+[0m14:00:28.967978 [debug] [ThreadPool]: On list_None_raw_staging: ROLLBACK
+[0m14:00:28.968424 [debug] [ThreadPool]: Spark adapter: NotImplemented: rollback
+[0m14:00:28.968733 [debug] [ThreadPool]: On list_None_raw_staging: Close
+[0m14:00:28.977081 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'aa203904-3d3f-49f7-b763-b85e88d09bf2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f49a852a220>]}
+[0m14:00:28.977792 [debug] [MainThread]: Spark adapter: NotImplemented: add_begin_query
+[0m14:00:28.978127 [debug] [MainThread]: Spark adapter: NotImplemented: commit
+[0m14:00:28.983105 [debug] [Thread-1  ]: Began running node model.pipeml.stg_raw
+[0m14:00:28.983798 [info ] [Thread-1  ]: 1 of 1 START sql table model raw_staging.stg_raw ............................... [RUN]
+[0m14:00:28.984671 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly list_None_raw_staging, now model.pipeml.stg_raw)
+[0m14:00:28.985079 [debug] [Thread-1  ]: Began compiling node model.pipeml.stg_raw
+[0m14:00:28.995514 [debug] [Thread-1  ]: Writing injected SQL for node "model.pipeml.stg_raw"
+[0m14:00:28.996471 [debug] [Thread-1  ]: Began executing node model.pipeml.stg_raw
+[0m14:00:29.033946 [debug] [Thread-1  ]: Using spark connection "model.pipeml.stg_raw"
+[0m14:00:29.034459 [debug] [Thread-1  ]: On model.pipeml.stg_raw: /* {"app": "dbt", "dbt_version": "1.9.3", "profile_name": "pipeml", "target_name": "dev", "node_id": "model.pipeml.stg_raw"} */
+drop table if exists raw_staging.stg_raw
+[0m14:00:29.034855 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+[0m14:00:29.142379 [debug] [Thread-1  ]: Spark adapter: Poll status: 2, query complete
+[0m14:00:29.143040 [debug] [Thread-1  ]: SQL status: OK in 0.108 seconds
+[0m14:00:29.190806 [debug] [Thread-1  ]: Writing runtime sql for node "model.pipeml.stg_raw"
+[0m14:00:29.191827 [debug] [Thread-1  ]: Spark adapter: NotImplemented: add_begin_query
+[0m14:00:29.192300 [debug] [Thread-1  ]: Using spark connection "model.pipeml.stg_raw"
+[0m14:00:29.192706 [debug] [Thread-1  ]: On model.pipeml.stg_raw: /* {"app": "dbt", "dbt_version": "1.9.3", "profile_name": "pipeml", "target_name": "dev", "node_id": "model.pipeml.stg_raw"} */
+
+  
+    
+        create table raw_staging.stg_raw
+      
+      
+      
+      
+      
+      
+      
+      
+
+      as
+      
+
+with raw_data as (
+    select *
+    from raw.data
+)
+
+select * from raw_data
+  
+[0m14:00:29.628242 [debug] [Thread-1  ]: Spark adapter: Poll response: TGetOperationStatusResp(status=TStatus(statusCode=0, infoMessages=None, sqlState=None, errorCode=None, errorMessage=None), operationState=5, sqlState=None, errorCode=0, errorMessage="org.apache.hive.service.cli.HiveSQLException: Error running query: org.apache.spark.sql.AnalysisException: Table or view not found: raw.data; line 20 pos 9;\n'CreateTable `raw_staging`.`stg_raw`, org.apache.hadoop.hive.serde2.lazy.LazySimpleSerDe, ErrorIfExists\n+- 'Project [*]\n   +- 'SubqueryAlias raw_data\n      +- 'Project [*]\n         +- 'UnresolvedRelation [raw, data], [], false\n\n\tat org.apache.spark.sql.hive.thriftserver.HiveThriftServerErrors$.runningQueryError(HiveThriftServerErrors.scala:43)\n\tat org.apache.spark.sql.hive.thriftserver.SparkExecuteStatementOperation.org$apache$spark$sql$hive$thriftserver$SparkExecuteStatementOperation$$execute(SparkExecuteStatementOperation.scala:325)\n\tat org.apache.spark.sql.hive.thriftserver.SparkExecuteStatementOperation$$anon$2$$anon$3.$anonfun$run$2(SparkExecuteStatementOperation.scala:230)\n\tat scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)\n\tat org.apache.spark.sql.hive.thriftserver.SparkOperation.withLocalProperties(SparkOperation.scala:79)\n\tat org.apache.spark.sql.hive.thriftserver.SparkOperation.withLocalProperties$(SparkOperation.scala:63)\n\tat org.apache.spark.sql.hive.thriftserver.SparkExecuteStatementOperation.withLocalProperties(SparkExecuteStatementOperation.scala:43)\n\tat org.apache.spark.sql.hive.thriftserver.SparkExecuteStatementOperation$$anon$2$$anon$3.run(SparkExecuteStatementOperation.scala:230)\n\tat org.apache.spark.sql.hive.thriftserver.SparkExecuteStatementOperation$$anon$2$$anon$3.run(SparkExecuteStatementOperation.scala:225)\n\tat java.base/java.security.AccessController.doPrivileged(Native Method)\n\tat java.base/javax.security.auth.Subject.doAs(Subject.java:423)\n\tat org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1878)\n\tat org.apache.spark.sql.hive.thriftserver.SparkExecuteStatementOperation$$anon$2.run(SparkExecuteStatementOperation.scala:239)\n\tat java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)\n\tat java.base/java.lang.Thread.run(Thread.java:829)\nCaused by: org.apache.spark.sql.AnalysisException: Table or view not found: raw.data; line 20 pos 9;\n'CreateTable `raw_staging`.`stg_raw`, org.apache.hadoop.hive.serde2.lazy.LazySimpleSerDe, ErrorIfExists\n+- 'Project [*]\n   +- 'SubqueryAlias raw_data\n      +- 'Project [*]\n         +- 'UnresolvedRelation [raw, data], [], false\n\n\tat org.apache.spark.sql.catalyst.analysis.package$AnalysisErrorAt.failAnalysis(package.scala:42)\n\tat org.apache.spark.sql.catalyst.analysis.CheckAnalysis.$anonfun$checkAnalysis$1(CheckAnalysis.scala:131)\n\tat org.apache.spark.sql.catalyst.analysis.CheckAnalysis.$anonfun$checkAnalysis$1$adapted(CheckAnalysis.scala:102)\n\tat org.apache.spark.sql.catalyst.trees.TreeNode.foreachUp(TreeNode.scala:367)\n\tat org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1(TreeNode.scala:366)\n\tat org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1$adapted(TreeNode.scala:366)\n\tat scala.collection.Iterator.foreach(Iterator.scala:943)\n\tat scala.collection.Iterator.foreach$(Iterator.scala:943)\n\tat scala.collection.AbstractIterator.foreach(Iterator.scala:1431)\n\tat scala.collection.IterableLike.foreach(IterableLike.scala:74)\n\tat scala.collection.IterableLike.foreach$(IterableLike.scala:73)\n\tat scala.collection.AbstractIterable.foreach(Iterable.scala:56)\n\tat org.apache.spark.sql.catalyst.trees.TreeNode.foreachUp(TreeNode.scala:366)\n\tat org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1(TreeNode.scala:366)\n\tat org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1$adapted(TreeNode.scala:366)\n\tat scala.collection.Iterator.foreach(Iterator.scala:943)\n\tat scala.collection.Iterator.foreach$(Iterator.scala:943)\n\tat scala.collection.AbstractIterator.foreach(Iterator.scala:1431)\n\tat scala.collection.IterableLike.foreach(IterableLike.scala:74)\n\tat scala.collection.IterableLike.foreach$(IterableLike.scala:73)\n\tat scala.collection.AbstractIterable.foreach(Iterable.scala:56)\n\tat org.apache.spark.sql.catalyst.trees.TreeNode.foreachUp(TreeNode.scala:366)\n\tat org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1(TreeNode.scala:366)\n\tat org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1$adapted(TreeNode.scala:366)\n\tat scala.collection.Iterator.foreach(Iterator.scala:943)\n\tat scala.collection.Iterator.foreach$(Iterator.scala:943)\n\tat scala.collection.AbstractIterator.foreach(Iterator.scala:1431)\n\tat scala.collection.IterableLike.foreach(IterableLike.scala:74)\n\tat scala.collection.IterableLike.foreach$(IterableLike.scala:73)\n\tat scala.collection.AbstractIterable.foreach(Iterable.scala:56)\n\tat org.apache.spark.sql.catalyst.trees.TreeNode.foreachUp(TreeNode.scala:366)\n\tat org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1(TreeNode.scala:366)\n\tat org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1$adapted(TreeNode.scala:366)\n\tat scala.collection.immutable.List.foreach(List.scala:431)\n\tat org.apache.spark.sql.catalyst.trees.TreeNode.foreachUp(TreeNode.scala:366)\n\tat org.apache.spark.sql.catalyst.analysis.CheckAnalysis.checkAnalysis(CheckAnalysis.scala:102)\n\tat org.apache.spark.sql.catalyst.analysis.CheckAnalysis.checkAnalysis$(CheckAnalysis.scala:97)\n\tat org.apache.spark.sql.catalyst.analysis.Analyzer.checkAnalysis(Analyzer.scala:188)\n\tat org.apache.spark.sql.catalyst.analysis.Analyzer.$anonfun$executeAndCheck$1(Analyzer.scala:214)\n\tat org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$.markInAnalyzer(AnalysisHelper.scala:330)\n\tat org.apache.spark.sql.catalyst.analysis.Analyzer.executeAndCheck(Analyzer.scala:211)\n\tat org.apache.spark.sql.execution.QueryExecution.$anonfun$analyzed$1(QueryExecution.scala:76)\n\tat org.apache.spark.sql.catalyst.QueryPlanningTracker.measurePhase(QueryPlanningTracker.scala:111)\n\tat org.apache.spark.sql.execution.QueryExecution.$anonfun$executePhase$2(QueryExecution.scala:185)\n\tat org.apache.spark.sql.execution.QueryExecution$.withInternalError(QueryExecution.scala:510)\n\tat org.apache.spark.sql.execution.QueryExecution.$anonfun$executePhase$1(QueryExecution.scala:185)\n\tat org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:779)\n\tat org.apache.spark.sql.execution.QueryExecution.executePhase(QueryExecution.scala:184)\n\tat org.apache.spark.sql.execution.QueryExecution.analyzed$lzycompute(QueryExecution.scala:76)\n\tat org.apache.spark.sql.execution.QueryExecution.analyzed(QueryExecution.scala:74)\n\tat org.apache.spark.sql.execution.QueryExecution.assertAnalyzed(QueryExecution.scala:66)\n\tat org.apache.spark.sql.Dataset$.$anonfun$ofRows$2(Dataset.scala:99)\n\tat org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:779)\n\tat org.apache.spark.sql.Dataset$.ofRows(Dataset.scala:97)\n\tat org.apache.spark.sql.SparkSession.$anonfun$sql$1(SparkSession.scala:622)\n\tat org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:779)\n\tat org.apache.spark.sql.SparkSession.sql(SparkSession.scala:617)\n\tat org.apache.spark.sql.SQLContext.sql(SQLContext.scala:651)\n\tat org.apache.spark.sql.hive.thriftserver.SparkExecuteStatementOperation.org$apache$spark$sql$hive$thriftserver$SparkExecuteStatementOperation$$execute(SparkExecuteStatementOperation.scala:291)\n\t... 16 more\n", taskStatus=None, operationStarted=None, operationCompleted=None, hasResultSet=None, progressUpdateResponse=None)
+[0m14:00:29.629298 [debug] [Thread-1  ]: Spark adapter: Poll status: 5
+[0m14:00:29.629857 [debug] [Thread-1  ]: Spark adapter: Error while running:
+/* {"app": "dbt", "dbt_version": "1.9.3", "profile_name": "pipeml", "target_name": "dev", "node_id": "model.pipeml.stg_raw"} */
+
+  
+    
+        create table raw_staging.stg_raw
+      
+      
+      
+      
+      
+      
+      
+      
+
+      as
+      
+
+with raw_data as (
+    select *
+    from raw.data
+)
+
+select * from raw_data
+  
+[0m14:00:29.630557 [debug] [Thread-1  ]: Spark adapter: Database Error
+  org.apache.hive.service.cli.HiveSQLException: Error running query: org.apache.spark.sql.AnalysisException: Table or view not found: raw.data; line 20 pos 9;
+  'CreateTable `raw_staging`.`stg_raw`, org.apache.hadoop.hive.serde2.lazy.LazySimpleSerDe, ErrorIfExists
+  +- 'Project [*]
+     +- 'SubqueryAlias raw_data
+        +- 'Project [*]
+           +- 'UnresolvedRelation [raw, data], [], false
+  
+  	at org.apache.spark.sql.hive.thriftserver.HiveThriftServerErrors$.runningQueryError(HiveThriftServerErrors.scala:43)
+  	at org.apache.spark.sql.hive.thriftserver.SparkExecuteStatementOperation.org$apache$spark$sql$hive$thriftserver$SparkExecuteStatementOperation$$execute(SparkExecuteStatementOperation.scala:325)
+  	at org.apache.spark.sql.hive.thriftserver.SparkExecuteStatementOperation$$anon$2$$anon$3.$anonfun$run$2(SparkExecuteStatementOperation.scala:230)
+  	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+  	at org.apache.spark.sql.hive.thriftserver.SparkOperation.withLocalProperties(SparkOperation.scala:79)
+  	at org.apache.spark.sql.hive.thriftserver.SparkOperation.withLocalProperties$(SparkOperation.scala:63)
+  	at org.apache.spark.sql.hive.thriftserver.SparkExecuteStatementOperation.withLocalProperties(SparkExecuteStatementOperation.scala:43)
+  	at org.apache.spark.sql.hive.thriftserver.SparkExecuteStatementOperation$$anon$2$$anon$3.run(SparkExecuteStatementOperation.scala:230)
+  	at org.apache.spark.sql.hive.thriftserver.SparkExecuteStatementOperation$$anon$2$$anon$3.run(SparkExecuteStatementOperation.scala:225)
+  	at java.base/java.security.AccessController.doPrivileged(Native Method)
+  	at java.base/javax.security.auth.Subject.doAs(Subject.java:423)
+  	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1878)
+  	at org.apache.spark.sql.hive.thriftserver.SparkExecuteStatementOperation$$anon$2.run(SparkExecuteStatementOperation.scala:239)
+  	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+  	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+  	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+  	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+  	at java.base/java.lang.Thread.run(Thread.java:829)
+  Caused by: org.apache.spark.sql.AnalysisException: Table or view not found: raw.data; line 20 pos 9;
+  'CreateTable `raw_staging`.`stg_raw`, org.apache.hadoop.hive.serde2.lazy.LazySimpleSerDe, ErrorIfExists
+  +- 'Project [*]
+     +- 'SubqueryAlias raw_data
+        +- 'Project [*]
+           +- 'UnresolvedRelation [raw, data], [], false
+  
+  	at org.apache.spark.sql.catalyst.analysis.package$AnalysisErrorAt.failAnalysis(package.scala:42)
+  	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.$anonfun$checkAnalysis$1(CheckAnalysis.scala:131)
+  	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.$anonfun$checkAnalysis$1$adapted(CheckAnalysis.scala:102)
+  	at org.apache.spark.sql.catalyst.trees.TreeNode.foreachUp(TreeNode.scala:367)
+  	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1(TreeNode.scala:366)
+  	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1$adapted(TreeNode.scala:366)
+  	at scala.collection.Iterator.foreach(Iterator.scala:943)
+  	at scala.collection.Iterator.foreach$(Iterator.scala:943)
+  	at scala.collection.AbstractIterator.foreach(Iterator.scala:1431)
+  	at scala.collection.IterableLike.foreach(IterableLike.scala:74)
+  	at scala.collection.IterableLike.foreach$(IterableLike.scala:73)
+  	at scala.collection.AbstractIterable.foreach(Iterable.scala:56)
+  	at org.apache.spark.sql.catalyst.trees.TreeNode.foreachUp(TreeNode.scala:366)
+  	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1(TreeNode.scala:366)
+  	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1$adapted(TreeNode.scala:366)
+  	at scala.collection.Iterator.foreach(Iterator.scala:943)
+  	at scala.collection.Iterator.foreach$(Iterator.scala:943)
+  	at scala.collection.AbstractIterator.foreach(Iterator.scala:1431)
+  	at scala.collection.IterableLike.foreach(IterableLike.scala:74)
+  	at scala.collection.IterableLike.foreach$(IterableLike.scala:73)
+  	at scala.collection.AbstractIterable.foreach(Iterable.scala:56)
+  	at org.apache.spark.sql.catalyst.trees.TreeNode.foreachUp(TreeNode.scala:366)
+  	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1(TreeNode.scala:366)
+  	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1$adapted(TreeNode.scala:366)
+  	at scala.collection.Iterator.foreach(Iterator.scala:943)
+  	at scala.collection.Iterator.foreach$(Iterator.scala:943)
+  	at scala.collection.AbstractIterator.foreach(Iterator.scala:1431)
+  	at scala.collection.IterableLike.foreach(IterableLike.scala:74)
+  	at scala.collection.IterableLike.foreach$(IterableLike.scala:73)
+  	at scala.collection.AbstractIterable.foreach(Iterable.scala:56)
+  	at org.apache.spark.sql.catalyst.trees.TreeNode.foreachUp(TreeNode.scala:366)
+  	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1(TreeNode.scala:366)
+  	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1$adapted(TreeNode.scala:366)
+  	at scala.collection.immutable.List.foreach(List.scala:431)
+  	at org.apache.spark.sql.catalyst.trees.TreeNode.foreachUp(TreeNode.scala:366)
+  	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.checkAnalysis(CheckAnalysis.scala:102)
+  	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.checkAnalysis$(CheckAnalysis.scala:97)
+  	at org.apache.spark.sql.catalyst.analysis.Analyzer.checkAnalysis(Analyzer.scala:188)
+  	at org.apache.spark.sql.catalyst.analysis.Analyzer.$anonfun$executeAndCheck$1(Analyzer.scala:214)
+  	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$.markInAnalyzer(AnalysisHelper.scala:330)
+  	at org.apache.spark.sql.catalyst.analysis.Analyzer.executeAndCheck(Analyzer.scala:211)
+  	at org.apache.spark.sql.execution.QueryExecution.$anonfun$analyzed$1(QueryExecution.scala:76)
+  	at org.apache.spark.sql.catalyst.QueryPlanningTracker.measurePhase(QueryPlanningTracker.scala:111)
+  	at org.apache.spark.sql.execution.QueryExecution.$anonfun$executePhase$2(QueryExecution.scala:185)
+  	at org.apache.spark.sql.execution.QueryExecution$.withInternalError(QueryExecution.scala:510)
+  	at org.apache.spark.sql.execution.QueryExecution.$anonfun$executePhase$1(QueryExecution.scala:185)
+  	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:779)
+  	at org.apache.spark.sql.execution.QueryExecution.executePhase(QueryExecution.scala:184)
+  	at org.apache.spark.sql.execution.QueryExecution.analyzed$lzycompute(QueryExecution.scala:76)
+  	at org.apache.spark.sql.execution.QueryExecution.analyzed(QueryExecution.scala:74)
+  	at org.apache.spark.sql.execution.QueryExecution.assertAnalyzed(QueryExecution.scala:66)
+  	at org.apache.spark.sql.Dataset$.$anonfun$ofRows$2(Dataset.scala:99)
+  	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:779)
+  	at org.apache.spark.sql.Dataset$.ofRows(Dataset.scala:97)
+  	at org.apache.spark.sql.SparkSession.$anonfun$sql$1(SparkSession.scala:622)
+  	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:779)
+  	at org.apache.spark.sql.SparkSession.sql(SparkSession.scala:617)
+  	at org.apache.spark.sql.SQLContext.sql(SQLContext.scala:651)
+  	at org.apache.spark.sql.hive.thriftserver.SparkExecuteStatementOperation.org$apache$spark$sql$hive$thriftserver$SparkExecuteStatementOperation$$execute(SparkExecuteStatementOperation.scala:291)
+  	... 16 more
+  
+[0m14:00:29.631384 [debug] [Thread-1  ]: On model.pipeml.stg_raw: ROLLBACK
+[0m14:00:29.631784 [debug] [Thread-1  ]: Spark adapter: NotImplemented: rollback
+[0m14:00:29.632133 [debug] [Thread-1  ]: On model.pipeml.stg_raw: Close
+[0m14:00:29.642544 [debug] [Thread-1  ]: Runtime Error in model stg_raw (models/staging/stg_raw.sql)
+  Database Error
+    org.apache.hive.service.cli.HiveSQLException: Error running query: org.apache.spark.sql.AnalysisException: Table or view not found: raw.data; line 20 pos 9;
+    'CreateTable `raw_staging`.`stg_raw`, org.apache.hadoop.hive.serde2.lazy.LazySimpleSerDe, ErrorIfExists
+    +- 'Project [*]
+       +- 'SubqueryAlias raw_data
+          +- 'Project [*]
+             +- 'UnresolvedRelation [raw, data], [], false
+    
+    	at org.apache.spark.sql.hive.thriftserver.HiveThriftServerErrors$.runningQueryError(HiveThriftServerErrors.scala:43)
+    	at org.apache.spark.sql.hive.thriftserver.SparkExecuteStatementOperation.org$apache$spark$sql$hive$thriftserver$SparkExecuteStatementOperation$$execute(SparkExecuteStatementOperation.scala:325)
+    	at org.apache.spark.sql.hive.thriftserver.SparkExecuteStatementOperation$$anon$2$$anon$3.$anonfun$run$2(SparkExecuteStatementOperation.scala:230)
+    	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+    	at org.apache.spark.sql.hive.thriftserver.SparkOperation.withLocalProperties(SparkOperation.scala:79)
+    	at org.apache.spark.sql.hive.thriftserver.SparkOperation.withLocalProperties$(SparkOperation.scala:63)
+    	at org.apache.spark.sql.hive.thriftserver.SparkExecuteStatementOperation.withLocalProperties(SparkExecuteStatementOperation.scala:43)
+    	at org.apache.spark.sql.hive.thriftserver.SparkExecuteStatementOperation$$anon$2$$anon$3.run(SparkExecuteStatementOperation.scala:230)
+    	at org.apache.spark.sql.hive.thriftserver.SparkExecuteStatementOperation$$anon$2$$anon$3.run(SparkExecuteStatementOperation.scala:225)
+    	at java.base/java.security.AccessController.doPrivileged(Native Method)
+    	at java.base/javax.security.auth.Subject.doAs(Subject.java:423)
+    	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1878)
+    	at org.apache.spark.sql.hive.thriftserver.SparkExecuteStatementOperation$$anon$2.run(SparkExecuteStatementOperation.scala:239)
+    	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+    	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+    	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+    	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+    	at java.base/java.lang.Thread.run(Thread.java:829)
+    Caused by: org.apache.spark.sql.AnalysisException: Table or view not found: raw.data; line 20 pos 9;
+    'CreateTable `raw_staging`.`stg_raw`, org.apache.hadoop.hive.serde2.lazy.LazySimpleSerDe, ErrorIfExists
+    +- 'Project [*]
+       +- 'SubqueryAlias raw_data
+          +- 'Project [*]
+             +- 'UnresolvedRelation [raw, data], [], false
+    
+    	at org.apache.spark.sql.catalyst.analysis.package$AnalysisErrorAt.failAnalysis(package.scala:42)
+    	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.$anonfun$checkAnalysis$1(CheckAnalysis.scala:131)
+    	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.$anonfun$checkAnalysis$1$adapted(CheckAnalysis.scala:102)
+    	at org.apache.spark.sql.catalyst.trees.TreeNode.foreachUp(TreeNode.scala:367)
+    	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1(TreeNode.scala:366)
+    	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1$adapted(TreeNode.scala:366)
+    	at scala.collection.Iterator.foreach(Iterator.scala:943)
+    	at scala.collection.Iterator.foreach$(Iterator.scala:943)
+    	at scala.collection.AbstractIterator.foreach(Iterator.scala:1431)
+    	at scala.collection.IterableLike.foreach(IterableLike.scala:74)
+    	at scala.collection.IterableLike.foreach$(IterableLike.scala:73)
+    	at scala.collection.AbstractIterable.foreach(Iterable.scala:56)
+    	at org.apache.spark.sql.catalyst.trees.TreeNode.foreachUp(TreeNode.scala:366)
+    	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1(TreeNode.scala:366)
+    	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1$adapted(TreeNode.scala:366)
+    	at scala.collection.Iterator.foreach(Iterator.scala:943)
+    	at scala.collection.Iterator.foreach$(Iterator.scala:943)
+    	at scala.collection.AbstractIterator.foreach(Iterator.scala:1431)
+    	at scala.collection.IterableLike.foreach(IterableLike.scala:74)
+    	at scala.collection.IterableLike.foreach$(IterableLike.scala:73)
+    	at scala.collection.AbstractIterable.foreach(Iterable.scala:56)
+    	at org.apache.spark.sql.catalyst.trees.TreeNode.foreachUp(TreeNode.scala:366)
+    	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1(TreeNode.scala:366)
+    	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1$adapted(TreeNode.scala:366)
+    	at scala.collection.Iterator.foreach(Iterator.scala:943)
+    	at scala.collection.Iterator.foreach$(Iterator.scala:943)
+    	at scala.collection.AbstractIterator.foreach(Iterator.scala:1431)
+    	at scala.collection.IterableLike.foreach(IterableLike.scala:74)
+    	at scala.collection.IterableLike.foreach$(IterableLike.scala:73)
+    	at scala.collection.AbstractIterable.foreach(Iterable.scala:56)
+    	at org.apache.spark.sql.catalyst.trees.TreeNode.foreachUp(TreeNode.scala:366)
+    	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1(TreeNode.scala:366)
+    	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1$adapted(TreeNode.scala:366)
+    	at scala.collection.immutable.List.foreach(List.scala:431)
+    	at org.apache.spark.sql.catalyst.trees.TreeNode.foreachUp(TreeNode.scala:366)
+    	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.checkAnalysis(CheckAnalysis.scala:102)
+    	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.checkAnalysis$(CheckAnalysis.scala:97)
+    	at org.apache.spark.sql.catalyst.analysis.Analyzer.checkAnalysis(Analyzer.scala:188)
+    	at org.apache.spark.sql.catalyst.analysis.Analyzer.$anonfun$executeAndCheck$1(Analyzer.scala:214)
+    	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$.markInAnalyzer(AnalysisHelper.scala:330)
+    	at org.apache.spark.sql.catalyst.analysis.Analyzer.executeAndCheck(Analyzer.scala:211)
+    	at org.apache.spark.sql.execution.QueryExecution.$anonfun$analyzed$1(QueryExecution.scala:76)
+    	at org.apache.spark.sql.catalyst.QueryPlanningTracker.measurePhase(QueryPlanningTracker.scala:111)
+    	at org.apache.spark.sql.execution.QueryExecution.$anonfun$executePhase$2(QueryExecution.scala:185)
+    	at org.apache.spark.sql.execution.QueryExecution$.withInternalError(QueryExecution.scala:510)
+    	at org.apache.spark.sql.execution.QueryExecution.$anonfun$executePhase$1(QueryExecution.scala:185)
+    	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:779)
+    	at org.apache.spark.sql.execution.QueryExecution.executePhase(QueryExecution.scala:184)
+    	at org.apache.spark.sql.execution.QueryExecution.analyzed$lzycompute(QueryExecution.scala:76)
+    	at org.apache.spark.sql.execution.QueryExecution.analyzed(QueryExecution.scala:74)
+    	at org.apache.spark.sql.execution.QueryExecution.assertAnalyzed(QueryExecution.scala:66)
+    	at org.apache.spark.sql.Dataset$.$anonfun$ofRows$2(Dataset.scala:99)
+    	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:779)
+    	at org.apache.spark.sql.Dataset$.ofRows(Dataset.scala:97)
+    	at org.apache.spark.sql.SparkSession.$anonfun$sql$1(SparkSession.scala:622)
+    	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:779)
+    	at org.apache.spark.sql.SparkSession.sql(SparkSession.scala:617)
+    	at org.apache.spark.sql.SQLContext.sql(SQLContext.scala:651)
+    	at org.apache.spark.sql.hive.thriftserver.SparkExecuteStatementOperation.org$apache$spark$sql$hive$thriftserver$SparkExecuteStatementOperation$$execute(SparkExecuteStatementOperation.scala:291)
+    	... 16 more
+    
+[0m14:00:29.645436 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'aa203904-3d3f-49f7-b763-b85e88d09bf2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f49aab554c0>]}
+[0m14:00:29.646621 [error] [Thread-1  ]: 1 of 1 ERROR creating sql table model raw_staging.stg_raw ...................... [[31mERROR[0m in 0.66s]
+[0m14:00:29.648000 [debug] [Thread-1  ]: Finished running node model.pipeml.stg_raw
+[0m14:00:29.648944 [debug] [Thread-7  ]: Marking all children of 'model.pipeml.stg_raw' to be skipped because of status 'error'.  Reason: Runtime Error in model stg_raw (models/staging/stg_raw.sql)
+  Database Error
+    org.apache.hive.service.cli.HiveSQLException: Error running query: org.apache.spark.sql.AnalysisException: Table or view not found: raw.data; line 20 pos 9;
+    'CreateTable `raw_staging`.`stg_raw`, org.apache.hadoop.hive.serde2.lazy.LazySimpleSerDe, ErrorIfExists
+    +- 'Project [*]
+       +- 'SubqueryAlias raw_data
+          +- 'Project [*]
+             +- 'UnresolvedRelation [raw, data], [], false
+    
+    	at org.apache.spark.sql.hive.thriftserver.HiveThriftServerErrors$.runningQueryError(HiveThriftServerErrors.scala:43)
+    	at org.apache.spark.sql.hive.thriftserver.SparkExecuteStatementOperation.org$apache$spark$sql$hive$thriftserver$SparkExecuteStatementOperation$$execute(SparkExecuteStatementOperation.scala:325)
+    	at org.apache.spark.sql.hive.thriftserver.SparkExecuteStatementOperation$$anon$2$$anon$3.$anonfun$run$2(SparkExecuteStatementOperation.scala:230)
+    	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+    	at org.apache.spark.sql.hive.thriftserver.SparkOperation.withLocalProperties(SparkOperation.scala:79)
+    	at org.apache.spark.sql.hive.thriftserver.SparkOperation.withLocalProperties$(SparkOperation.scala:63)
+    	at org.apache.spark.sql.hive.thriftserver.SparkExecuteStatementOperation.withLocalProperties(SparkExecuteStatementOperation.scala:43)
+    	at org.apache.spark.sql.hive.thriftserver.SparkExecuteStatementOperation$$anon$2$$anon$3.run(SparkExecuteStatementOperation.scala:230)
+    	at org.apache.spark.sql.hive.thriftserver.SparkExecuteStatementOperation$$anon$2$$anon$3.run(SparkExecuteStatementOperation.scala:225)
+    	at java.base/java.security.AccessController.doPrivileged(Native Method)
+    	at java.base/javax.security.auth.Subject.doAs(Subject.java:423)
+    	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1878)
+    	at org.apache.spark.sql.hive.thriftserver.SparkExecuteStatementOperation$$anon$2.run(SparkExecuteStatementOperation.scala:239)
+    	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+    	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+    	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+    	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+    	at java.base/java.lang.Thread.run(Thread.java:829)
+    Caused by: org.apache.spark.sql.AnalysisException: Table or view not found: raw.data; line 20 pos 9;
+    'CreateTable `raw_staging`.`stg_raw`, org.apache.hadoop.hive.serde2.lazy.LazySimpleSerDe, ErrorIfExists
+    +- 'Project [*]
+       +- 'SubqueryAlias raw_data
+          +- 'Project [*]
+             +- 'UnresolvedRelation [raw, data], [], false
+    
+    	at org.apache.spark.sql.catalyst.analysis.package$AnalysisErrorAt.failAnalysis(package.scala:42)
+    	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.$anonfun$checkAnalysis$1(CheckAnalysis.scala:131)
+    	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.$anonfun$checkAnalysis$1$adapted(CheckAnalysis.scala:102)
+    	at org.apache.spark.sql.catalyst.trees.TreeNode.foreachUp(TreeNode.scala:367)
+    	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1(TreeNode.scala:366)
+    	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1$adapted(TreeNode.scala:366)
+    	at scala.collection.Iterator.foreach(Iterator.scala:943)
+    	at scala.collection.Iterator.foreach$(Iterator.scala:943)
+    	at scala.collection.AbstractIterator.foreach(Iterator.scala:1431)
+    	at scala.collection.IterableLike.foreach(IterableLike.scala:74)
+    	at scala.collection.IterableLike.foreach$(IterableLike.scala:73)
+    	at scala.collection.AbstractIterable.foreach(Iterable.scala:56)
+    	at org.apache.spark.sql.catalyst.trees.TreeNode.foreachUp(TreeNode.scala:366)
+    	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1(TreeNode.scala:366)
+    	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1$adapted(TreeNode.scala:366)
+    	at scala.collection.Iterator.foreach(Iterator.scala:943)
+    	at scala.collection.Iterator.foreach$(Iterator.scala:943)
+    	at scala.collection.AbstractIterator.foreach(Iterator.scala:1431)
+    	at scala.collection.IterableLike.foreach(IterableLike.scala:74)
+    	at scala.collection.IterableLike.foreach$(IterableLike.scala:73)
+    	at scala.collection.AbstractIterable.foreach(Iterable.scala:56)
+    	at org.apache.spark.sql.catalyst.trees.TreeNode.foreachUp(TreeNode.scala:366)
+    	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1(TreeNode.scala:366)
+    	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1$adapted(TreeNode.scala:366)
+    	at scala.collection.Iterator.foreach(Iterator.scala:943)
+    	at scala.collection.Iterator.foreach$(Iterator.scala:943)
+    	at scala.collection.AbstractIterator.foreach(Iterator.scala:1431)
+    	at scala.collection.IterableLike.foreach(IterableLike.scala:74)
+    	at scala.collection.IterableLike.foreach$(IterableLike.scala:73)
+    	at scala.collection.AbstractIterable.foreach(Iterable.scala:56)
+    	at org.apache.spark.sql.catalyst.trees.TreeNode.foreachUp(TreeNode.scala:366)
+    	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1(TreeNode.scala:366)
+    	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1$adapted(TreeNode.scala:366)
+    	at scala.collection.immutable.List.foreach(List.scala:431)
+    	at org.apache.spark.sql.catalyst.trees.TreeNode.foreachUp(TreeNode.scala:366)
+    	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.checkAnalysis(CheckAnalysis.scala:102)
+    	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.checkAnalysis$(CheckAnalysis.scala:97)
+    	at org.apache.spark.sql.catalyst.analysis.Analyzer.checkAnalysis(Analyzer.scala:188)
+    	at org.apache.spark.sql.catalyst.analysis.Analyzer.$anonfun$executeAndCheck$1(Analyzer.scala:214)
+    	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$.markInAnalyzer(AnalysisHelper.scala:330)
+    	at org.apache.spark.sql.catalyst.analysis.Analyzer.executeAndCheck(Analyzer.scala:211)
+    	at org.apache.spark.sql.execution.QueryExecution.$anonfun$analyzed$1(QueryExecution.scala:76)
+    	at org.apache.spark.sql.catalyst.QueryPlanningTracker.measurePhase(QueryPlanningTracker.scala:111)
+    	at org.apache.spark.sql.execution.QueryExecution.$anonfun$executePhase$2(QueryExecution.scala:185)
+    	at org.apache.spark.sql.execution.QueryExecution$.withInternalError(QueryExecution.scala:510)
+    	at org.apache.spark.sql.execution.QueryExecution.$anonfun$executePhase$1(QueryExecution.scala:185)
+    	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:779)
+    	at org.apache.spark.sql.execution.QueryExecution.executePhase(QueryExecution.scala:184)
+    	at org.apache.spark.sql.execution.QueryExecution.analyzed$lzycompute(QueryExecution.scala:76)
+    	at org.apache.spark.sql.execution.QueryExecution.analyzed(QueryExecution.scala:74)
+    	at org.apache.spark.sql.execution.QueryExecution.assertAnalyzed(QueryExecution.scala:66)
+    	at org.apache.spark.sql.Dataset$.$anonfun$ofRows$2(Dataset.scala:99)
+    	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:779)
+    	at org.apache.spark.sql.Dataset$.ofRows(Dataset.scala:97)
+    	at org.apache.spark.sql.SparkSession.$anonfun$sql$1(SparkSession.scala:622)
+    	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:779)
+    	at org.apache.spark.sql.SparkSession.sql(SparkSession.scala:617)
+    	at org.apache.spark.sql.SQLContext.sql(SQLContext.scala:651)
+    	at org.apache.spark.sql.hive.thriftserver.SparkExecuteStatementOperation.org$apache$spark$sql$hive$thriftserver$SparkExecuteStatementOperation$$execute(SparkExecuteStatementOperation.scala:291)
+    	... 16 more
+    .
+[0m14:00:29.651248 [debug] [MainThread]: On master: ROLLBACK
+[0m14:00:29.651602 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m14:00:29.708192 [debug] [MainThread]: Spark adapter: NotImplemented: rollback
+[0m14:00:29.708872 [debug] [MainThread]: Spark adapter: NotImplemented: add_begin_query
+[0m14:00:29.709308 [debug] [MainThread]: Spark adapter: NotImplemented: commit
+[0m14:00:29.709678 [debug] [MainThread]: On master: ROLLBACK
+[0m14:00:29.710029 [debug] [MainThread]: Spark adapter: NotImplemented: rollback
+[0m14:00:29.710328 [debug] [MainThread]: On master: Close
+[0m14:00:29.721479 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m14:00:29.721965 [debug] [MainThread]: Connection 'model.pipeml.stg_raw' was properly closed.
+[0m14:00:29.722325 [info ] [MainThread]: 
+[0m14:00:29.722989 [info ] [MainThread]: Finished running 1 table model in 0 hours 0 minutes and 3.94 seconds (3.94s).
+[0m14:00:29.724279 [debug] [MainThread]: Command end result
+[0m14:00:29.751063 [debug] [MainThread]: Wrote artifact WritableManifest to /app/target/manifest.json
+[0m14:00:29.753527 [debug] [MainThread]: Wrote artifact SemanticManifest to /app/target/semantic_manifest.json
+[0m14:00:29.761953 [debug] [MainThread]: Wrote artifact RunExecutionResult to /app/target/run_results.json
+[0m14:00:29.762400 [info ] [MainThread]: 
+[0m14:00:29.763199 [info ] [MainThread]: [31mCompleted with 1 error, 0 partial successes, and 0 warnings:[0m
+[0m14:00:29.763844 [info ] [MainThread]: 
+[0m14:00:29.764740 [error] [MainThread]:   Runtime Error in model stg_raw (models/staging/stg_raw.sql)
+  Database Error
+    org.apache.hive.service.cli.HiveSQLException: Error running query: org.apache.spark.sql.AnalysisException: Table or view not found: raw.data; line 20 pos 9;
+    'CreateTable `raw_staging`.`stg_raw`, org.apache.hadoop.hive.serde2.lazy.LazySimpleSerDe, ErrorIfExists
+    +- 'Project [*]
+       +- 'SubqueryAlias raw_data
+          +- 'Project [*]
+             +- 'UnresolvedRelation [raw, data], [], false
+    
+    	at org.apache.spark.sql.hive.thriftserver.HiveThriftServerErrors$.runningQueryError(HiveThriftServerErrors.scala:43)
+    	at org.apache.spark.sql.hive.thriftserver.SparkExecuteStatementOperation.org$apache$spark$sql$hive$thriftserver$SparkExecuteStatementOperation$$execute(SparkExecuteStatementOperation.scala:325)
+    	at org.apache.spark.sql.hive.thriftserver.SparkExecuteStatementOperation$$anon$2$$anon$3.$anonfun$run$2(SparkExecuteStatementOperation.scala:230)
+    	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+    	at org.apache.spark.sql.hive.thriftserver.SparkOperation.withLocalProperties(SparkOperation.scala:79)
+    	at org.apache.spark.sql.hive.thriftserver.SparkOperation.withLocalProperties$(SparkOperation.scala:63)
+    	at org.apache.spark.sql.hive.thriftserver.SparkExecuteStatementOperation.withLocalProperties(SparkExecuteStatementOperation.scala:43)
+    	at org.apache.spark.sql.hive.thriftserver.SparkExecuteStatementOperation$$anon$2$$anon$3.run(SparkExecuteStatementOperation.scala:230)
+    	at org.apache.spark.sql.hive.thriftserver.SparkExecuteStatementOperation$$anon$2$$anon$3.run(SparkExecuteStatementOperation.scala:225)
+    	at java.base/java.security.AccessController.doPrivileged(Native Method)
+    	at java.base/javax.security.auth.Subject.doAs(Subject.java:423)
+    	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1878)
+    	at org.apache.spark.sql.hive.thriftserver.SparkExecuteStatementOperation$$anon$2.run(SparkExecuteStatementOperation.scala:239)
+    	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+    	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+    	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+    	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+    	at java.base/java.lang.Thread.run(Thread.java:829)
+    Caused by: org.apache.spark.sql.AnalysisException: Table or view not found: raw.data; line 20 pos 9;
+    'CreateTable `raw_staging`.`stg_raw`, org.apache.hadoop.hive.serde2.lazy.LazySimpleSerDe, ErrorIfExists
+    +- 'Project [*]
+       +- 'SubqueryAlias raw_data
+          +- 'Project [*]
+             +- 'UnresolvedRelation [raw, data], [], false
+    
+    	at org.apache.spark.sql.catalyst.analysis.package$AnalysisErrorAt.failAnalysis(package.scala:42)
+    	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.$anonfun$checkAnalysis$1(CheckAnalysis.scala:131)
+    	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.$anonfun$checkAnalysis$1$adapted(CheckAnalysis.scala:102)
+    	at org.apache.spark.sql.catalyst.trees.TreeNode.foreachUp(TreeNode.scala:367)
+    	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1(TreeNode.scala:366)
+    	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1$adapted(TreeNode.scala:366)
+    	at scala.collection.Iterator.foreach(Iterator.scala:943)
+    	at scala.collection.Iterator.foreach$(Iterator.scala:943)
+    	at scala.collection.AbstractIterator.foreach(Iterator.scala:1431)
+    	at scala.collection.IterableLike.foreach(IterableLike.scala:74)
+    	at scala.collection.IterableLike.foreach$(IterableLike.scala:73)
+    	at scala.collection.AbstractIterable.foreach(Iterable.scala:56)
+    	at org.apache.spark.sql.catalyst.trees.TreeNode.foreachUp(TreeNode.scala:366)
+    	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1(TreeNode.scala:366)
+    	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1$adapted(TreeNode.scala:366)
+    	at scala.collection.Iterator.foreach(Iterator.scala:943)
+    	at scala.collection.Iterator.foreach$(Iterator.scala:943)
+    	at scala.collection.AbstractIterator.foreach(Iterator.scala:1431)
+    	at scala.collection.IterableLike.foreach(IterableLike.scala:74)
+    	at scala.collection.IterableLike.foreach$(IterableLike.scala:73)
+    	at scala.collection.AbstractIterable.foreach(Iterable.scala:56)
+    	at org.apache.spark.sql.catalyst.trees.TreeNode.foreachUp(TreeNode.scala:366)
+    	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1(TreeNode.scala:366)
+    	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1$adapted(TreeNode.scala:366)
+    	at scala.collection.Iterator.foreach(Iterator.scala:943)
+    	at scala.collection.Iterator.foreach$(Iterator.scala:943)
+    	at scala.collection.AbstractIterator.foreach(Iterator.scala:1431)
+    	at scala.collection.IterableLike.foreach(IterableLike.scala:74)
+    	at scala.collection.IterableLike.foreach$(IterableLike.scala:73)
+    	at scala.collection.AbstractIterable.foreach(Iterable.scala:56)
+    	at org.apache.spark.sql.catalyst.trees.TreeNode.foreachUp(TreeNode.scala:366)
+    	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1(TreeNode.scala:366)
+    	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1$adapted(TreeNode.scala:366)
+    	at scala.collection.immutable.List.foreach(List.scala:431)
+    	at org.apache.spark.sql.catalyst.trees.TreeNode.foreachUp(TreeNode.scala:366)
+    	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.checkAnalysis(CheckAnalysis.scala:102)
+    	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.checkAnalysis$(CheckAnalysis.scala:97)
+    	at org.apache.spark.sql.catalyst.analysis.Analyzer.checkAnalysis(Analyzer.scala:188)
+    	at org.apache.spark.sql.catalyst.analysis.Analyzer.$anonfun$executeAndCheck$1(Analyzer.scala:214)
+    	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$.markInAnalyzer(AnalysisHelper.scala:330)
+    	at org.apache.spark.sql.catalyst.analysis.Analyzer.executeAndCheck(Analyzer.scala:211)
+    	at org.apache.spark.sql.execution.QueryExecution.$anonfun$analyzed$1(QueryExecution.scala:76)
+    	at org.apache.spark.sql.catalyst.QueryPlanningTracker.measurePhase(QueryPlanningTracker.scala:111)
+    	at org.apache.spark.sql.execution.QueryExecution.$anonfun$executePhase$2(QueryExecution.scala:185)
+    	at org.apache.spark.sql.execution.QueryExecution$.withInternalError(QueryExecution.scala:510)
+    	at org.apache.spark.sql.execution.QueryExecution.$anonfun$executePhase$1(QueryExecution.scala:185)
+    	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:779)
+    	at org.apache.spark.sql.execution.QueryExecution.executePhase(QueryExecution.scala:184)
+    	at org.apache.spark.sql.execution.QueryExecution.analyzed$lzycompute(QueryExecution.scala:76)
+    	at org.apache.spark.sql.execution.QueryExecution.analyzed(QueryExecution.scala:74)
+    	at org.apache.spark.sql.execution.QueryExecution.assertAnalyzed(QueryExecution.scala:66)
+    	at org.apache.spark.sql.Dataset$.$anonfun$ofRows$2(Dataset.scala:99)
+    	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:779)
+    	at org.apache.spark.sql.Dataset$.ofRows(Dataset.scala:97)
+    	at org.apache.spark.sql.SparkSession.$anonfun$sql$1(SparkSession.scala:622)
+    	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:779)
+    	at org.apache.spark.sql.SparkSession.sql(SparkSession.scala:617)
+    	at org.apache.spark.sql.SQLContext.sql(SQLContext.scala:651)
+    	at org.apache.spark.sql.hive.thriftserver.SparkExecuteStatementOperation.org$apache$spark$sql$hive$thriftserver$SparkExecuteStatementOperation$$execute(SparkExecuteStatementOperation.scala:291)
+    	... 16 more
+    
+[0m14:00:29.766615 [info ] [MainThread]: 
+[0m14:00:29.767202 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=1 SKIP=0 TOTAL=1
+[0m14:00:29.768496 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 6.2434773, "process_in_blocks": "0", "process_kernel_time": 0.537954, "process_mem_max_rss": "109140", "process_out_blocks": "2936", "process_user_time": 3.391103}
+[0m14:00:29.769015 [debug] [MainThread]: Command `dbt run` failed at 14:00:29.768879 after 6.24 seconds
+[0m14:00:29.769459 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f49aa926ca0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f49a85faa00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f49ab8f2100>]}
+[0m14:00:29.769991 [debug] [MainThread]: Flushing usage events
+[0m14:00:31.211967 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:01:31.205535 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fee6d9cecd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fee6cb14310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fee6cb142b0>]}
+
+
+============================== 14:01:31.209470 | d4eecd74-2b20-4116-818f-dbe5392f4a1c ==============================
+[0m14:01:31.209470 [info ] [MainThread]: Running with dbt=1.9.3
+[0m14:01:31.209939 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': '/app/logs', 'fail_fast': 'False', 'profiles_dir': '/app', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'invocation_command': 'dbt run', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m14:01:31.270348 [debug] [MainThread]: Spark adapter: Setting pyhive.hive logging to ERROR
+[0m14:01:31.270838 [debug] [MainThread]: Spark adapter: Setting thrift.transport logging to ERROR
+[0m14:01:31.271090 [debug] [MainThread]: Spark adapter: Setting thrift.protocol logging to ERROR
+[0m14:01:31.396035 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'd4eecd74-2b20-4116-818f-dbe5392f4a1c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fee6ce6e0d0>]}
+[0m14:01:31.446491 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'd4eecd74-2b20-4116-818f-dbe5392f4a1c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fee6ce6ebb0>]}
+[0m14:01:31.447159 [info ] [MainThread]: Registered adapter: spark=1.9.2
+[0m14:01:31.540964 [debug] [MainThread]: checksum: 5671c00892cdbcef29c3b00cc5ba7510c3d18a35c883caeb9ab9ee266dc29c8f, vars: {}, profile: , target: , version: 1.9.3
+[0m14:01:31.643289 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+[0m14:01:31.643974 [debug] [MainThread]: Partial parsing: updated file: pipeml://models/source.yml
+[0m14:01:31.913380 [error] [MainThread]: Encountered an error:
+Compilation Error
+  Model 'model.pipeml.stg_raw' (models/staging/stg_raw.sql) depends on a source named 'raw_data.data' which was not found
+[0m14:01:31.914675 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 0.76374716, "process_in_blocks": "0", "process_kernel_time": 0.231299, "process_mem_max_rss": "105120", "process_out_blocks": "8", "process_user_time": 1.575226}
+[0m14:01:31.915161 [debug] [MainThread]: Command `dbt run` failed at 14:01:31.915052 after 0.76 seconds
+[0m14:01:31.915571 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fee6d9cecd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fee6c560280>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fee6c0655e0>]}
+[0m14:01:31.915980 [debug] [MainThread]: Flushing usage events
+[0m14:01:33.398567 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:03:09.371967 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0079be1d00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0078d272e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0078d27280>]}
+
+
+============================== 14:03:09.376468 | deaa7412-2cc4-40d8-b8ef-7c952ad5f2c5 ==============================
+[0m14:03:09.376468 [info ] [MainThread]: Running with dbt=1.9.3
+[0m14:03:09.377329 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/app', 'version_check': 'True', 'warn_error': 'None', 'log_path': '/app/logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt run', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m14:03:09.456169 [debug] [MainThread]: Spark adapter: Setting pyhive.hive logging to ERROR
+[0m14:03:09.456822 [debug] [MainThread]: Spark adapter: Setting thrift.transport logging to ERROR
+[0m14:03:09.457176 [debug] [MainThread]: Spark adapter: Setting thrift.protocol logging to ERROR
+[0m14:03:09.631055 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'deaa7412-2cc4-40d8-b8ef-7c952ad5f2c5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f007ac1ae80>]}
+[0m14:03:09.704143 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'deaa7412-2cc4-40d8-b8ef-7c952ad5f2c5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0079406e20>]}
+[0m14:03:09.704992 [info ] [MainThread]: Registered adapter: spark=1.9.2
+[0m14:03:09.834738 [debug] [MainThread]: checksum: 5671c00892cdbcef29c3b00cc5ba7510c3d18a35c883caeb9ab9ee266dc29c8f, vars: {}, profile: , target: , version: 1.9.3
+[0m14:03:09.980273 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 2 files changed.
+[0m14:03:09.981202 [debug] [MainThread]: Partial parsing: updated file: pipeml://models/source.yml
+[0m14:03:09.981606 [debug] [MainThread]: Partial parsing: updated file: pipeml://models/staging/stg_raw.sql
+[0m14:03:10.408577 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 2 unused configuration paths:
+- models.pipeml.marts
+- seeds.pipeml
+[0m14:03:10.424841 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'deaa7412-2cc4-40d8-b8ef-7c952ad5f2c5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0077a29130>]}
+[0m14:03:10.598699 [debug] [MainThread]: Wrote artifact WritableManifest to /app/target/manifest.json
+[0m14:03:10.602599 [debug] [MainThread]: Wrote artifact SemanticManifest to /app/target/semantic_manifest.json
+[0m14:03:10.614990 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'deaa7412-2cc4-40d8-b8ef-7c952ad5f2c5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f00781c7850>]}
+[0m14:03:10.615580 [info ] [MainThread]: Found 1 model, 1 source, 473 macros
+[0m14:03:10.616005 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'deaa7412-2cc4-40d8-b8ef-7c952ad5f2c5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0077a29250>]}
+[0m14:03:10.618383 [info ] [MainThread]: 
+[0m14:03:10.618806 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m14:03:10.619278 [info ] [MainThread]: 
+[0m14:03:10.620216 [debug] [MainThread]: Acquiring new spark connection 'master'
+[0m14:03:10.621334 [debug] [ThreadPool]: Acquiring new spark connection 'list_schemas'
+[0m14:03:10.635015 [debug] [ThreadPool]: Using spark connection "list_schemas"
+[0m14:03:10.635557 [debug] [ThreadPool]: On list_schemas: /* {"app": "dbt", "dbt_version": "1.9.3", "profile_name": "pipeml", "target_name": "dev", "connection_name": "list_schemas"} */
+
+    show databases
+  
+[0m14:03:10.635870 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m14:03:10.715156 [debug] [ThreadPool]: Spark adapter: Poll status: 2, query complete
+[0m14:03:10.715756 [debug] [ThreadPool]: SQL status: OK in 0.080 seconds
+[0m14:03:10.722277 [debug] [ThreadPool]: On list_schemas: Close
+[0m14:03:10.729693 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_schemas, now list_None_raw_staging)
+[0m14:03:10.736763 [debug] [ThreadPool]: Spark adapter: NotImplemented: add_begin_query
+[0m14:03:10.737269 [debug] [ThreadPool]: Using spark connection "list_None_raw_staging"
+[0m14:03:10.737607 [debug] [ThreadPool]: On list_None_raw_staging: /* {"app": "dbt", "dbt_version": "1.9.3", "profile_name": "pipeml", "target_name": "dev", "connection_name": "list_None_raw_staging"} */
+show table extended in raw_staging like '*'
+  
+[0m14:03:10.737902 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m14:03:10.830113 [debug] [ThreadPool]: Spark adapter: Poll status: 2, query complete
+[0m14:03:10.830719 [debug] [ThreadPool]: SQL status: OK in 0.093 seconds
+[0m14:03:10.835305 [debug] [ThreadPool]: On list_None_raw_staging: ROLLBACK
+[0m14:03:10.835847 [debug] [ThreadPool]: Spark adapter: NotImplemented: rollback
+[0m14:03:10.836163 [debug] [ThreadPool]: On list_None_raw_staging: Close
+[0m14:03:10.844914 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'deaa7412-2cc4-40d8-b8ef-7c952ad5f2c5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f00784c74c0>]}
+[0m14:03:10.845670 [debug] [MainThread]: Spark adapter: NotImplemented: add_begin_query
+[0m14:03:10.846028 [debug] [MainThread]: Spark adapter: NotImplemented: commit
+[0m14:03:10.849532 [debug] [Thread-1  ]: Began running node model.pipeml.stg_raw
+[0m14:03:10.850286 [info ] [Thread-1  ]: 1 of 1 START sql table model raw_staging.stg_raw ............................... [RUN]
+[0m14:03:10.851105 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly list_None_raw_staging, now model.pipeml.stg_raw)
+[0m14:03:10.851608 [debug] [Thread-1  ]: Began compiling node model.pipeml.stg_raw
+[0m14:03:10.862886 [debug] [Thread-1  ]: Writing injected SQL for node "model.pipeml.stg_raw"
+[0m14:03:10.864111 [debug] [Thread-1  ]: Began executing node model.pipeml.stg_raw
+[0m14:03:10.904100 [debug] [Thread-1  ]: Using spark connection "model.pipeml.stg_raw"
+[0m14:03:10.904699 [debug] [Thread-1  ]: On model.pipeml.stg_raw: /* {"app": "dbt", "dbt_version": "1.9.3", "profile_name": "pipeml", "target_name": "dev", "node_id": "model.pipeml.stg_raw"} */
+drop table if exists raw_staging.stg_raw
+[0m14:03:10.905074 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+[0m14:03:10.978266 [debug] [Thread-1  ]: Spark adapter: Poll status: 2, query complete
+[0m14:03:10.978915 [debug] [Thread-1  ]: SQL status: OK in 0.074 seconds
+[0m14:03:11.024874 [debug] [Thread-1  ]: Writing runtime sql for node "model.pipeml.stg_raw"
+[0m14:03:11.026071 [debug] [Thread-1  ]: Spark adapter: NotImplemented: add_begin_query
+[0m14:03:11.026489 [debug] [Thread-1  ]: Using spark connection "model.pipeml.stg_raw"
+[0m14:03:11.026857 [debug] [Thread-1  ]: On model.pipeml.stg_raw: /* {"app": "dbt", "dbt_version": "1.9.3", "profile_name": "pipeml", "target_name": "dev", "node_id": "model.pipeml.stg_raw"} */
+
+  
+    
+        create table raw_staging.stg_raw
+      
+      
+      
+      
+      
+      
+      
+      
+
+      as
+      
+
+with raw_data as (
+    select *
+    from raw.daily
+)
+
+select * from raw_data
+  
+[0m14:03:11.070409 [debug] [Thread-1  ]: Spark adapter: Poll response: TGetOperationStatusResp(status=TStatus(statusCode=0, infoMessages=None, sqlState=None, errorCode=None, errorMessage=None), operationState=5, sqlState=None, errorCode=0, errorMessage="org.apache.hive.service.cli.HiveSQLException: Error running query: org.apache.spark.sql.AnalysisException: Table or view not found: raw.daily; line 20 pos 9;\n'CreateTable `raw_staging`.`stg_raw`, org.apache.hadoop.hive.serde2.lazy.LazySimpleSerDe, ErrorIfExists\n+- 'Project [*]\n   +- 'SubqueryAlias raw_data\n      +- 'Project [*]\n         +- 'UnresolvedRelation [raw, daily], [], false\n\n\tat org.apache.spark.sql.hive.thriftserver.HiveThriftServerErrors$.runningQueryError(HiveThriftServerErrors.scala:43)\n\tat org.apache.spark.sql.hive.thriftserver.SparkExecuteStatementOperation.org$apache$spark$sql$hive$thriftserver$SparkExecuteStatementOperation$$execute(SparkExecuteStatementOperation.scala:325)\n\tat org.apache.spark.sql.hive.thriftserver.SparkExecuteStatementOperation$$anon$2$$anon$3.$anonfun$run$2(SparkExecuteStatementOperation.scala:230)\n\tat scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)\n\tat org.apache.spark.sql.hive.thriftserver.SparkOperation.withLocalProperties(SparkOperation.scala:79)\n\tat org.apache.spark.sql.hive.thriftserver.SparkOperation.withLocalProperties$(SparkOperation.scala:63)\n\tat org.apache.spark.sql.hive.thriftserver.SparkExecuteStatementOperation.withLocalProperties(SparkExecuteStatementOperation.scala:43)\n\tat org.apache.spark.sql.hive.thriftserver.SparkExecuteStatementOperation$$anon$2$$anon$3.run(SparkExecuteStatementOperation.scala:230)\n\tat org.apache.spark.sql.hive.thriftserver.SparkExecuteStatementOperation$$anon$2$$anon$3.run(SparkExecuteStatementOperation.scala:225)\n\tat java.base/java.security.AccessController.doPrivileged(Native Method)\n\tat java.base/javax.security.auth.Subject.doAs(Subject.java:423)\n\tat org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1878)\n\tat org.apache.spark.sql.hive.thriftserver.SparkExecuteStatementOperation$$anon$2.run(SparkExecuteStatementOperation.scala:239)\n\tat java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)\n\tat java.base/java.lang.Thread.run(Thread.java:829)\nCaused by: org.apache.spark.sql.AnalysisException: Table or view not found: raw.daily; line 20 pos 9;\n'CreateTable `raw_staging`.`stg_raw`, org.apache.hadoop.hive.serde2.lazy.LazySimpleSerDe, ErrorIfExists\n+- 'Project [*]\n   +- 'SubqueryAlias raw_data\n      +- 'Project [*]\n         +- 'UnresolvedRelation [raw, daily], [], false\n\n\tat org.apache.spark.sql.catalyst.analysis.package$AnalysisErrorAt.failAnalysis(package.scala:42)\n\tat org.apache.spark.sql.catalyst.analysis.CheckAnalysis.$anonfun$checkAnalysis$1(CheckAnalysis.scala:131)\n\tat org.apache.spark.sql.catalyst.analysis.CheckAnalysis.$anonfun$checkAnalysis$1$adapted(CheckAnalysis.scala:102)\n\tat org.apache.spark.sql.catalyst.trees.TreeNode.foreachUp(TreeNode.scala:367)\n\tat org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1(TreeNode.scala:366)\n\tat org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1$adapted(TreeNode.scala:366)\n\tat scala.collection.Iterator.foreach(Iterator.scala:943)\n\tat scala.collection.Iterator.foreach$(Iterator.scala:943)\n\tat scala.collection.AbstractIterator.foreach(Iterator.scala:1431)\n\tat scala.collection.IterableLike.foreach(IterableLike.scala:74)\n\tat scala.collection.IterableLike.foreach$(IterableLike.scala:73)\n\tat scala.collection.AbstractIterable.foreach(Iterable.scala:56)\n\tat org.apache.spark.sql.catalyst.trees.TreeNode.foreachUp(TreeNode.scala:366)\n\tat org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1(TreeNode.scala:366)\n\tat org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1$adapted(TreeNode.scala:366)\n\tat scala.collection.Iterator.foreach(Iterator.scala:943)\n\tat scala.collection.Iterator.foreach$(Iterator.scala:943)\n\tat scala.collection.AbstractIterator.foreach(Iterator.scala:1431)\n\tat scala.collection.IterableLike.foreach(IterableLike.scala:74)\n\tat scala.collection.IterableLike.foreach$(IterableLike.scala:73)\n\tat scala.collection.AbstractIterable.foreach(Iterable.scala:56)\n\tat org.apache.spark.sql.catalyst.trees.TreeNode.foreachUp(TreeNode.scala:366)\n\tat org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1(TreeNode.scala:366)\n\tat org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1$adapted(TreeNode.scala:366)\n\tat scala.collection.Iterator.foreach(Iterator.scala:943)\n\tat scala.collection.Iterator.foreach$(Iterator.scala:943)\n\tat scala.collection.AbstractIterator.foreach(Iterator.scala:1431)\n\tat scala.collection.IterableLike.foreach(IterableLike.scala:74)\n\tat scala.collection.IterableLike.foreach$(IterableLike.scala:73)\n\tat scala.collection.AbstractIterable.foreach(Iterable.scala:56)\n\tat org.apache.spark.sql.catalyst.trees.TreeNode.foreachUp(TreeNode.scala:366)\n\tat org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1(TreeNode.scala:366)\n\tat org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1$adapted(TreeNode.scala:366)\n\tat scala.collection.immutable.List.foreach(List.scala:431)\n\tat org.apache.spark.sql.catalyst.trees.TreeNode.foreachUp(TreeNode.scala:366)\n\tat org.apache.spark.sql.catalyst.analysis.CheckAnalysis.checkAnalysis(CheckAnalysis.scala:102)\n\tat org.apache.spark.sql.catalyst.analysis.CheckAnalysis.checkAnalysis$(CheckAnalysis.scala:97)\n\tat org.apache.spark.sql.catalyst.analysis.Analyzer.checkAnalysis(Analyzer.scala:188)\n\tat org.apache.spark.sql.catalyst.analysis.Analyzer.$anonfun$executeAndCheck$1(Analyzer.scala:214)\n\tat org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$.markInAnalyzer(AnalysisHelper.scala:330)\n\tat org.apache.spark.sql.catalyst.analysis.Analyzer.executeAndCheck(Analyzer.scala:211)\n\tat org.apache.spark.sql.execution.QueryExecution.$anonfun$analyzed$1(QueryExecution.scala:76)\n\tat org.apache.spark.sql.catalyst.QueryPlanningTracker.measurePhase(QueryPlanningTracker.scala:111)\n\tat org.apache.spark.sql.execution.QueryExecution.$anonfun$executePhase$2(QueryExecution.scala:185)\n\tat org.apache.spark.sql.execution.QueryExecution$.withInternalError(QueryExecution.scala:510)\n\tat org.apache.spark.sql.execution.QueryExecution.$anonfun$executePhase$1(QueryExecution.scala:185)\n\tat org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:779)\n\tat org.apache.spark.sql.execution.QueryExecution.executePhase(QueryExecution.scala:184)\n\tat org.apache.spark.sql.execution.QueryExecution.analyzed$lzycompute(QueryExecution.scala:76)\n\tat org.apache.spark.sql.execution.QueryExecution.analyzed(QueryExecution.scala:74)\n\tat org.apache.spark.sql.execution.QueryExecution.assertAnalyzed(QueryExecution.scala:66)\n\tat org.apache.spark.sql.Dataset$.$anonfun$ofRows$2(Dataset.scala:99)\n\tat org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:779)\n\tat org.apache.spark.sql.Dataset$.ofRows(Dataset.scala:97)\n\tat org.apache.spark.sql.SparkSession.$anonfun$sql$1(SparkSession.scala:622)\n\tat org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:779)\n\tat org.apache.spark.sql.SparkSession.sql(SparkSession.scala:617)\n\tat org.apache.spark.sql.SQLContext.sql(SQLContext.scala:651)\n\tat org.apache.spark.sql.hive.thriftserver.SparkExecuteStatementOperation.org$apache$spark$sql$hive$thriftserver$SparkExecuteStatementOperation$$execute(SparkExecuteStatementOperation.scala:291)\n\t... 16 more\n", taskStatus=None, operationStarted=None, operationCompleted=None, hasResultSet=None, progressUpdateResponse=None)
+[0m14:03:11.071685 [debug] [Thread-1  ]: Spark adapter: Poll status: 5
+[0m14:03:11.072325 [debug] [Thread-1  ]: Spark adapter: Error while running:
+/* {"app": "dbt", "dbt_version": "1.9.3", "profile_name": "pipeml", "target_name": "dev", "node_id": "model.pipeml.stg_raw"} */
+
+  
+    
+        create table raw_staging.stg_raw
+      
+      
+      
+      
+      
+      
+      
+      
+
+      as
+      
+
+with raw_data as (
+    select *
+    from raw.daily
+)
+
+select * from raw_data
+  
+[0m14:03:11.073477 [debug] [Thread-1  ]: Spark adapter: Database Error
+  org.apache.hive.service.cli.HiveSQLException: Error running query: org.apache.spark.sql.AnalysisException: Table or view not found: raw.daily; line 20 pos 9;
+  'CreateTable `raw_staging`.`stg_raw`, org.apache.hadoop.hive.serde2.lazy.LazySimpleSerDe, ErrorIfExists
+  +- 'Project [*]
+     +- 'SubqueryAlias raw_data
+        +- 'Project [*]
+           +- 'UnresolvedRelation [raw, daily], [], false
+  
+  	at org.apache.spark.sql.hive.thriftserver.HiveThriftServerErrors$.runningQueryError(HiveThriftServerErrors.scala:43)
+  	at org.apache.spark.sql.hive.thriftserver.SparkExecuteStatementOperation.org$apache$spark$sql$hive$thriftserver$SparkExecuteStatementOperation$$execute(SparkExecuteStatementOperation.scala:325)
+  	at org.apache.spark.sql.hive.thriftserver.SparkExecuteStatementOperation$$anon$2$$anon$3.$anonfun$run$2(SparkExecuteStatementOperation.scala:230)
+  	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+  	at org.apache.spark.sql.hive.thriftserver.SparkOperation.withLocalProperties(SparkOperation.scala:79)
+  	at org.apache.spark.sql.hive.thriftserver.SparkOperation.withLocalProperties$(SparkOperation.scala:63)
+  	at org.apache.spark.sql.hive.thriftserver.SparkExecuteStatementOperation.withLocalProperties(SparkExecuteStatementOperation.scala:43)
+  	at org.apache.spark.sql.hive.thriftserver.SparkExecuteStatementOperation$$anon$2$$anon$3.run(SparkExecuteStatementOperation.scala:230)
+  	at org.apache.spark.sql.hive.thriftserver.SparkExecuteStatementOperation$$anon$2$$anon$3.run(SparkExecuteStatementOperation.scala:225)
+  	at java.base/java.security.AccessController.doPrivileged(Native Method)
+  	at java.base/javax.security.auth.Subject.doAs(Subject.java:423)
+  	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1878)
+  	at org.apache.spark.sql.hive.thriftserver.SparkExecuteStatementOperation$$anon$2.run(SparkExecuteStatementOperation.scala:239)
+  	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+  	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+  	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+  	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+  	at java.base/java.lang.Thread.run(Thread.java:829)
+  Caused by: org.apache.spark.sql.AnalysisException: Table or view not found: raw.daily; line 20 pos 9;
+  'CreateTable `raw_staging`.`stg_raw`, org.apache.hadoop.hive.serde2.lazy.LazySimpleSerDe, ErrorIfExists
+  +- 'Project [*]
+     +- 'SubqueryAlias raw_data
+        +- 'Project [*]
+           +- 'UnresolvedRelation [raw, daily], [], false
+  
+  	at org.apache.spark.sql.catalyst.analysis.package$AnalysisErrorAt.failAnalysis(package.scala:42)
+  	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.$anonfun$checkAnalysis$1(CheckAnalysis.scala:131)
+  	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.$anonfun$checkAnalysis$1$adapted(CheckAnalysis.scala:102)
+  	at org.apache.spark.sql.catalyst.trees.TreeNode.foreachUp(TreeNode.scala:367)
+  	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1(TreeNode.scala:366)
+  	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1$adapted(TreeNode.scala:366)
+  	at scala.collection.Iterator.foreach(Iterator.scala:943)
+  	at scala.collection.Iterator.foreach$(Iterator.scala:943)
+  	at scala.collection.AbstractIterator.foreach(Iterator.scala:1431)
+  	at scala.collection.IterableLike.foreach(IterableLike.scala:74)
+  	at scala.collection.IterableLike.foreach$(IterableLike.scala:73)
+  	at scala.collection.AbstractIterable.foreach(Iterable.scala:56)
+  	at org.apache.spark.sql.catalyst.trees.TreeNode.foreachUp(TreeNode.scala:366)
+  	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1(TreeNode.scala:366)
+  	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1$adapted(TreeNode.scala:366)
+  	at scala.collection.Iterator.foreach(Iterator.scala:943)
+  	at scala.collection.Iterator.foreach$(Iterator.scala:943)
+  	at scala.collection.AbstractIterator.foreach(Iterator.scala:1431)
+  	at scala.collection.IterableLike.foreach(IterableLike.scala:74)
+  	at scala.collection.IterableLike.foreach$(IterableLike.scala:73)
+  	at scala.collection.AbstractIterable.foreach(Iterable.scala:56)
+  	at org.apache.spark.sql.catalyst.trees.TreeNode.foreachUp(TreeNode.scala:366)
+  	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1(TreeNode.scala:366)
+  	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1$adapted(TreeNode.scala:366)
+  	at scala.collection.Iterator.foreach(Iterator.scala:943)
+  	at scala.collection.Iterator.foreach$(Iterator.scala:943)
+  	at scala.collection.AbstractIterator.foreach(Iterator.scala:1431)
+  	at scala.collection.IterableLike.foreach(IterableLike.scala:74)
+  	at scala.collection.IterableLike.foreach$(IterableLike.scala:73)
+  	at scala.collection.AbstractIterable.foreach(Iterable.scala:56)
+  	at org.apache.spark.sql.catalyst.trees.TreeNode.foreachUp(TreeNode.scala:366)
+  	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1(TreeNode.scala:366)
+  	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1$adapted(TreeNode.scala:366)
+  	at scala.collection.immutable.List.foreach(List.scala:431)
+  	at org.apache.spark.sql.catalyst.trees.TreeNode.foreachUp(TreeNode.scala:366)
+  	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.checkAnalysis(CheckAnalysis.scala:102)
+  	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.checkAnalysis$(CheckAnalysis.scala:97)
+  	at org.apache.spark.sql.catalyst.analysis.Analyzer.checkAnalysis(Analyzer.scala:188)
+  	at org.apache.spark.sql.catalyst.analysis.Analyzer.$anonfun$executeAndCheck$1(Analyzer.scala:214)
+  	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$.markInAnalyzer(AnalysisHelper.scala:330)
+  	at org.apache.spark.sql.catalyst.analysis.Analyzer.executeAndCheck(Analyzer.scala:211)
+  	at org.apache.spark.sql.execution.QueryExecution.$anonfun$analyzed$1(QueryExecution.scala:76)
+  	at org.apache.spark.sql.catalyst.QueryPlanningTracker.measurePhase(QueryPlanningTracker.scala:111)
+  	at org.apache.spark.sql.execution.QueryExecution.$anonfun$executePhase$2(QueryExecution.scala:185)
+  	at org.apache.spark.sql.execution.QueryExecution$.withInternalError(QueryExecution.scala:510)
+  	at org.apache.spark.sql.execution.QueryExecution.$anonfun$executePhase$1(QueryExecution.scala:185)
+  	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:779)
+  	at org.apache.spark.sql.execution.QueryExecution.executePhase(QueryExecution.scala:184)
+  	at org.apache.spark.sql.execution.QueryExecution.analyzed$lzycompute(QueryExecution.scala:76)
+  	at org.apache.spark.sql.execution.QueryExecution.analyzed(QueryExecution.scala:74)
+  	at org.apache.spark.sql.execution.QueryExecution.assertAnalyzed(QueryExecution.scala:66)
+  	at org.apache.spark.sql.Dataset$.$anonfun$ofRows$2(Dataset.scala:99)
+  	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:779)
+  	at org.apache.spark.sql.Dataset$.ofRows(Dataset.scala:97)
+  	at org.apache.spark.sql.SparkSession.$anonfun$sql$1(SparkSession.scala:622)
+  	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:779)
+  	at org.apache.spark.sql.SparkSession.sql(SparkSession.scala:617)
+  	at org.apache.spark.sql.SQLContext.sql(SQLContext.scala:651)
+  	at org.apache.spark.sql.hive.thriftserver.SparkExecuteStatementOperation.org$apache$spark$sql$hive$thriftserver$SparkExecuteStatementOperation$$execute(SparkExecuteStatementOperation.scala:291)
+  	... 16 more
+  
+[0m14:03:11.074668 [debug] [Thread-1  ]: On model.pipeml.stg_raw: ROLLBACK
+[0m14:03:11.075225 [debug] [Thread-1  ]: Spark adapter: NotImplemented: rollback
+[0m14:03:11.075732 [debug] [Thread-1  ]: On model.pipeml.stg_raw: Close
+[0m14:03:11.084900 [debug] [Thread-1  ]: Runtime Error in model stg_raw (models/staging/stg_raw.sql)
+  Database Error
+    org.apache.hive.service.cli.HiveSQLException: Error running query: org.apache.spark.sql.AnalysisException: Table or view not found: raw.daily; line 20 pos 9;
+    'CreateTable `raw_staging`.`stg_raw`, org.apache.hadoop.hive.serde2.lazy.LazySimpleSerDe, ErrorIfExists
+    +- 'Project [*]
+       +- 'SubqueryAlias raw_data
+          +- 'Project [*]
+             +- 'UnresolvedRelation [raw, daily], [], false
+    
+    	at org.apache.spark.sql.hive.thriftserver.HiveThriftServerErrors$.runningQueryError(HiveThriftServerErrors.scala:43)
+    	at org.apache.spark.sql.hive.thriftserver.SparkExecuteStatementOperation.org$apache$spark$sql$hive$thriftserver$SparkExecuteStatementOperation$$execute(SparkExecuteStatementOperation.scala:325)
+    	at org.apache.spark.sql.hive.thriftserver.SparkExecuteStatementOperation$$anon$2$$anon$3.$anonfun$run$2(SparkExecuteStatementOperation.scala:230)
+    	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+    	at org.apache.spark.sql.hive.thriftserver.SparkOperation.withLocalProperties(SparkOperation.scala:79)
+    	at org.apache.spark.sql.hive.thriftserver.SparkOperation.withLocalProperties$(SparkOperation.scala:63)
+    	at org.apache.spark.sql.hive.thriftserver.SparkExecuteStatementOperation.withLocalProperties(SparkExecuteStatementOperation.scala:43)
+    	at org.apache.spark.sql.hive.thriftserver.SparkExecuteStatementOperation$$anon$2$$anon$3.run(SparkExecuteStatementOperation.scala:230)
+    	at org.apache.spark.sql.hive.thriftserver.SparkExecuteStatementOperation$$anon$2$$anon$3.run(SparkExecuteStatementOperation.scala:225)
+    	at java.base/java.security.AccessController.doPrivileged(Native Method)
+    	at java.base/javax.security.auth.Subject.doAs(Subject.java:423)
+    	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1878)
+    	at org.apache.spark.sql.hive.thriftserver.SparkExecuteStatementOperation$$anon$2.run(SparkExecuteStatementOperation.scala:239)
+    	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+    	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+    	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+    	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+    	at java.base/java.lang.Thread.run(Thread.java:829)
+    Caused by: org.apache.spark.sql.AnalysisException: Table or view not found: raw.daily; line 20 pos 9;
+    'CreateTable `raw_staging`.`stg_raw`, org.apache.hadoop.hive.serde2.lazy.LazySimpleSerDe, ErrorIfExists
+    +- 'Project [*]
+       +- 'SubqueryAlias raw_data
+          +- 'Project [*]
+             +- 'UnresolvedRelation [raw, daily], [], false
+    
+    	at org.apache.spark.sql.catalyst.analysis.package$AnalysisErrorAt.failAnalysis(package.scala:42)
+    	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.$anonfun$checkAnalysis$1(CheckAnalysis.scala:131)
+    	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.$anonfun$checkAnalysis$1$adapted(CheckAnalysis.scala:102)
+    	at org.apache.spark.sql.catalyst.trees.TreeNode.foreachUp(TreeNode.scala:367)
+    	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1(TreeNode.scala:366)
+    	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1$adapted(TreeNode.scala:366)
+    	at scala.collection.Iterator.foreach(Iterator.scala:943)
+    	at scala.collection.Iterator.foreach$(Iterator.scala:943)
+    	at scala.collection.AbstractIterator.foreach(Iterator.scala:1431)
+    	at scala.collection.IterableLike.foreach(IterableLike.scala:74)
+    	at scala.collection.IterableLike.foreach$(IterableLike.scala:73)
+    	at scala.collection.AbstractIterable.foreach(Iterable.scala:56)
+    	at org.apache.spark.sql.catalyst.trees.TreeNode.foreachUp(TreeNode.scala:366)
+    	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1(TreeNode.scala:366)
+    	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1$adapted(TreeNode.scala:366)
+    	at scala.collection.Iterator.foreach(Iterator.scala:943)
+    	at scala.collection.Iterator.foreach$(Iterator.scala:943)
+    	at scala.collection.AbstractIterator.foreach(Iterator.scala:1431)
+    	at scala.collection.IterableLike.foreach(IterableLike.scala:74)
+    	at scala.collection.IterableLike.foreach$(IterableLike.scala:73)
+    	at scala.collection.AbstractIterable.foreach(Iterable.scala:56)
+    	at org.apache.spark.sql.catalyst.trees.TreeNode.foreachUp(TreeNode.scala:366)
+    	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1(TreeNode.scala:366)
+    	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1$adapted(TreeNode.scala:366)
+    	at scala.collection.Iterator.foreach(Iterator.scala:943)
+    	at scala.collection.Iterator.foreach$(Iterator.scala:943)
+    	at scala.collection.AbstractIterator.foreach(Iterator.scala:1431)
+    	at scala.collection.IterableLike.foreach(IterableLike.scala:74)
+    	at scala.collection.IterableLike.foreach$(IterableLike.scala:73)
+    	at scala.collection.AbstractIterable.foreach(Iterable.scala:56)
+    	at org.apache.spark.sql.catalyst.trees.TreeNode.foreachUp(TreeNode.scala:366)
+    	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1(TreeNode.scala:366)
+    	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1$adapted(TreeNode.scala:366)
+    	at scala.collection.immutable.List.foreach(List.scala:431)
+    	at org.apache.spark.sql.catalyst.trees.TreeNode.foreachUp(TreeNode.scala:366)
+    	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.checkAnalysis(CheckAnalysis.scala:102)
+    	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.checkAnalysis$(CheckAnalysis.scala:97)
+    	at org.apache.spark.sql.catalyst.analysis.Analyzer.checkAnalysis(Analyzer.scala:188)
+    	at org.apache.spark.sql.catalyst.analysis.Analyzer.$anonfun$executeAndCheck$1(Analyzer.scala:214)
+    	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$.markInAnalyzer(AnalysisHelper.scala:330)
+    	at org.apache.spark.sql.catalyst.analysis.Analyzer.executeAndCheck(Analyzer.scala:211)
+    	at org.apache.spark.sql.execution.QueryExecution.$anonfun$analyzed$1(QueryExecution.scala:76)
+    	at org.apache.spark.sql.catalyst.QueryPlanningTracker.measurePhase(QueryPlanningTracker.scala:111)
+    	at org.apache.spark.sql.execution.QueryExecution.$anonfun$executePhase$2(QueryExecution.scala:185)
+    	at org.apache.spark.sql.execution.QueryExecution$.withInternalError(QueryExecution.scala:510)
+    	at org.apache.spark.sql.execution.QueryExecution.$anonfun$executePhase$1(QueryExecution.scala:185)
+    	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:779)
+    	at org.apache.spark.sql.execution.QueryExecution.executePhase(QueryExecution.scala:184)
+    	at org.apache.spark.sql.execution.QueryExecution.analyzed$lzycompute(QueryExecution.scala:76)
+    	at org.apache.spark.sql.execution.QueryExecution.analyzed(QueryExecution.scala:74)
+    	at org.apache.spark.sql.execution.QueryExecution.assertAnalyzed(QueryExecution.scala:66)
+    	at org.apache.spark.sql.Dataset$.$anonfun$ofRows$2(Dataset.scala:99)
+    	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:779)
+    	at org.apache.spark.sql.Dataset$.ofRows(Dataset.scala:97)
+    	at org.apache.spark.sql.SparkSession.$anonfun$sql$1(SparkSession.scala:622)
+    	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:779)
+    	at org.apache.spark.sql.SparkSession.sql(SparkSession.scala:617)
+    	at org.apache.spark.sql.SQLContext.sql(SQLContext.scala:651)
+    	at org.apache.spark.sql.hive.thriftserver.SparkExecuteStatementOperation.org$apache$spark$sql$hive$thriftserver$SparkExecuteStatementOperation$$execute(SparkExecuteStatementOperation.scala:291)
+    	... 16 more
+    
+[0m14:03:11.087446 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'deaa7412-2cc4-40d8-b8ef-7c952ad5f2c5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0078d524f0>]}
+[0m14:03:11.088216 [error] [Thread-1  ]: 1 of 1 ERROR creating sql table model raw_staging.stg_raw ...................... [[31mERROR[0m in 0.23s]
+[0m14:03:11.089358 [debug] [Thread-1  ]: Finished running node model.pipeml.stg_raw
+[0m14:03:11.090239 [debug] [Thread-7  ]: Marking all children of 'model.pipeml.stg_raw' to be skipped because of status 'error'.  Reason: Runtime Error in model stg_raw (models/staging/stg_raw.sql)
+  Database Error
+    org.apache.hive.service.cli.HiveSQLException: Error running query: org.apache.spark.sql.AnalysisException: Table or view not found: raw.daily; line 20 pos 9;
+    'CreateTable `raw_staging`.`stg_raw`, org.apache.hadoop.hive.serde2.lazy.LazySimpleSerDe, ErrorIfExists
+    +- 'Project [*]
+       +- 'SubqueryAlias raw_data
+          +- 'Project [*]
+             +- 'UnresolvedRelation [raw, daily], [], false
+    
+    	at org.apache.spark.sql.hive.thriftserver.HiveThriftServerErrors$.runningQueryError(HiveThriftServerErrors.scala:43)
+    	at org.apache.spark.sql.hive.thriftserver.SparkExecuteStatementOperation.org$apache$spark$sql$hive$thriftserver$SparkExecuteStatementOperation$$execute(SparkExecuteStatementOperation.scala:325)
+    	at org.apache.spark.sql.hive.thriftserver.SparkExecuteStatementOperation$$anon$2$$anon$3.$anonfun$run$2(SparkExecuteStatementOperation.scala:230)
+    	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+    	at org.apache.spark.sql.hive.thriftserver.SparkOperation.withLocalProperties(SparkOperation.scala:79)
+    	at org.apache.spark.sql.hive.thriftserver.SparkOperation.withLocalProperties$(SparkOperation.scala:63)
+    	at org.apache.spark.sql.hive.thriftserver.SparkExecuteStatementOperation.withLocalProperties(SparkExecuteStatementOperation.scala:43)
+    	at org.apache.spark.sql.hive.thriftserver.SparkExecuteStatementOperation$$anon$2$$anon$3.run(SparkExecuteStatementOperation.scala:230)
+    	at org.apache.spark.sql.hive.thriftserver.SparkExecuteStatementOperation$$anon$2$$anon$3.run(SparkExecuteStatementOperation.scala:225)
+    	at java.base/java.security.AccessController.doPrivileged(Native Method)
+    	at java.base/javax.security.auth.Subject.doAs(Subject.java:423)
+    	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1878)
+    	at org.apache.spark.sql.hive.thriftserver.SparkExecuteStatementOperation$$anon$2.run(SparkExecuteStatementOperation.scala:239)
+    	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+    	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+    	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+    	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+    	at java.base/java.lang.Thread.run(Thread.java:829)
+    Caused by: org.apache.spark.sql.AnalysisException: Table or view not found: raw.daily; line 20 pos 9;
+    'CreateTable `raw_staging`.`stg_raw`, org.apache.hadoop.hive.serde2.lazy.LazySimpleSerDe, ErrorIfExists
+    +- 'Project [*]
+       +- 'SubqueryAlias raw_data
+          +- 'Project [*]
+             +- 'UnresolvedRelation [raw, daily], [], false
+    
+    	at org.apache.spark.sql.catalyst.analysis.package$AnalysisErrorAt.failAnalysis(package.scala:42)
+    	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.$anonfun$checkAnalysis$1(CheckAnalysis.scala:131)
+    	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.$anonfun$checkAnalysis$1$adapted(CheckAnalysis.scala:102)
+    	at org.apache.spark.sql.catalyst.trees.TreeNode.foreachUp(TreeNode.scala:367)
+    	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1(TreeNode.scala:366)
+    	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1$adapted(TreeNode.scala:366)
+    	at scala.collection.Iterator.foreach(Iterator.scala:943)
+    	at scala.collection.Iterator.foreach$(Iterator.scala:943)
+    	at scala.collection.AbstractIterator.foreach(Iterator.scala:1431)
+    	at scala.collection.IterableLike.foreach(IterableLike.scala:74)
+    	at scala.collection.IterableLike.foreach$(IterableLike.scala:73)
+    	at scala.collection.AbstractIterable.foreach(Iterable.scala:56)
+    	at org.apache.spark.sql.catalyst.trees.TreeNode.foreachUp(TreeNode.scala:366)
+    	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1(TreeNode.scala:366)
+    	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1$adapted(TreeNode.scala:366)
+    	at scala.collection.Iterator.foreach(Iterator.scala:943)
+    	at scala.collection.Iterator.foreach$(Iterator.scala:943)
+    	at scala.collection.AbstractIterator.foreach(Iterator.scala:1431)
+    	at scala.collection.IterableLike.foreach(IterableLike.scala:74)
+    	at scala.collection.IterableLike.foreach$(IterableLike.scala:73)
+    	at scala.collection.AbstractIterable.foreach(Iterable.scala:56)
+    	at org.apache.spark.sql.catalyst.trees.TreeNode.foreachUp(TreeNode.scala:366)
+    	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1(TreeNode.scala:366)
+    	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1$adapted(TreeNode.scala:366)
+    	at scala.collection.Iterator.foreach(Iterator.scala:943)
+    	at scala.collection.Iterator.foreach$(Iterator.scala:943)
+    	at scala.collection.AbstractIterator.foreach(Iterator.scala:1431)
+    	at scala.collection.IterableLike.foreach(IterableLike.scala:74)
+    	at scala.collection.IterableLike.foreach$(IterableLike.scala:73)
+    	at scala.collection.AbstractIterable.foreach(Iterable.scala:56)
+    	at org.apache.spark.sql.catalyst.trees.TreeNode.foreachUp(TreeNode.scala:366)
+    	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1(TreeNode.scala:366)
+    	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1$adapted(TreeNode.scala:366)
+    	at scala.collection.immutable.List.foreach(List.scala:431)
+    	at org.apache.spark.sql.catalyst.trees.TreeNode.foreachUp(TreeNode.scala:366)
+    	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.checkAnalysis(CheckAnalysis.scala:102)
+    	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.checkAnalysis$(CheckAnalysis.scala:97)
+    	at org.apache.spark.sql.catalyst.analysis.Analyzer.checkAnalysis(Analyzer.scala:188)
+    	at org.apache.spark.sql.catalyst.analysis.Analyzer.$anonfun$executeAndCheck$1(Analyzer.scala:214)
+    	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$.markInAnalyzer(AnalysisHelper.scala:330)
+    	at org.apache.spark.sql.catalyst.analysis.Analyzer.executeAndCheck(Analyzer.scala:211)
+    	at org.apache.spark.sql.execution.QueryExecution.$anonfun$analyzed$1(QueryExecution.scala:76)
+    	at org.apache.spark.sql.catalyst.QueryPlanningTracker.measurePhase(QueryPlanningTracker.scala:111)
+    	at org.apache.spark.sql.execution.QueryExecution.$anonfun$executePhase$2(QueryExecution.scala:185)
+    	at org.apache.spark.sql.execution.QueryExecution$.withInternalError(QueryExecution.scala:510)
+    	at org.apache.spark.sql.execution.QueryExecution.$anonfun$executePhase$1(QueryExecution.scala:185)
+    	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:779)
+    	at org.apache.spark.sql.execution.QueryExecution.executePhase(QueryExecution.scala:184)
+    	at org.apache.spark.sql.execution.QueryExecution.analyzed$lzycompute(QueryExecution.scala:76)
+    	at org.apache.spark.sql.execution.QueryExecution.analyzed(QueryExecution.scala:74)
+    	at org.apache.spark.sql.execution.QueryExecution.assertAnalyzed(QueryExecution.scala:66)
+    	at org.apache.spark.sql.Dataset$.$anonfun$ofRows$2(Dataset.scala:99)
+    	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:779)
+    	at org.apache.spark.sql.Dataset$.ofRows(Dataset.scala:97)
+    	at org.apache.spark.sql.SparkSession.$anonfun$sql$1(SparkSession.scala:622)
+    	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:779)
+    	at org.apache.spark.sql.SparkSession.sql(SparkSession.scala:617)
+    	at org.apache.spark.sql.SQLContext.sql(SQLContext.scala:651)
+    	at org.apache.spark.sql.hive.thriftserver.SparkExecuteStatementOperation.org$apache$spark$sql$hive$thriftserver$SparkExecuteStatementOperation$$execute(SparkExecuteStatementOperation.scala:291)
+    	... 16 more
+    .
+[0m14:03:11.092320 [debug] [MainThread]: On master: ROLLBACK
+[0m14:03:11.092663 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m14:03:11.132996 [debug] [MainThread]: Spark adapter: NotImplemented: rollback
+[0m14:03:11.133588 [debug] [MainThread]: Spark adapter: NotImplemented: add_begin_query
+[0m14:03:11.133922 [debug] [MainThread]: Spark adapter: NotImplemented: commit
+[0m14:03:11.134243 [debug] [MainThread]: On master: ROLLBACK
+[0m14:03:11.134556 [debug] [MainThread]: Spark adapter: NotImplemented: rollback
+[0m14:03:11.134842 [debug] [MainThread]: On master: Close
+[0m14:03:11.139954 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m14:03:11.140438 [debug] [MainThread]: Connection 'model.pipeml.stg_raw' was properly closed.
+[0m14:03:11.140977 [info ] [MainThread]: 
+[0m14:03:11.141545 [info ] [MainThread]: Finished running 1 table model in 0 hours 0 minutes and 0.52 seconds (0.52s).
+[0m14:03:11.142738 [debug] [MainThread]: Command end result
+[0m14:03:11.177094 [debug] [MainThread]: Wrote artifact WritableManifest to /app/target/manifest.json
+[0m14:03:11.179474 [debug] [MainThread]: Wrote artifact SemanticManifest to /app/target/semantic_manifest.json
+[0m14:03:11.187765 [debug] [MainThread]: Wrote artifact RunExecutionResult to /app/target/run_results.json
+[0m14:03:11.188282 [info ] [MainThread]: 
+[0m14:03:11.188910 [info ] [MainThread]: [31mCompleted with 1 error, 0 partial successes, and 0 warnings:[0m
+[0m14:03:11.189324 [info ] [MainThread]: 
+[0m14:03:11.190019 [error] [MainThread]:   Runtime Error in model stg_raw (models/staging/stg_raw.sql)
+  Database Error
+    org.apache.hive.service.cli.HiveSQLException: Error running query: org.apache.spark.sql.AnalysisException: Table or view not found: raw.daily; line 20 pos 9;
+    'CreateTable `raw_staging`.`stg_raw`, org.apache.hadoop.hive.serde2.lazy.LazySimpleSerDe, ErrorIfExists
+    +- 'Project [*]
+       +- 'SubqueryAlias raw_data
+          +- 'Project [*]
+             +- 'UnresolvedRelation [raw, daily], [], false
+    
+    	at org.apache.spark.sql.hive.thriftserver.HiveThriftServerErrors$.runningQueryError(HiveThriftServerErrors.scala:43)
+    	at org.apache.spark.sql.hive.thriftserver.SparkExecuteStatementOperation.org$apache$spark$sql$hive$thriftserver$SparkExecuteStatementOperation$$execute(SparkExecuteStatementOperation.scala:325)
+    	at org.apache.spark.sql.hive.thriftserver.SparkExecuteStatementOperation$$anon$2$$anon$3.$anonfun$run$2(SparkExecuteStatementOperation.scala:230)
+    	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+    	at org.apache.spark.sql.hive.thriftserver.SparkOperation.withLocalProperties(SparkOperation.scala:79)
+    	at org.apache.spark.sql.hive.thriftserver.SparkOperation.withLocalProperties$(SparkOperation.scala:63)
+    	at org.apache.spark.sql.hive.thriftserver.SparkExecuteStatementOperation.withLocalProperties(SparkExecuteStatementOperation.scala:43)
+    	at org.apache.spark.sql.hive.thriftserver.SparkExecuteStatementOperation$$anon$2$$anon$3.run(SparkExecuteStatementOperation.scala:230)
+    	at org.apache.spark.sql.hive.thriftserver.SparkExecuteStatementOperation$$anon$2$$anon$3.run(SparkExecuteStatementOperation.scala:225)
+    	at java.base/java.security.AccessController.doPrivileged(Native Method)
+    	at java.base/javax.security.auth.Subject.doAs(Subject.java:423)
+    	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1878)
+    	at org.apache.spark.sql.hive.thriftserver.SparkExecuteStatementOperation$$anon$2.run(SparkExecuteStatementOperation.scala:239)
+    	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+    	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+    	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+    	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+    	at java.base/java.lang.Thread.run(Thread.java:829)
+    Caused by: org.apache.spark.sql.AnalysisException: Table or view not found: raw.daily; line 20 pos 9;
+    'CreateTable `raw_staging`.`stg_raw`, org.apache.hadoop.hive.serde2.lazy.LazySimpleSerDe, ErrorIfExists
+    +- 'Project [*]
+       +- 'SubqueryAlias raw_data
+          +- 'Project [*]
+             +- 'UnresolvedRelation [raw, daily], [], false
+    
+    	at org.apache.spark.sql.catalyst.analysis.package$AnalysisErrorAt.failAnalysis(package.scala:42)
+    	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.$anonfun$checkAnalysis$1(CheckAnalysis.scala:131)
+    	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.$anonfun$checkAnalysis$1$adapted(CheckAnalysis.scala:102)
+    	at org.apache.spark.sql.catalyst.trees.TreeNode.foreachUp(TreeNode.scala:367)
+    	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1(TreeNode.scala:366)
+    	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1$adapted(TreeNode.scala:366)
+    	at scala.collection.Iterator.foreach(Iterator.scala:943)
+    	at scala.collection.Iterator.foreach$(Iterator.scala:943)
+    	at scala.collection.AbstractIterator.foreach(Iterator.scala:1431)
+    	at scala.collection.IterableLike.foreach(IterableLike.scala:74)
+    	at scala.collection.IterableLike.foreach$(IterableLike.scala:73)
+    	at scala.collection.AbstractIterable.foreach(Iterable.scala:56)
+    	at org.apache.spark.sql.catalyst.trees.TreeNode.foreachUp(TreeNode.scala:366)
+    	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1(TreeNode.scala:366)
+    	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1$adapted(TreeNode.scala:366)
+    	at scala.collection.Iterator.foreach(Iterator.scala:943)
+    	at scala.collection.Iterator.foreach$(Iterator.scala:943)
+    	at scala.collection.AbstractIterator.foreach(Iterator.scala:1431)
+    	at scala.collection.IterableLike.foreach(IterableLike.scala:74)
+    	at scala.collection.IterableLike.foreach$(IterableLike.scala:73)
+    	at scala.collection.AbstractIterable.foreach(Iterable.scala:56)
+    	at org.apache.spark.sql.catalyst.trees.TreeNode.foreachUp(TreeNode.scala:366)
+    	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1(TreeNode.scala:366)
+    	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1$adapted(TreeNode.scala:366)
+    	at scala.collection.Iterator.foreach(Iterator.scala:943)
+    	at scala.collection.Iterator.foreach$(Iterator.scala:943)
+    	at scala.collection.AbstractIterator.foreach(Iterator.scala:1431)
+    	at scala.collection.IterableLike.foreach(IterableLike.scala:74)
+    	at scala.collection.IterableLike.foreach$(IterableLike.scala:73)
+    	at scala.collection.AbstractIterable.foreach(Iterable.scala:56)
+    	at org.apache.spark.sql.catalyst.trees.TreeNode.foreachUp(TreeNode.scala:366)
+    	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1(TreeNode.scala:366)
+    	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1$adapted(TreeNode.scala:366)
+    	at scala.collection.immutable.List.foreach(List.scala:431)
+    	at org.apache.spark.sql.catalyst.trees.TreeNode.foreachUp(TreeNode.scala:366)
+    	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.checkAnalysis(CheckAnalysis.scala:102)
+    	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.checkAnalysis$(CheckAnalysis.scala:97)
+    	at org.apache.spark.sql.catalyst.analysis.Analyzer.checkAnalysis(Analyzer.scala:188)
+    	at org.apache.spark.sql.catalyst.analysis.Analyzer.$anonfun$executeAndCheck$1(Analyzer.scala:214)
+    	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$.markInAnalyzer(AnalysisHelper.scala:330)
+    	at org.apache.spark.sql.catalyst.analysis.Analyzer.executeAndCheck(Analyzer.scala:211)
+    	at org.apache.spark.sql.execution.QueryExecution.$anonfun$analyzed$1(QueryExecution.scala:76)
+    	at org.apache.spark.sql.catalyst.QueryPlanningTracker.measurePhase(QueryPlanningTracker.scala:111)
+    	at org.apache.spark.sql.execution.QueryExecution.$anonfun$executePhase$2(QueryExecution.scala:185)
+    	at org.apache.spark.sql.execution.QueryExecution$.withInternalError(QueryExecution.scala:510)
+    	at org.apache.spark.sql.execution.QueryExecution.$anonfun$executePhase$1(QueryExecution.scala:185)
+    	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:779)
+    	at org.apache.spark.sql.execution.QueryExecution.executePhase(QueryExecution.scala:184)
+    	at org.apache.spark.sql.execution.QueryExecution.analyzed$lzycompute(QueryExecution.scala:76)
+    	at org.apache.spark.sql.execution.QueryExecution.analyzed(QueryExecution.scala:74)
+    	at org.apache.spark.sql.execution.QueryExecution.assertAnalyzed(QueryExecution.scala:66)
+    	at org.apache.spark.sql.Dataset$.$anonfun$ofRows$2(Dataset.scala:99)
+    	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:779)
+    	at org.apache.spark.sql.Dataset$.ofRows(Dataset.scala:97)
+    	at org.apache.spark.sql.SparkSession.$anonfun$sql$1(SparkSession.scala:622)
+    	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:779)
+    	at org.apache.spark.sql.SparkSession.sql(SparkSession.scala:617)
+    	at org.apache.spark.sql.SQLContext.sql(SQLContext.scala:651)
+    	at org.apache.spark.sql.hive.thriftserver.SparkExecuteStatementOperation.org$apache$spark$sql$hive$thriftserver$SparkExecuteStatementOperation$$execute(SparkExecuteStatementOperation.scala:291)
+    	... 16 more
+    
+[0m14:03:11.190886 [info ] [MainThread]: 
+[0m14:03:11.191308 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=1 SKIP=0 TOTAL=1
+[0m14:03:11.193048 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 1.8926308, "process_in_blocks": "0", "process_kernel_time": 0.340612, "process_mem_max_rss": "108552", "process_out_blocks": "2912", "process_user_time": 2.664793}
+[0m14:03:11.193766 [debug] [MainThread]: Command `dbt run` failed at 14:03:11.193568 after 1.89 seconds
+[0m14:03:11.194245 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0079be1d00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0079e12d60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f00781c7850>]}
+[0m14:03:11.194682 [debug] [MainThread]: Flushing usage events
+[0m14:03:12.626770 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:26:30.709159 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4d5871ed30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4d578702b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4d57870250>]}
+
+
+============================== 14:26:30.713609 | 52e39e01-6d8c-481b-ae4c-2cd442aa4974 ==============================
+[0m14:26:30.713609 [info ] [MainThread]: Running with dbt=1.9.3
+[0m14:26:30.714460 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/app', 'debug': 'False', 'version_check': 'True', 'log_path': '/app/logs', 'warn_error': 'None', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'invocation_command': 'dbt run', 'log_format': 'default', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m14:26:30.791027 [debug] [MainThread]: Spark adapter: Setting pyhive.hive logging to ERROR
+[0m14:26:30.791703 [debug] [MainThread]: Spark adapter: Setting thrift.transport logging to ERROR
+[0m14:26:30.792071 [debug] [MainThread]: Spark adapter: Setting thrift.protocol logging to ERROR
+[0m14:26:30.957921 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '52e39e01-6d8c-481b-ae4c-2cd442aa4974', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4d57252fa0>]}
+[0m14:26:31.026212 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '52e39e01-6d8c-481b-ae4c-2cd442aa4974', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4d572f8ee0>]}
+[0m14:26:31.027209 [info ] [MainThread]: Registered adapter: spark=1.9.2
+[0m14:26:31.151658 [debug] [MainThread]: checksum: 5671c00892cdbcef29c3b00cc5ba7510c3d18a35c883caeb9ab9ee266dc29c8f, vars: {}, profile: , target: , version: 1.9.3
+[0m14:26:31.290187 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m14:26:31.290668 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m14:26:31.299922 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 2 unused configuration paths:
+- models.pipeml.marts
+- seeds.pipeml
+[0m14:26:31.340350 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '52e39e01-6d8c-481b-ae4c-2cd442aa4974', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4d56dcdee0>]}
+[0m14:26:31.438106 [debug] [MainThread]: Wrote artifact WritableManifest to /app/target/manifest.json
+[0m14:26:31.441653 [debug] [MainThread]: Wrote artifact SemanticManifest to /app/target/semantic_manifest.json
+[0m14:26:31.453609 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '52e39e01-6d8c-481b-ae4c-2cd442aa4974', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4d56dcd460>]}
+[0m14:26:31.454129 [info ] [MainThread]: Found 1 model, 1 source, 473 macros
+[0m14:26:31.454651 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '52e39e01-6d8c-481b-ae4c-2cd442aa4974', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4d56e0e430>]}
+[0m14:26:31.456287 [info ] [MainThread]: 
+[0m14:26:31.456779 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m14:26:31.457233 [info ] [MainThread]: 
+[0m14:26:31.457874 [debug] [MainThread]: Acquiring new spark connection 'master'
+[0m14:26:31.458927 [debug] [ThreadPool]: Acquiring new spark connection 'list_schemas'
+[0m14:26:31.473871 [debug] [ThreadPool]: Using spark connection "list_schemas"
+[0m14:26:31.474393 [debug] [ThreadPool]: On list_schemas: /* {"app": "dbt", "dbt_version": "1.9.3", "profile_name": "pipeml", "target_name": "dev", "connection_name": "list_schemas"} */
+
+    show databases
+  
+[0m14:26:31.474745 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m14:26:31.551445 [debug] [ThreadPool]: Spark adapter: Poll status: 2, query complete
+[0m14:26:31.552025 [debug] [ThreadPool]: SQL status: OK in 0.077 seconds
+[0m14:26:31.556611 [debug] [ThreadPool]: On list_schemas: Close
+[0m14:26:31.563607 [debug] [ThreadPool]: Acquiring new spark connection 'list_None_raw_staging'
+[0m14:26:31.570228 [debug] [ThreadPool]: Spark adapter: NotImplemented: add_begin_query
+[0m14:26:31.570646 [debug] [ThreadPool]: Using spark connection "list_None_raw_staging"
+[0m14:26:31.570946 [debug] [ThreadPool]: On list_None_raw_staging: /* {"app": "dbt", "dbt_version": "1.9.3", "profile_name": "pipeml", "target_name": "dev", "connection_name": "list_None_raw_staging"} */
+show table extended in raw_staging like '*'
+  
+[0m14:26:31.571214 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m14:26:31.640858 [debug] [ThreadPool]: Spark adapter: Poll status: 2, query complete
+[0m14:26:31.641539 [debug] [ThreadPool]: SQL status: OK in 0.070 seconds
+[0m14:26:31.647389 [debug] [ThreadPool]: On list_None_raw_staging: ROLLBACK
+[0m14:26:31.647871 [debug] [ThreadPool]: Spark adapter: NotImplemented: rollback
+[0m14:26:31.648157 [debug] [ThreadPool]: On list_None_raw_staging: Close
+[0m14:26:31.654409 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '52e39e01-6d8c-481b-ae4c-2cd442aa4974', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4d56523610>]}
+[0m14:26:31.655185 [debug] [MainThread]: Spark adapter: NotImplemented: add_begin_query
+[0m14:26:31.655519 [debug] [MainThread]: Spark adapter: NotImplemented: commit
+[0m14:26:31.661969 [debug] [Thread-1  ]: Began running node model.pipeml.stg_raw
+[0m14:26:31.662832 [info ] [Thread-1  ]: 1 of 1 START sql table model raw_staging.stg_raw ............................... [RUN]
+[0m14:26:31.663771 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly list_None_raw_staging, now model.pipeml.stg_raw)
+[0m14:26:31.664178 [debug] [Thread-1  ]: Began compiling node model.pipeml.stg_raw
+[0m14:26:31.674782 [debug] [Thread-1  ]: Writing injected SQL for node "model.pipeml.stg_raw"
+[0m14:26:31.675812 [debug] [Thread-1  ]: Began executing node model.pipeml.stg_raw
+[0m14:26:31.710085 [debug] [Thread-1  ]: Using spark connection "model.pipeml.stg_raw"
+[0m14:26:31.710629 [debug] [Thread-1  ]: On model.pipeml.stg_raw: /* {"app": "dbt", "dbt_version": "1.9.3", "profile_name": "pipeml", "target_name": "dev", "node_id": "model.pipeml.stg_raw"} */
+drop table if exists raw_staging.stg_raw
+[0m14:26:31.710981 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+[0m14:26:31.772528 [debug] [Thread-1  ]: Spark adapter: Poll status: 2, query complete
+[0m14:26:31.773232 [debug] [Thread-1  ]: SQL status: OK in 0.062 seconds
+[0m14:26:31.817880 [debug] [Thread-1  ]: Writing runtime sql for node "model.pipeml.stg_raw"
+[0m14:26:31.818928 [debug] [Thread-1  ]: Spark adapter: NotImplemented: add_begin_query
+[0m14:26:31.819314 [debug] [Thread-1  ]: Using spark connection "model.pipeml.stg_raw"
+[0m14:26:31.819648 [debug] [Thread-1  ]: On model.pipeml.stg_raw: /* {"app": "dbt", "dbt_version": "1.9.3", "profile_name": "pipeml", "target_name": "dev", "node_id": "model.pipeml.stg_raw"} */
+
+  
+    
+        create table raw_staging.stg_raw
+      
+      
+      
+      
+      
+      
+      
+      
+
+      as
+      
+
+with raw_data as (
+    select *
+    from raw.daily
+)
+
+select * from raw_data
+  
+[0m14:26:36.824242 [debug] [Thread-1  ]: Spark adapter: Poll status: 1, sleeping
+[0m14:26:41.826327 [debug] [Thread-1  ]: Spark adapter: Poll status: 1, sleeping
+[0m14:26:44.539436 [debug] [Thread-1  ]: Spark adapter: Poll status: 2, query complete
+[0m14:26:44.540186 [debug] [Thread-1  ]: SQL status: OK in 12.720 seconds
+[0m14:26:44.565399 [debug] [Thread-1  ]: On model.pipeml.stg_raw: ROLLBACK
+[0m14:26:44.566047 [debug] [Thread-1  ]: Spark adapter: NotImplemented: rollback
+[0m14:26:44.566467 [debug] [Thread-1  ]: On model.pipeml.stg_raw: Close
+[0m14:26:44.579112 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '52e39e01-6d8c-481b-ae4c-2cd442aa4974', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4d599acee0>]}
+[0m14:26:44.580196 [info ] [Thread-1  ]: 1 of 1 OK created sql table model raw_staging.stg_raw .......................... [[32mOK[0m in 12.91s]
+[0m14:26:44.581871 [debug] [Thread-1  ]: Finished running node model.pipeml.stg_raw
+[0m14:26:44.583489 [debug] [MainThread]: On master: ROLLBACK
+[0m14:26:44.583868 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m14:26:44.629592 [debug] [MainThread]: Spark adapter: NotImplemented: rollback
+[0m14:26:44.630180 [debug] [MainThread]: Spark adapter: NotImplemented: add_begin_query
+[0m14:26:44.630566 [debug] [MainThread]: Spark adapter: NotImplemented: commit
+[0m14:26:44.630923 [debug] [MainThread]: On master: ROLLBACK
+[0m14:26:44.631342 [debug] [MainThread]: Spark adapter: NotImplemented: rollback
+[0m14:26:44.631646 [debug] [MainThread]: On master: Close
+[0m14:26:44.637447 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m14:26:44.638010 [debug] [MainThread]: Connection 'list_schemas' was properly closed.
+[0m14:26:44.638376 [debug] [MainThread]: Connection 'model.pipeml.stg_raw' was properly closed.
+[0m14:26:44.638879 [info ] [MainThread]: 
+[0m14:26:44.639534 [info ] [MainThread]: Finished running 1 table model in 0 hours 0 minutes and 13.18 seconds (13.18s).
+[0m14:26:44.640694 [debug] [MainThread]: Command end result
+[0m14:26:44.741171 [debug] [MainThread]: Wrote artifact WritableManifest to /app/target/manifest.json
+[0m14:26:44.743518 [debug] [MainThread]: Wrote artifact SemanticManifest to /app/target/semantic_manifest.json
+[0m14:26:44.751641 [debug] [MainThread]: Wrote artifact RunExecutionResult to /app/target/run_results.json
+[0m14:26:44.752052 [info ] [MainThread]: 
+[0m14:26:44.752699 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m14:26:44.753286 [info ] [MainThread]: 
+[0m14:26:44.753812 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1
+[0m14:26:44.755024 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 14.114379, "process_in_blocks": "0", "process_kernel_time": 0.387479, "process_mem_max_rss": "104104", "process_out_blocks": "1912", "process_user_time": 2.153105}
+[0m14:26:44.755579 [debug] [MainThread]: Command `dbt run` succeeded at 14:26:44.755458 after 14.12 seconds
+[0m14:26:44.756002 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4d5871ed30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4d585f56d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4d56f3fa00>]}
+[0m14:26:44.756409 [debug] [MainThread]: Flushing usage events
+[0m14:26:46.409576 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:27:03.670449 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f415c159d00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f415b2ad280>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f415b2ad220>]}
+
+
+============================== 14:27:03.674385 | 76929969-e3ae-4f13-81b6-630106821f57 ==============================
+[0m14:27:03.674385 [info ] [MainThread]: Running with dbt=1.9.3
+[0m14:27:03.675097 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/app', 'fail_fast': 'False', 'debug': 'False', 'log_path': '/app/logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': 'dbt show --select stg_raw', 'send_anonymous_usage_stats': 'True'}
+[0m14:27:03.745396 [debug] [MainThread]: Spark adapter: Setting pyhive.hive logging to ERROR
+[0m14:27:03.745965 [debug] [MainThread]: Spark adapter: Setting thrift.transport logging to ERROR
+[0m14:27:03.746265 [debug] [MainThread]: Spark adapter: Setting thrift.protocol logging to ERROR
+[0m14:27:03.901896 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '76929969-e3ae-4f13-81b6-630106821f57', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f415ad74c40>]}
+[0m14:27:03.967321 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '76929969-e3ae-4f13-81b6-630106821f57', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f415ada2e50>]}
+[0m14:27:03.980437 [info ] [MainThread]: Registered adapter: spark=1.9.2
+[0m14:27:04.099228 [debug] [MainThread]: checksum: 5671c00892cdbcef29c3b00cc5ba7510c3d18a35c883caeb9ab9ee266dc29c8f, vars: {}, profile: , target: , version: 1.9.3
+[0m14:27:04.236962 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m14:27:04.237476 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m14:27:04.246652 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 2 unused configuration paths:
+- models.pipeml.marts
+- seeds.pipeml
+[0m14:27:04.286833 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '76929969-e3ae-4f13-81b6-630106821f57', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f415a7b9130>]}
+[0m14:27:04.379602 [debug] [MainThread]: Wrote artifact WritableManifest to /app/target/manifest.json
+[0m14:27:04.383094 [debug] [MainThread]: Wrote artifact SemanticManifest to /app/target/semantic_manifest.json
+[0m14:27:04.384559 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '76929969-e3ae-4f13-81b6-630106821f57', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f415a7563d0>]}
+[0m14:27:04.385004 [info ] [MainThread]: Found 1 model, 1 source, 473 macros
+[0m14:27:04.385386 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '76929969-e3ae-4f13-81b6-630106821f57', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f415a756dc0>]}
+[0m14:27:04.386990 [info ] [MainThread]: 
+[0m14:27:04.387475 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m14:27:04.388067 [info ] [MainThread]: 
+[0m14:27:04.389013 [debug] [MainThread]: Acquiring new spark connection 'master'
+[0m14:27:04.390011 [debug] [ThreadPool]: Acquiring new spark connection 'list_None_raw_staging'
+[0m14:27:04.406600 [debug] [ThreadPool]: Spark adapter: NotImplemented: add_begin_query
+[0m14:27:04.407324 [debug] [ThreadPool]: Using spark connection "list_None_raw_staging"
+[0m14:27:04.407784 [debug] [ThreadPool]: On list_None_raw_staging: /* {"app": "dbt", "dbt_version": "1.9.3", "profile_name": "pipeml", "target_name": "dev", "connection_name": "list_None_raw_staging"} */
+show table extended in raw_staging like '*'
+  
+[0m14:27:04.408269 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m14:27:04.573229 [debug] [ThreadPool]: Spark adapter: Poll status: 2, query complete
+[0m14:27:04.573865 [debug] [ThreadPool]: SQL status: OK in 0.166 seconds
+[0m14:27:04.589450 [debug] [ThreadPool]: On list_None_raw_staging: ROLLBACK
+[0m14:27:04.590014 [debug] [ThreadPool]: Spark adapter: NotImplemented: rollback
+[0m14:27:04.590337 [debug] [ThreadPool]: On list_None_raw_staging: Close
+[0m14:27:04.597854 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '76929969-e3ae-4f13-81b6-630106821f57', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f415a6ca760>]}
+[0m14:27:04.601849 [debug] [Thread-1  ]: Began running node model.pipeml.stg_raw
+[0m14:27:04.602626 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly list_None_raw_staging, now model.pipeml.stg_raw)
+[0m14:27:04.603149 [debug] [Thread-1  ]: Began compiling node model.pipeml.stg_raw
+[0m14:27:04.613159 [debug] [Thread-1  ]: Writing injected SQL for node "model.pipeml.stg_raw"
+[0m14:27:04.614143 [debug] [Thread-1  ]: Began executing node model.pipeml.stg_raw
+[0m14:27:04.622809 [debug] [Thread-1  ]: Using spark connection "model.pipeml.stg_raw"
+[0m14:27:04.623213 [debug] [Thread-1  ]: On model.pipeml.stg_raw: /* {"app": "dbt", "dbt_version": "1.9.3", "profile_name": "pipeml", "target_name": "dev", "node_id": "model.pipeml.stg_raw"} */
+
+  
+  
+
+with raw_data as (
+    select *
+    from raw.daily
+)
+
+select * from raw_data
+  
+  limit 5
+
+[0m14:27:04.623632 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+[0m14:27:06.489825 [debug] [Thread-1  ]: Spark adapter: Poll status: 2, query complete
+[0m14:27:06.490484 [debug] [Thread-1  ]: SQL status: OK in 1.867 seconds
+[0m14:27:06.509108 [debug] [Thread-1  ]: On model.pipeml.stg_raw: Close
+[0m14:27:06.530233 [debug] [Thread-1  ]: Finished running node model.pipeml.stg_raw
+[0m14:27:06.535480 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m14:27:06.536006 [debug] [MainThread]: Connection 'model.pipeml.stg_raw' was properly closed.
+[0m14:27:06.536784 [debug] [MainThread]: Command end result
+[0m14:27:06.562965 [debug] [MainThread]: Wrote artifact WritableManifest to /app/target/manifest.json
+[0m14:27:06.565161 [debug] [MainThread]: Wrote artifact SemanticManifest to /app/target/semantic_manifest.json
+[0m14:27:06.577847 [debug] [MainThread]: Wrote artifact RunExecutionResult to /app/target/run_results.json
+[0m14:27:06.578733 [info ] [MainThread]: Previewing node 'stg_raw':
+| key      | Pos | Pos+ | artist_and_title     | Days | Peak | ... |
+| -------- | --- | ---- | -------------------- | ---- | ---- | --- |
+| 20110312 |     | =    | Lady GaGa - Born ... |      |      | ... |
+| 20110312 |     | =    | Jennifer Lopez - ... |      |      | ... |
+| 20110312 |     | =    | Adele - Rolling I... |      |      | ... |
+| 20110312 |     | =    | Bruno Mars - Grenade |      |      | ... |
+| 20110312 |     | =    | Rihanna - S&M        |      |      | ... |
+
+[0m14:27:06.580406 [debug] [MainThread]: Resource report: {"command_name": "show", "command_success": true, "command_wall_clock_time": 2.974023, "process_in_blocks": "0", "process_kernel_time": 0.302482, "process_mem_max_rss": "102936", "process_out_blocks": "1896", "process_user_time": 1.790698}
+[0m14:27:06.581078 [debug] [MainThread]: Command `dbt show` succeeded at 14:27:06.580923 after 2.97 seconds
+[0m14:27:06.581667 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f415c159d00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f415acf1190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f415ada2e50>]}
+[0m14:27:06.582299 [debug] [MainThread]: Flushing usage events
+[0m14:27:07.850132 [debug] [MainThread]: An error was encountered while trying to flush usage events
