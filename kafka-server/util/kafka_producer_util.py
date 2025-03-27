@@ -30,7 +30,7 @@ class KafkaProducer:
         try:
             self.producer = KafkaProducer(
                     bootstrap_servers=bootstrap_servers,
-                    value_serializer=self._serialize_message
+                    value_serializer=self._serialize_message,
                     retries=3,
                     acks='all',
                     compression_type='gzip'
