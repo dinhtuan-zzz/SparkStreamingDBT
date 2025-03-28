@@ -79,6 +79,7 @@ services:
     ports:
       - "9092:9092"
       - "9093:9093"
+      - "9094:9094"
     env_file:
       - ./kafka-server/kafka.env
     networks:
@@ -86,6 +87,20 @@ services:
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
       - ./kafka-server/kafka_log_data:/var/lib/kafka/data  # Store Kafka logs on your local machine.
+ 
+  kafka-ui:
+    container_name: kafka-ui
+    image: provectuslabs/kafka-ui:latest
+    ports:
+      - 8800:8080
+    depends_on:
+      - kafka
+    environment:
+      KAFKA_CLUSTERS_0_NAME: local
+      KAFKA_CLUSTERS_0_BOOTSTRAPSERVERS: PLAINTEXT://kafka-server:9092
+      DYNAMIC_CONFIG_ENABLED: 'true'
+    networks:
+      - pipenetwork
 
 volumes:
   pipedata:
