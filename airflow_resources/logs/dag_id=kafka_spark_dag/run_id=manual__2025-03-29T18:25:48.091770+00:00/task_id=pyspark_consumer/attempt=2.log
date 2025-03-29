@@ -1,0 +1,55 @@
+[2025-03-29T18:26:00.196+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: kafka_spark_dag.pyspark_consumer manual__2025-03-29T18:25:48.091770+00:00 [queued]>
+[2025-03-29T18:26:00.205+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: kafka_spark_dag.pyspark_consumer manual__2025-03-29T18:25:48.091770+00:00 [queued]>
+[2025-03-29T18:26:00.205+0000] {taskinstance.py:1361} INFO - Starting attempt 2 of 2
+[2025-03-29T18:26:00.219+0000] {taskinstance.py:1382} INFO - Executing <Task(DockerOperator): pyspark_consumer> on 2025-03-29 18:25:48.091770+00:00
+[2025-03-29T18:26:00.226+0000] {standard_task_runner.py:57} INFO - Started process 11539 to run task
+[2025-03-29T18:26:00.229+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'kafka_spark_dag', 'pyspark_consumer', 'manual__2025-03-29T18:25:48.091770+00:00', '--job-id', '77', '--raw', '--subdir', 'DAGS_FOLDER/dag_kafka_spark.py', '--cfg-path', '/tmp/tmp77lnmzjj']
+[2025-03-29T18:26:00.232+0000] {standard_task_runner.py:85} INFO - Job 77: Subtask pyspark_consumer
+[2025-03-29T18:26:00.290+0000] {task_command.py:416} INFO - Running <TaskInstance: kafka_spark_dag.pyspark_consumer manual__2025-03-29T18:25:48.091770+00:00 [running]> on host a6934a850e84
+[2025-03-29T18:26:00.390+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='kafka_spark_dag' AIRFLOW_CTX_TASK_ID='pyspark_consumer' AIRFLOW_CTX_EXECUTION_DATE='2025-03-29T18:25:48.091770+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-03-29T18:25:48.091770+00:00'
+[2025-03-29T18:26:00.415+0000] {docker.py:343} INFO - Starting docker container from image spotifystream-spark_worker
+[2025-03-29T18:26:00.419+0000] {docker.py:351} WARNING - Using remote engine or docker-in-docker and mounting temporary volume from host is not supported. Falling back to `mount_tmp_dir=False` mode. You can set `mount_tmp_dir` parameter to False to disable mounting and remove the warning
+[2025-03-29T18:26:03.103+0000] {docker.py:413} INFO - python3: can't open file '/ToDelta.py': [Errno 2] No such file or directory
+[2025-03-29T18:26:03.122+0000] {docker.py:413} INFO - 25/03/29 18:26:03 INFO ShutdownHookManager: Shutdown hook called
+[2025-03-29T18:26:03.127+0000] {docker.py:413} INFO - 25/03/29 18:26:03 INFO ShutdownHookManager: Deleting directory /tmp/spark-33c90afe-1c62-4f10-b085-8be147ce2d23
+[2025-03-29T18:26:03.346+0000] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/docker/api/client.py", line 268, in _raise_for_status
+    response.raise_for_status()
+  File "/home/airflow/.local/lib/python3.8/site-packages/requests/models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: http://docker-proxy:2375/v1.48/containers/create
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/docker/operators/docker.py", line 348, in _run_image
+    return self._run_image_with_mounts([*self.mounts, tmp_mount], add_tmp_variable=True)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/docker/operators/docker.py", line 375, in _run_image_with_mounts
+    self.container = self.cli.create_container(
+  File "/home/airflow/.local/lib/python3.8/site-packages/docker/api/container.py", line 431, in create_container
+    return self.create_container_from_config(config, name, platform)
+  File "/home/airflow/.local/lib/python3.8/site-packages/docker/api/container.py", line 448, in create_container_from_config
+    return self._result(res, True)
+  File "/home/airflow/.local/lib/python3.8/site-packages/docker/api/client.py", line 274, in _result
+    self._raise_for_status(response)
+  File "/home/airflow/.local/lib/python3.8/site-packages/docker/api/client.py", line 270, in _raise_for_status
+    raise create_api_error_from_http_exception(e) from e
+  File "/home/airflow/.local/lib/python3.8/site-packages/docker/errors.py", line 39, in create_api_error_from_http_exception
+    raise cls(e, response=response, explanation=explanation) from e
+docker.errors.APIError: 400 Client Error for http://docker-proxy:2375/v1.48/containers/create: Bad Request ("invalid mount config for type "bind": bind source path does not exist: /tmp/airflowtmpk7vwflza")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/docker/operators/docker.py", line 486, in execute
+    return self._run_image()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/docker/operators/docker.py", line 357, in _run_image
+    return self._run_image_with_mounts(self.mounts, add_tmp_variable=False)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/docker/operators/docker.py", line 421, in _run_image_with_mounts
+    raise DockerContainerFailedException(f"Docker container failed: {result!r}", logs=log_lines)
+airflow.providers.docker.exceptions.DockerContainerFailedException: Docker container failed: {'StatusCode': 2}
+[2025-03-29T18:26:03.351+0000] {taskinstance.py:1400} INFO - Marking task as FAILED. dag_id=kafka_spark_dag, task_id=pyspark_consumer, execution_date=20250329T182548, start_date=20250329T182600, end_date=20250329T182603
+[2025-03-29T18:26:03.363+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 77 for task pyspark_consumer (Docker container failed: {'StatusCode': 2}; 11539)
+[2025-03-29T18:26:03.378+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2025-03-29T18:26:03.398+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

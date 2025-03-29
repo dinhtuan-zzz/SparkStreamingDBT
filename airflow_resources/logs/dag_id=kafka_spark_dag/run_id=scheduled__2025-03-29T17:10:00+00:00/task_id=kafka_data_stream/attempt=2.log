@@ -1,0 +1,28 @@
+[2025-03-29T17:20:09.078+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: kafka_spark_dag.kafka_data_stream scheduled__2025-03-29T17:10:00+00:00 [queued]>
+[2025-03-29T17:20:09.090+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: kafka_spark_dag.kafka_data_stream scheduled__2025-03-29T17:10:00+00:00 [queued]>
+[2025-03-29T17:20:09.090+0000] {taskinstance.py:1361} INFO - Starting attempt 2 of 2
+[2025-03-29T17:20:09.105+0000] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): kafka_data_stream> on 2025-03-29 17:10:00+00:00
+[2025-03-29T17:20:09.111+0000] {standard_task_runner.py:57} INFO - Started process 7745 to run task
+[2025-03-29T17:20:09.115+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'kafka_spark_dag', 'kafka_data_stream', 'scheduled__2025-03-29T17:10:00+00:00', '--job-id', '30', '--raw', '--subdir', 'DAGS_FOLDER/dag_kafka_spark.py', '--cfg-path', '/tmp/tmpd5_doald']
+[2025-03-29T17:20:09.119+0000] {standard_task_runner.py:85} INFO - Job 30: Subtask kafka_data_stream
+[2025-03-29T17:20:09.176+0000] {task_command.py:416} INFO - Running <TaskInstance: kafka_spark_dag.kafka_data_stream scheduled__2025-03-29T17:10:00+00:00 [running]> on host dde87091e389
+[2025-03-29T17:20:09.271+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='kafka_spark_dag' AIRFLOW_CTX_TASK_ID='kafka_data_stream' AIRFLOW_CTX_EXECUTION_DATE='2025-03-29T17:10:00+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-03-29T17:10:00+00:00'
+[2025-03-29T17:20:09.273+0000] {kafka_producer_util.py:29} INFO - Attempting to use KafkaProducer class: <class 'src.kafka_producer_util.KafkaProducer'>
+[2025-03-29T17:20:09.273+0000] {kafka_producer_util.py:30} INFO - Imported from module: src.kafka_producer_util
+[2025-03-29T17:20:09.273+0000] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 192, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 209, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/src/api_data_collector.py", line 75, in stream
+    kafka_publisher = create_kafka_producer('development')
+  File "/opt/airflow/dags/src/kafka_producer_util.py", line 138, in create_kafka_producer
+    return KafkaProducer(**config)
+  File "/opt/airflow/dags/src/kafka_producer_util.py", line 33, in __init__
+    self.logger.info(f"Top-level kafka module path: {kafka.__file__}")
+NameError: name 'kafka' is not defined
+[2025-03-29T17:20:09.284+0000] {taskinstance.py:1400} INFO - Marking task as FAILED. dag_id=kafka_spark_dag, task_id=kafka_data_stream, execution_date=20250329T171000, start_date=20250329T172009, end_date=20250329T172009
+[2025-03-29T17:20:09.296+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 30 for task kafka_data_stream (name 'kafka' is not defined; 7745)
+[2025-03-29T17:20:09.331+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2025-03-29T17:20:09.360+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

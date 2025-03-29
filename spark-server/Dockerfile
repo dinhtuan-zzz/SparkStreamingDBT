@@ -31,8 +31,8 @@ RUN curl -fL --retry 3 --retry-delay 5 \
     https://repo.maven.apache.org/maven2/io/delta/delta-storage/${DELTA_VERSION}/delta-storage-${DELTA_VERSION}.jar
 
 # Configure Spark
-COPY entrypoint_master.sh entrypoint_worker.sh /
-RUN chmod +x /entrypoint_master.sh /entrypoint_worker.sh
+COPY entrypoint_master.sh entrypoint_worker.sh ../src/kafkaToDelta.py /
+RUN chmod +x /entrypoint_master.sh /entrypoint_worker.sh /kafkaToDelta.py
 
 ENV SPARK_HOME=/spark
 ENV PATH=$PATH:$SPARK_HOME/bin

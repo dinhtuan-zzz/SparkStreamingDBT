@@ -3,7 +3,7 @@ version: '3.8'
 networks:
   pipenetwork:
     driver: bridge
-
+    name: pipenetwork
 services:
 
   spark:
@@ -102,6 +102,15 @@ services:
     networks:
       - pipenetwork
 
+  docker-proxy:
+    image: alpine/socat
+    command: "TCP4-LISTEN:2375,fork,reuseaddr UNIX-CONNECT:/var/run/docker.sock"
+    ports:
+      - "2376:2375"
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+    networks:
+      - pipenetwork
 volumes:
   pipedata:
     driver: local
