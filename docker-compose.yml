@@ -5,6 +5,16 @@ networks:
     driver: bridge
     name: pipenetwork
 services:
+  datagenerator:
+    build: ./dataGenerator
+    container_name: datagenerator
+    hostname: api-generator
+    volumes:
+      - ./dataGenerator:/app
+    networks:
+      - pipenetwork
+    ports:
+      - "8008:8000"
 
   spark:
     build: ./spark-server

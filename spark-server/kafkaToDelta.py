@@ -34,7 +34,7 @@ topic_name = "dev_api_data"
 checkpoint_path = "/delta/checkpoints/daily_stream"
 
 
-def create_inital_dataframe(spark_session):
+def create_inital_dataframe(spark):
     """
     Reads the streaming data and creates the initial dataframe accordingly.
     """
@@ -66,7 +66,7 @@ def create_final_dataframe(df):
 
     # Định nghĩa schema cho dữ liệu JSON trong cột json_value
     json_value_schema = StructType([
-        StructField(field_name, data_type, True) for field_name, data_type in df.dtypes()
+        StructField(field_name, data_type, True) for field_name, data_type in df.dtypes
     ])
 
     df = df.selectExpr("CAST(value AS STRING) as json_value")
@@ -91,11 +91,11 @@ def start_streaming(parsed_df, spark):
 def write_to_delta():
     spark = create_spark_session()
     df = create_inital_dataframe(spark)
-    df_final = crate_final_dataframe(df)
-    start-streaming(df_final, spark=spark)
+    df_final = create_final_dataframe(df)
+    start_streaming(df_final, spark=spark)
 
 
-if __name__="__main__":
+if __name__=="__main__":
     write_to_delta()
 
 
