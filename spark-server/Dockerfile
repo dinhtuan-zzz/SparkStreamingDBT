@@ -11,7 +11,16 @@ RUN apt-get update && apt-get install -y \
     procps \
     curl \
     netcat \
+    pip \
     && rm -rf /var/lib/apt/lists/*
+
+RUN pip install --upgrade pip wheel && \
+    pip install \
+    pyspark==3.3.2 \
+    dbt-spark[PyHive] \
+    delta-spark==2.2.0 \
+    pandas==1.5.3
+
 
 # Download and install Spark
 RUN wget -q https://archive.apache.org/dist/spark/spark-${SPARK_VERSION}/spark-${SPARK_VERSION}-bin-hadoop3.tgz \
@@ -31,7 +40,7 @@ RUN curl -fL --retry 3 --retry-delay 5 \
     https://repo.maven.apache.org/maven2/io/delta/delta-storage/${DELTA_VERSION}/delta-storage-${DELTA_VERSION}.jar
 
 # Configure Spark
-COPY entrypoint_master.sh entrypoint_worker.sh ../src/kafkaToDelta.py /
+COPY entrypoint_master.sh entrypoint_worker.sh kafkaToDelta.py /
 RUN chmod +x /entrypoint_master.sh /entrypoint_worker.sh /kafkaToDelta.py
 
 ENV SPARK_HOME=/spark

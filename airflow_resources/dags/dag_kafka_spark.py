@@ -2,13 +2,16 @@ from datetime import timedelta
 from airflow import DAG
 from airflow.operators.python import PythonOperator
 from airflow.providers.docker.operators.docker import DockerOperator
+from airflow.operators.bash import BashOperator
 from datetime import datetime
 
 from src.api_data_collector import stream
 
 
 start_date = datetime.today() - timedelta(days=1)
-
+TARGET_CONTAINER_NAME = "spark-server"
+SPARK_COMMAND = "./spark/bin/spark-submit ./kafkaToDelta.py"
+DOCKER_HOST_URL = "tcp://docker-proxy:2375"
 
 default_args = {
     "owner": "airflow",
@@ -30,18 +33,16 @@ with DAG(
         python_callable=stream,
         dag=dag,
     )
-
-    spark_stream_task = DockerOperator(
+    
+    spark_stream_task = BashOperator(
         task_id="pyspark_consumer",
-        image="spotifystream-spark_worker",
-        api_version="auto",
-        auto_remove=True,
-        command="./spark/bin/spark-submit ../kafkaToDelta.py",
-        docker_url='tcp://docker-proxy:2375',
-        environment={'SPARK_LOCAL_HOSTNAME': 'localhost'},
-        network_mode="pipenetwork",
+        bash_command=f"docker exec {TARGET_CONTAINER_NAME} {SPARK_COMMAND}",
+        env={
+            'DOCKER_HOST':DOCKER_HOST_URL
+        },
+        append_env=True,
         dag=dag,
-    )
+    ) 
 
 
     kafka_stream_task >> spark_stream_task

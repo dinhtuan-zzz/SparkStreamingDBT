@@ -76,7 +76,7 @@ def stream():
 
     try:
         collector = APIDataCollector(
-                api_url='http://127.0.0.1:8000/v2/random-data-list',
+                api_url='http://api-generator:8000/v2/random-data-list',
             publisher=kafka_publisher
         )
 

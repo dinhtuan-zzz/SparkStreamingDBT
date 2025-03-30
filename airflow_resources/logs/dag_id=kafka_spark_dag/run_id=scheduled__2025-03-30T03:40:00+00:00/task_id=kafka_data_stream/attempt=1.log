@@ -1,0 +1,41 @@
+[2025-03-30T13:32:24.491+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: kafka_spark_dag.kafka_data_stream scheduled__2025-03-30T03:40:00+00:00 [queued]>
+[2025-03-30T13:32:24.502+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: kafka_spark_dag.kafka_data_stream scheduled__2025-03-30T03:40:00+00:00 [queued]>
+[2025-03-30T13:32:24.502+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 2
+[2025-03-30T13:32:24.517+0000] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): kafka_data_stream> on 2025-03-30 03:40:00+00:00
+[2025-03-30T13:32:24.552+0000] {standard_task_runner.py:57} INFO - Started process 273 to run task
+[2025-03-30T13:32:24.572+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'kafka_spark_dag', 'kafka_data_stream', 'scheduled__2025-03-30T03:40:00+00:00', '--job-id', '124', '--raw', '--subdir', 'DAGS_FOLDER/dag_kafka_spark.py', '--cfg-path', '/tmp/tmpuoxy4f2p']
+[2025-03-30T13:32:24.588+0000] {standard_task_runner.py:85} INFO - Job 124: Subtask kafka_data_stream
+[2025-03-30T13:32:24.704+0000] {task_command.py:416} INFO - Running <TaskInstance: kafka_spark_dag.kafka_data_stream scheduled__2025-03-30T03:40:00+00:00 [running]> on host a6934a850e84
+[2025-03-30T13:32:24.905+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='kafka_spark_dag' AIRFLOW_CTX_TASK_ID='kafka_data_stream' AIRFLOW_CTX_EXECUTION_DATE='2025-03-30T03:40:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-03-30T03:40:00+00:00'
+[2025-03-30T13:32:24.907+0000] {kafka_producer_util.py:30} INFO - Attempting to use KafkaProducer class: <class 'kafka.producer.kafka.KafkaProducer'>
+[2025-03-30T13:32:24.907+0000] {kafka_producer_util.py:31} INFO - Imported from module: kafka.producer.kafka
+[2025-03-30T13:32:24.907+0000] {kafka_producer_util.py:34} INFO - Top-level kafka module path: /home/***/.local/lib/python3.8/site-packages/kafka/__init__.py
+[2025-03-30T13:32:24.926+0000] {conn.py:1527} WARNING - DNS lookup failed for kafka-server:9092, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+[2025-03-30T13:32:24.926+0000] {conn.py:315} ERROR - DNS lookup failed for kafka-server:9092 (0)
+[2025-03-30T13:32:24.927+0000] {conn.py:1205} INFO - Probing node bootstrap-0 broker version
+[2025-03-30T13:32:24.940+0000] {conn.py:1527} WARNING - DNS lookup failed for kafka-server:9092, exception was [Errno -3] Temporary failure in name resolution. Is your advertised.listeners (called advertised.host.name before Kafka 9) correct and resolvable?
+[2025-03-30T13:32:24.940+0000] {conn.py:315} ERROR - DNS lookup failed for kafka-server:9092 (0)
+[2025-03-30T13:32:24.940+0000] {kafka_producer_util.py:53} ERROR - Kafka Producer initialization failed: NoBrokersAvailable
+[2025-03-30T13:32:24.941+0000] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 192, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 209, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/src/api_data_collector.py", line 75, in stream
+    kafka_publisher = create_kafka_publisher('development')
+  File "/opt/airflow/dags/src/kafka_producer_util.py", line 139, in create_kafka_publisher
+    return KafkaPublisher(**config)
+  File "/opt/airflow/dags/src/kafka_producer_util.py", line 39, in __init__
+    self.producer = KafkaProducer(
+  File "/home/airflow/.local/lib/python3.8/site-packages/kafka/producer/kafka.py", line 381, in __init__
+    client = KafkaClient(metrics=self._metrics, metric_group_prefix='producer',
+  File "/home/airflow/.local/lib/python3.8/site-packages/kafka/client_async.py", line 244, in __init__
+    self.config['api_version'] = self.check_version(timeout=check_timeout)
+  File "/home/airflow/.local/lib/python3.8/site-packages/kafka/client_async.py", line 900, in check_version
+    raise Errors.NoBrokersAvailable()
+kafka.errors.NoBrokersAvailable: NoBrokersAvailable
+[2025-03-30T13:32:24.950+0000] {taskinstance.py:1400} INFO - Marking task as UP_FOR_RETRY. dag_id=kafka_spark_dag, task_id=kafka_data_stream, execution_date=20250330T034000, start_date=20250330T133224, end_date=20250330T133224
+[2025-03-30T13:32:24.960+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 124 for task kafka_data_stream (NoBrokersAvailable; 273)
+[2025-03-30T13:32:25.005+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2025-03-30T13:32:25.043+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check
