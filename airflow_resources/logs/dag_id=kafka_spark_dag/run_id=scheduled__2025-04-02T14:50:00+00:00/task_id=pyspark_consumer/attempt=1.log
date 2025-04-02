@@ -1,0 +1,16 @@
+[2025-04-02T15:00:05.429+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: kafka_spark_dag.pyspark_consumer scheduled__2025-04-02T14:50:00+00:00 [queued]>
+[2025-04-02T15:00:05.436+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: kafka_spark_dag.pyspark_consumer scheduled__2025-04-02T14:50:00+00:00 [queued]>
+[2025-04-02T15:00:05.436+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 2
+[2025-04-02T15:00:05.447+0000] {taskinstance.py:1382} INFO - Executing <Task(BashOperator): pyspark_consumer> on 2025-04-02 14:50:00+00:00
+[2025-04-02T15:00:05.454+0000] {standard_task_runner.py:57} INFO - Started process 33162 to run task
+[2025-04-02T15:00:05.457+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'kafka_spark_dag', 'pyspark_consumer', 'scheduled__2025-04-02T14:50:00+00:00', '--job-id', '203', '--raw', '--subdir', 'DAGS_FOLDER/dag_kafka_spark.py', '--cfg-path', '/tmp/tmp139ugi8y']
+[2025-04-02T15:00:05.460+0000] {standard_task_runner.py:85} INFO - Job 203: Subtask pyspark_consumer
+[2025-04-02T15:00:05.504+0000] {task_command.py:416} INFO - Running <TaskInstance: kafka_spark_dag.pyspark_consumer scheduled__2025-04-02T14:50:00+00:00 [running]> on host a6934a850e84
+[2025-04-02T15:00:05.582+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='kafka_spark_dag' AIRFLOW_CTX_TASK_ID='pyspark_consumer' AIRFLOW_CTX_EXECUTION_DATE='2025-04-02T14:50:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-04-02T14:50:00+00:00'
+[2025-04-02T15:00:05.584+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2025-04-02T15:00:05.584+0000] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', 'docker exec spark-server ./spark/bin/spark-submit ./kafkaToDelta.py']
+[2025-04-02T15:00:05.601+0000] {subprocess.py:86} INFO - Output:
+[2025-04-02T15:00:06.126+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2025-04-02T15:00:06.157+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=kafka_spark_dag, task_id=pyspark_consumer, execution_date=20250402T145000, start_date=20250402T150005, end_date=20250402T150006
+[2025-04-02T15:00:06.198+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2025-04-02T15:00:06.217+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check
