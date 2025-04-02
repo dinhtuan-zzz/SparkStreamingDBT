@@ -10,7 +10,7 @@ from src.api_data_collector import stream
 
 start_date = datetime.today() - timedelta(days=1)
 TARGET_CONTAINER_NAME = "spark-server"
-SPARK_COMMAND = "./spark/bin/spark-submit ./kafkaToDelta.py"
+SPARK_COMMAND = "./spark/bin/spark-submit --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.3.2 ./kafkaToDelta.py"
 DOCKER_HOST_URL = "tcp://docker-proxy:2375"
 
 default_args = {

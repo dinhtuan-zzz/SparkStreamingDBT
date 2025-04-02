@@ -1,6 +1,6 @@
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import col, from_json
-from pyspark.sql.types import StructType, StructField, IntegerType, LongType, StringType
+from pyspark.sql.types import StructType, StructField, IntegerType, DoubleType, StringType, DateType
 from delta import configure_spark_with_delta_pip
 import logging
 
@@ -20,7 +20,7 @@ def create_spark_session() -> SparkSession:
             .config("hive.metastore.uris", "thrift://metastore-db:9083")
             .config("spark.sql.extensions", "io.delta.sql.DeltaSparkSessionExtension")
             .config("spark.sql.catalog.spark_catalog", "org.apache.spark.sql.delta.catalog.DeltaCatalog")
-            .config("spark.jars.packages", "org.apache.spark:spark-sql-kafka-0-10_2.12:3.3.2,org.apache.spark:spark-streaming-kafka-0-10-assembly_2.12-3.3.2,org.apache.spark:kafka-clients-3.4.0,org.apache.spark:commons-pool2-2.11.1,io.delta:delta-spark_2.12:3.1.0")
+            .config("spark.jars.packages", "org.apache.spark:spark-sql-kafka-0-10_2.12:3.3.2")
             .enableHiveSupport()
         )
 
@@ -31,8 +31,8 @@ def create_spark_session() -> SparkSession:
 # Spark expects schemas to be present before writing to it
 schema_name = "raw"
 topic_name = "dev_api_data"
-checkpoint_path = "/delta/checkpoints/daily_stream"
-
+delta_checkpoint_path = "/delta/checkpoints/kafka_offset"
+schema_tracking_path = "/delta/checkpoints/kafka_schema"
 
 def create_inital_dataframe(spark):
     """
@@ -47,7 +47,7 @@ def create_inital_dataframe(spark):
         kafka_df = spark.readStream \
             .format("kafka") \
             .option("kafka.bootstrap.servers", "kafka-server:9092") \
-            .option("schemaTrackingLocation", checkpoint_path) \
+            .option("schemaTrackingLocation", schema_tracking_path) \
             .option("subscribe", f"{topic_name}") \
             .option("startingOffsets", "earliest") \
             .load()
@@ -64,12 +64,41 @@ def create_final_dataframe(df):
     Modifies the initial dataframe, and creates the final dataframe.
     """
 
-    # Định nghĩa schema cho dữ liệu JSON trong cột json_value
-    json_value_schema = StructType([
-        StructField(field_name, data_type, True) for field_name, data_type in df.dtypes
-    ])
-
+    # Định nghĩa schema cho dữ liệu JSON trong cột json_valu
     df = df.selectExpr("CAST(value AS STRING) as json_value")
+
+    json_value_schema = StructType([
+        StructField("id", IntegerType(), False),
+        StructField("uid", StringType(), False),
+        StructField("password", StringType(), True),
+        StructField("first_name", StringType(), True),
+        StructField("last_name", StringType(), True),
+        StructField("username", StringType(), True),
+        StructField("email", StringType(), True),
+        StructField("avatar", StringType(), True),
+        StructField("gender", StringType(), True),
+        StructField("phone_number", StringType(), True),
+        StructField("social_insurance_number", StringType(), True),
+        StructField("date_of_birth", DateType(), True),
+        StructField("employment", StructType([
+            StructField("title", StringType(), True)
+        ]), True),
+        StructField("address", StructType([
+            StructField("city", StringType(), True),
+            StructField("street_name", StringType(), True),
+            StructField("street_address", StringType(), True),
+            StructField("zip_code", StringType(), True),
+            StructField("state", StringType(), True),
+            StructField("country", StringType(), True),
+            StructField("coordinate", StructType([
+                StructField("lat", DoubleType(), True),
+                StructField("lng", DoubleType(), True)
+            ]), True),
+        ]), True),
+        StructField("credit_card", StructType([
+            StructField("cc_number", StringType(), True)
+        ]), True)
+    ])
 
     parsed_df = df.withColumn("data", from_json(col("json_value"), json_value_schema)).select("data.*")
     
@@ -83,7 +112,7 @@ def start_streaming(parsed_df, spark):
 
     query = parsed_df.writeStream \
             .format("delta") \
-            .option("checkpointLocation", checkpoint_path) \
+            .option("checkpointLocation", delta_checkpoint_path) \
             .outputMode("append") \
             .toTable(table_name)
     return query.awaitTermination()
