@@ -5504,3 +5504,52 @@ NameError: name 'timedelta' is not defined
 [2025-04-07T07:49:10.956+0000] {logging_mixin.py:154} INFO - [2025-04-07T07:49:10.956+0000] {dag.py:2941} INFO - Sync 1 DAGs
 [2025-04-07T07:49:10.977+0000] {logging_mixin.py:154} INFO - [2025-04-07T07:49:10.977+0000] {dag.py:3722} INFO - Setting next_dagrun for sparkStreaming_dag to None, run_after=None
 [2025-04-07T07:49:10.994+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_sparkStreamJob.py took 0.071 seconds
+[2025-04-07T07:49:41.086+0000] {processor.py:157} INFO - Started process (PID=165642) to work on /opt/airflow/dags/dag_sparkStreamJob.py
+[2025-04-07T07:49:41.087+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dag_sparkStreamJob.py for tasks to queue
+[2025-04-07T07:49:41.088+0000] {logging_mixin.py:154} INFO - [2025-04-07T07:49:41.088+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sparkStreamJob.py
+[2025-04-07T07:49:41.097+0000] {processor.py:839} INFO - DAG(s) dict_keys(['sparkStreaming_dag']) retrieved from /opt/airflow/dags/dag_sparkStreamJob.py
+[2025-04-07T07:49:41.131+0000] {logging_mixin.py:154} INFO - [2025-04-07T07:49:41.131+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-07T07:49:41.163+0000] {logging_mixin.py:154} INFO - [2025-04-07T07:49:41.162+0000] {dag.py:3722} INFO - Setting next_dagrun for sparkStreaming_dag to None, run_after=None
+[2025-04-07T07:49:41.197+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_sparkStreamJob.py took 0.115 seconds
+[2025-04-07T07:50:11.498+0000] {processor.py:157} INFO - Started process (PID=165890) to work on /opt/airflow/dags/dag_sparkStreamJob.py
+[2025-04-07T07:50:11.499+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dag_sparkStreamJob.py for tasks to queue
+[2025-04-07T07:50:11.500+0000] {logging_mixin.py:154} INFO - [2025-04-07T07:50:11.499+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sparkStreamJob.py
+[2025-04-07T07:50:11.506+0000] {processor.py:839} INFO - DAG(s) dict_keys(['sparkStreaming_dag']) retrieved from /opt/airflow/dags/dag_sparkStreamJob.py
+[2025-04-07T07:50:11.530+0000] {logging_mixin.py:154} INFO - [2025-04-07T07:50:11.530+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-07T07:50:11.552+0000] {logging_mixin.py:154} INFO - [2025-04-07T07:50:11.552+0000] {dag.py:3722} INFO - Setting next_dagrun for sparkStreaming_dag to None, run_after=None
+[2025-04-07T07:50:11.571+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_sparkStreamJob.py took 0.076 seconds
+[2025-04-07T07:50:41.860+0000] {processor.py:157} INFO - Started process (PID=166139) to work on /opt/airflow/dags/dag_sparkStreamJob.py
+[2025-04-07T07:50:41.862+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dag_sparkStreamJob.py for tasks to queue
+[2025-04-07T07:50:41.862+0000] {logging_mixin.py:154} INFO - [2025-04-07T07:50:41.862+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sparkStreamJob.py
+[2025-04-07T07:50:41.869+0000] {processor.py:839} INFO - DAG(s) dict_keys(['sparkStreaming_dag']) retrieved from /opt/airflow/dags/dag_sparkStreamJob.py
+[2025-04-07T07:50:41.893+0000] {logging_mixin.py:154} INFO - [2025-04-07T07:50:41.892+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-07T07:50:41.915+0000] {logging_mixin.py:154} INFO - [2025-04-07T07:50:41.915+0000] {dag.py:3722} INFO - Setting next_dagrun for sparkStreaming_dag to None, run_after=None
+[2025-04-07T07:50:41.933+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_sparkStreamJob.py took 0.076 seconds
+[2025-04-07T07:51:12.166+0000] {processor.py:157} INFO - Started process (PID=166387) to work on /opt/airflow/dags/dag_sparkStreamJob.py
+[2025-04-07T07:51:12.167+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dag_sparkStreamJob.py for tasks to queue
+[2025-04-07T07:51:12.167+0000] {logging_mixin.py:154} INFO - [2025-04-07T07:51:12.167+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sparkStreamJob.py
+[2025-04-07T07:51:12.173+0000] {processor.py:839} INFO - DAG(s) dict_keys(['sparkStreaming_dag']) retrieved from /opt/airflow/dags/dag_sparkStreamJob.py
+[2025-04-07T07:51:12.197+0000] {logging_mixin.py:154} INFO - [2025-04-07T07:51:12.197+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-07T07:51:12.221+0000] {logging_mixin.py:154} INFO - [2025-04-07T07:51:12.221+0000] {dag.py:3722} INFO - Setting next_dagrun for sparkStreaming_dag to None, run_after=None
+[2025-04-07T07:51:12.239+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_sparkStreamJob.py took 0.077 seconds
+[2025-04-07T07:51:42.382+0000] {processor.py:157} INFO - Started process (PID=166635) to work on /opt/airflow/dags/dag_sparkStreamJob.py
+[2025-04-07T07:51:42.384+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dag_sparkStreamJob.py for tasks to queue
+[2025-04-07T07:51:42.384+0000] {logging_mixin.py:154} INFO - [2025-04-07T07:51:42.384+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sparkStreamJob.py
+[2025-04-07T07:51:42.390+0000] {processor.py:839} INFO - DAG(s) dict_keys(['sparkStreaming_dag']) retrieved from /opt/airflow/dags/dag_sparkStreamJob.py
+[2025-04-07T07:51:42.413+0000] {logging_mixin.py:154} INFO - [2025-04-07T07:51:42.413+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-07T07:51:42.434+0000] {logging_mixin.py:154} INFO - [2025-04-07T07:51:42.434+0000] {dag.py:3722} INFO - Setting next_dagrun for sparkStreaming_dag to None, run_after=None
+[2025-04-07T07:51:42.455+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_sparkStreamJob.py took 0.076 seconds
+[2025-04-07T07:52:12.593+0000] {processor.py:157} INFO - Started process (PID=166883) to work on /opt/airflow/dags/dag_sparkStreamJob.py
+[2025-04-07T07:52:12.594+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dag_sparkStreamJob.py for tasks to queue
+[2025-04-07T07:52:12.595+0000] {logging_mixin.py:154} INFO - [2025-04-07T07:52:12.595+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sparkStreamJob.py
+[2025-04-07T07:52:12.601+0000] {processor.py:839} INFO - DAG(s) dict_keys(['sparkStreaming_dag']) retrieved from /opt/airflow/dags/dag_sparkStreamJob.py
+[2025-04-07T07:52:12.625+0000] {logging_mixin.py:154} INFO - [2025-04-07T07:52:12.624+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-07T07:52:12.648+0000] {logging_mixin.py:154} INFO - [2025-04-07T07:52:12.648+0000] {dag.py:3722} INFO - Setting next_dagrun for sparkStreaming_dag to None, run_after=None
+[2025-04-07T07:52:12.666+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_sparkStreamJob.py took 0.077 seconds
+[2025-04-07T07:52:42.823+0000] {processor.py:157} INFO - Started process (PID=167131) to work on /opt/airflow/dags/dag_sparkStreamJob.py
+[2025-04-07T07:52:42.824+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dag_sparkStreamJob.py for tasks to queue
+[2025-04-07T07:52:42.825+0000] {logging_mixin.py:154} INFO - [2025-04-07T07:52:42.824+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/dag_sparkStreamJob.py
+[2025-04-07T07:52:42.832+0000] {processor.py:839} INFO - DAG(s) dict_keys(['sparkStreaming_dag']) retrieved from /opt/airflow/dags/dag_sparkStreamJob.py
+[2025-04-07T07:52:42.866+0000] {logging_mixin.py:154} INFO - [2025-04-07T07:52:42.866+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-07T07:52:42.890+0000] {logging_mixin.py:154} INFO - [2025-04-07T07:52:42.889+0000] {dag.py:3722} INFO - Setting next_dagrun for sparkStreaming_dag to None, run_after=None
+[2025-04-07T07:52:42.907+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_sparkStreamJob.py took 0.088 seconds

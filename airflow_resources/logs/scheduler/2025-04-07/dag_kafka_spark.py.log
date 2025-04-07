@@ -4681,3 +4681,52 @@
 [2025-04-07T07:49:11.199+0000] {logging_mixin.py:154} INFO - [2025-04-07T07:49:11.199+0000] {dag.py:2941} INFO - Sync 1 DAGs
 [2025-04-07T07:49:11.222+0000] {logging_mixin.py:154} INFO - [2025-04-07T07:49:11.221+0000] {dag.py:3722} INFO - Setting next_dagrun for kafka_spark_dag to 2025-04-07T07:30:00+00:00, run_after=2025-04-07T07:40:00+00:00
 [2025-04-07T07:49:11.247+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_kafka_spark.py took 0.221 seconds
+[2025-04-07T07:49:41.365+0000] {processor.py:157} INFO - Started process (PID=165657) to work on /opt/airflow/dags/dag_kafka_spark.py
+[2025-04-07T07:49:41.366+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dag_kafka_spark.py for tasks to queue
+[2025-04-07T07:49:41.367+0000] {logging_mixin.py:154} INFO - [2025-04-07T07:49:41.366+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/dag_kafka_spark.py
+[2025-04-07T07:49:41.420+0000] {processor.py:839} INFO - DAG(s) dict_keys(['kafka_spark_dag']) retrieved from /opt/airflow/dags/dag_kafka_spark.py
+[2025-04-07T07:49:41.552+0000] {logging_mixin.py:154} INFO - [2025-04-07T07:49:41.551+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-07T07:49:41.580+0000] {logging_mixin.py:154} INFO - [2025-04-07T07:49:41.580+0000] {dag.py:3722} INFO - Setting next_dagrun for kafka_spark_dag to 2025-04-07T07:30:00+00:00, run_after=2025-04-07T07:40:00+00:00
+[2025-04-07T07:49:41.603+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_kafka_spark.py took 0.242 seconds
+[2025-04-07T07:50:11.717+0000] {processor.py:157} INFO - Started process (PID=165909) to work on /opt/airflow/dags/dag_kafka_spark.py
+[2025-04-07T07:50:11.718+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dag_kafka_spark.py for tasks to queue
+[2025-04-07T07:50:11.719+0000] {logging_mixin.py:154} INFO - [2025-04-07T07:50:11.719+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/dag_kafka_spark.py
+[2025-04-07T07:50:11.778+0000] {processor.py:839} INFO - DAG(s) dict_keys(['kafka_spark_dag']) retrieved from /opt/airflow/dags/dag_kafka_spark.py
+[2025-04-07T07:50:11.901+0000] {logging_mixin.py:154} INFO - [2025-04-07T07:50:11.901+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-07T07:50:11.926+0000] {logging_mixin.py:154} INFO - [2025-04-07T07:50:11.926+0000] {dag.py:3722} INFO - Setting next_dagrun for kafka_spark_dag to 2025-04-07T07:40:00+00:00, run_after=2025-04-07T07:50:00+00:00
+[2025-04-07T07:50:11.945+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_kafka_spark.py took 0.231 seconds
+[2025-04-07T07:50:42.075+0000] {processor.py:157} INFO - Started process (PID=166157) to work on /opt/airflow/dags/dag_kafka_spark.py
+[2025-04-07T07:50:42.076+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dag_kafka_spark.py for tasks to queue
+[2025-04-07T07:50:42.077+0000] {logging_mixin.py:154} INFO - [2025-04-07T07:50:42.077+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/dag_kafka_spark.py
+[2025-04-07T07:50:42.142+0000] {processor.py:839} INFO - DAG(s) dict_keys(['kafka_spark_dag']) retrieved from /opt/airflow/dags/dag_kafka_spark.py
+[2025-04-07T07:50:42.256+0000] {logging_mixin.py:154} INFO - [2025-04-07T07:50:42.256+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-07T07:50:42.278+0000] {logging_mixin.py:154} INFO - [2025-04-07T07:50:42.278+0000] {dag.py:3722} INFO - Setting next_dagrun for kafka_spark_dag to 2025-04-07T07:40:00+00:00, run_after=2025-04-07T07:50:00+00:00
+[2025-04-07T07:50:42.296+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_kafka_spark.py took 0.226 seconds
+[2025-04-07T07:51:12.395+0000] {processor.py:157} INFO - Started process (PID=166405) to work on /opt/airflow/dags/dag_kafka_spark.py
+[2025-04-07T07:51:12.396+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dag_kafka_spark.py for tasks to queue
+[2025-04-07T07:51:12.397+0000] {logging_mixin.py:154} INFO - [2025-04-07T07:51:12.396+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/dag_kafka_spark.py
+[2025-04-07T07:51:12.446+0000] {processor.py:839} INFO - DAG(s) dict_keys(['kafka_spark_dag']) retrieved from /opt/airflow/dags/dag_kafka_spark.py
+[2025-04-07T07:51:12.550+0000] {logging_mixin.py:154} INFO - [2025-04-07T07:51:12.549+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-07T07:51:12.573+0000] {logging_mixin.py:154} INFO - [2025-04-07T07:51:12.573+0000] {dag.py:3722} INFO - Setting next_dagrun for kafka_spark_dag to 2025-04-07T07:40:00+00:00, run_after=2025-04-07T07:50:00+00:00
+[2025-04-07T07:51:12.589+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_kafka_spark.py took 0.197 seconds
+[2025-04-07T07:51:42.635+0000] {processor.py:157} INFO - Started process (PID=166658) to work on /opt/airflow/dags/dag_kafka_spark.py
+[2025-04-07T07:51:42.636+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dag_kafka_spark.py for tasks to queue
+[2025-04-07T07:51:42.637+0000] {logging_mixin.py:154} INFO - [2025-04-07T07:51:42.637+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/dag_kafka_spark.py
+[2025-04-07T07:51:42.690+0000] {processor.py:839} INFO - DAG(s) dict_keys(['kafka_spark_dag']) retrieved from /opt/airflow/dags/dag_kafka_spark.py
+[2025-04-07T07:51:42.814+0000] {logging_mixin.py:154} INFO - [2025-04-07T07:51:42.814+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-07T07:51:42.838+0000] {logging_mixin.py:154} INFO - [2025-04-07T07:51:42.838+0000] {dag.py:3722} INFO - Setting next_dagrun for kafka_spark_dag to 2025-04-07T07:40:00+00:00, run_after=2025-04-07T07:50:00+00:00
+[2025-04-07T07:51:42.855+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_kafka_spark.py took 0.223 seconds
+[2025-04-07T07:52:12.948+0000] {processor.py:157} INFO - Started process (PID=166911) to work on /opt/airflow/dags/dag_kafka_spark.py
+[2025-04-07T07:52:12.949+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dag_kafka_spark.py for tasks to queue
+[2025-04-07T07:52:12.950+0000] {logging_mixin.py:154} INFO - [2025-04-07T07:52:12.949+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/dag_kafka_spark.py
+[2025-04-07T07:52:13.004+0000] {processor.py:839} INFO - DAG(s) dict_keys(['kafka_spark_dag']) retrieved from /opt/airflow/dags/dag_kafka_spark.py
+[2025-04-07T07:52:13.124+0000] {logging_mixin.py:154} INFO - [2025-04-07T07:52:13.124+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-07T07:52:13.146+0000] {logging_mixin.py:154} INFO - [2025-04-07T07:52:13.146+0000] {dag.py:3722} INFO - Setting next_dagrun for kafka_spark_dag to 2025-04-07T07:40:00+00:00, run_after=2025-04-07T07:50:00+00:00
+[2025-04-07T07:52:13.169+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_kafka_spark.py took 0.225 seconds
+[2025-04-07T07:52:43.262+0000] {processor.py:157} INFO - Started process (PID=167173) to work on /opt/airflow/dags/dag_kafka_spark.py
+[2025-04-07T07:52:43.263+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dag_kafka_spark.py for tasks to queue
+[2025-04-07T07:52:43.263+0000] {logging_mixin.py:154} INFO - [2025-04-07T07:52:43.263+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/dag_kafka_spark.py
+[2025-04-07T07:52:43.313+0000] {processor.py:839} INFO - DAG(s) dict_keys(['kafka_spark_dag']) retrieved from /opt/airflow/dags/dag_kafka_spark.py
+[2025-04-07T07:52:43.421+0000] {logging_mixin.py:154} INFO - [2025-04-07T07:52:43.421+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-04-07T07:52:43.442+0000] {logging_mixin.py:154} INFO - [2025-04-07T07:52:43.442+0000] {dag.py:3722} INFO - Setting next_dagrun for kafka_spark_dag to 2025-04-07T07:40:00+00:00, run_after=2025-04-07T07:50:00+00:00
+[2025-04-07T07:52:43.468+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_kafka_spark.py took 0.210 seconds
