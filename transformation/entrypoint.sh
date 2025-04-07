@@ -12,13 +12,13 @@ done
 
 
 # Seeding data
-echo "Running Seed"
-dbt seed
+#echo "Running Seed"
+#dbt seed
 
-echo "Data Loaded"
-# dbt run
+#echo "Data Loaded"
+dbt run
 
-# echo "Transformation Done!"
+echo "Transformation Done!"
 
 # Keep the container hanging
 exec tail -f /dev/null

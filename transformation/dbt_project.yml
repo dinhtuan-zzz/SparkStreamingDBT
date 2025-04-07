@@ -14,7 +14,4 @@ models:
       +schema: marts
       +materialized: table
 
-seeds:
-  pipeml:
-    +schema: source
-    +full_refresh: true
+
