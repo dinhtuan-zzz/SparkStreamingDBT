@@ -13,11 +13,11 @@ RUN pip3 install kafka-python
 
 # Copy file streaming.py vào container
 WORKDIR /opt/kafka
-#RUN chown -R 1001:1001 /opt/kafka /var/lib/kafka/data
+RUN chown -R 1001:1001 /opt/kafka /var/lib/kafka/data
 
 
 # Chuyển về user mặc định nếu cần (tùy thuộc vào image gốc)
-#USER 1001
+USER 1001
 
 # Sử dụng entrypoint mặc định của image Kafka
 CMD ["/etc/confluent/docker/run"]
