@@ -3,4 +3,4 @@ sources:
     description: raw input data
     schema: raw
     tables: 
-     - name: daily
+     - name: dev_api_data

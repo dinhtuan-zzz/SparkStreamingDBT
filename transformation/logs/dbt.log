@@ -1815,3 +1815,1013 @@ There are 2 unused configuration paths:
 [0m14:01:54.369480 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdf97c48d30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdf963382e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdf96826ee0>]}
 [0m14:01:54.369985 [debug] [MainThread]: Flushing usage events
 [0m14:01:56.019976 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m03:33:29.637710 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3f26ec2cd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3f26009280>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3f260091f0>]}
+
+
+============================== 03:33:29.650963 | 886700f2-a295-4a63-b79f-ddd02439b4c2 ==============================
+[0m03:33:29.650963 [info ] [MainThread]: Running with dbt=1.9.3
+[0m03:33:29.652033 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/app', 'fail_fast': 'False', 'version_check': 'True', 'log_path': '/app/logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'introspect': 'True', 'invocation_command': 'dbt deps', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m03:33:29.977485 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '886700f2-a295-4a63-b79f-ddd02439b4c2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3f260097c0>]}
+[0m03:33:30.047710 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m03:33:30.056282 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m03:33:30.058834 [debug] [MainThread]: Resource report: {"command_name": "deps", "command_success": true, "command_wall_clock_time": 0.66546303, "process_in_blocks": "68736", "process_kernel_time": 1.643101, "process_mem_max_rss": "87016", "process_out_blocks": "16", "process_user_time": 1.119564}
+[0m03:33:30.059469 [debug] [MainThread]: Command `dbt deps` succeeded at 03:33:30.059331 after 0.67 seconds
+[0m03:33:30.059907 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3f26ec2cd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3f25f18d30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3f260097c0>]}
+[0m03:33:30.060505 [debug] [MainThread]: Flushing usage events
+[0m03:33:31.667675 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m03:34:04.445406 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8c8baf1ca0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8c8ac37340>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8c8ac372e0>]}
+
+
+============================== 03:34:04.451450 | 9d34e275-e952-4a4e-99c7-93e745c9c46b ==============================
+[0m03:34:04.451450 [info ] [MainThread]: Running with dbt=1.9.3
+[0m03:34:04.452576 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/app', 'debug': 'False', 'fail_fast': 'False', 'log_path': '/app/logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt run', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m03:34:04.684780 [debug] [MainThread]: Spark adapter: Setting pyhive.hive logging to ERROR
+[0m03:34:04.685493 [debug] [MainThread]: Spark adapter: Setting thrift.transport logging to ERROR
+[0m03:34:04.685978 [debug] [MainThread]: Spark adapter: Setting thrift.protocol logging to ERROR
+[0m03:34:04.902878 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '9d34e275-e952-4a4e-99c7-93e745c9c46b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8c8b312f70>]}
+[0m03:34:04.986191 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '9d34e275-e952-4a4e-99c7-93e745c9c46b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8c8ac2a400>]}
+[0m03:34:04.987144 [info ] [MainThread]: Registered adapter: spark=1.9.2
+[0m03:34:05.132587 [debug] [MainThread]: checksum: 5671c00892cdbcef29c3b00cc5ba7510c3d18a35c883caeb9ab9ee266dc29c8f, vars: {}, profile: , target: , version: 1.9.3
+[0m03:34:05.268493 [info ] [MainThread]: Unable to do partial parsing because a project config has changed
+[0m03:34:05.269266 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '9d34e275-e952-4a4e-99c7-93e745c9c46b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8c8bcb2ac0>]}
+[0m03:34:06.854407 [error] [MainThread]: Encountered an error:
+Compilation Error
+  Model 'model.pipeml.fct_country_count' (models/marts/fct_country_count.sql) depends on a node named 'stg_raw_data' which was not found
+[0m03:34:06.855960 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 2.503994, "process_in_blocks": "7424", "process_kernel_time": 1.859047, "process_mem_max_rss": "104256", "process_out_blocks": "16", "process_user_time": 2.52862}
+[0m03:34:06.856752 [debug] [MainThread]: Command `dbt run` failed at 03:34:06.856624 after 2.50 seconds
+[0m03:34:06.857267 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8c8baf1ca0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8c8a3065e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8c8a17cb20>]}
+[0m03:34:06.857689 [debug] [MainThread]: Flushing usage events
+[0m03:34:08.381886 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m03:55:47.895439 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb67e232c10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb67d3782e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb67d378280>]}
+
+
+============================== 03:55:47.902535 | 9f53403f-2f5a-42d8-ab80-4a7d555dbd68 ==============================
+[0m03:55:47.902535 [info ] [MainThread]: Running with dbt=1.9.3
+[0m03:55:47.903458 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/app', 'version_check': 'True', 'warn_error': 'None', 'log_path': '/app/logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'invocation_command': 'dbt run', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m03:55:48.041110 [debug] [MainThread]: Spark adapter: Setting pyhive.hive logging to ERROR
+[0m03:55:48.041760 [debug] [MainThread]: Spark adapter: Setting thrift.transport logging to ERROR
+[0m03:55:48.042146 [debug] [MainThread]: Spark adapter: Setting thrift.protocol logging to ERROR
+[0m03:55:48.278351 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '9f53403f-2f5a-42d8-ab80-4a7d555dbd68', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb67f26b130>]}
+[0m03:55:48.372904 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '9f53403f-2f5a-42d8-ab80-4a7d555dbd68', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb67d16b880>]}
+[0m03:55:48.373739 [info ] [MainThread]: Registered adapter: spark=1.9.2
+[0m03:55:48.524812 [debug] [MainThread]: checksum: 5671c00892cdbcef29c3b00cc5ba7510c3d18a35c883caeb9ab9ee266dc29c8f, vars: {}, profile: , target: , version: 1.9.3
+[0m03:55:48.688362 [info ] [MainThread]: Unable to do partial parsing because a project config has changed
+[0m03:55:48.689329 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '9f53403f-2f5a-42d8-ab80-4a7d555dbd68', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb67da78b20>]}
+[0m03:55:50.188380 [error] [MainThread]: Encountered an error:
+Compilation Error
+  Model 'model.pipeml.fct_country_count' (models/marts/fct_country_count.sql) depends on a node named 'stg_raw_data' which was not found
+[0m03:55:50.189819 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 2.3892295, "process_in_blocks": "0", "process_kernel_time": 0.966536, "process_mem_max_rss": "104256", "process_out_blocks": "16", "process_user_time": 3.125398}
+[0m03:55:50.190770 [debug] [MainThread]: Command `dbt run` failed at 03:55:50.190641 after 2.39 seconds
+[0m03:55:50.191238 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb67e232c10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb67c241760>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb67c8dbe50>]}
+[0m03:55:50.191672 [debug] [MainThread]: Flushing usage events
+[0m03:55:51.803039 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m03:56:47.567105 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe6508f3d30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe64fa442b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe64fa44250>]}
+
+
+============================== 03:56:47.572391 | 64fc13e7-cd45-467e-8f87-3a7001fda3f1 ==============================
+[0m03:56:47.572391 [info ] [MainThread]: Running with dbt=1.9.3
+[0m03:56:47.573335 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/app', 'fail_fast': 'False', 'version_check': 'True', 'log_path': '/app/logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt run', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m03:56:47.669154 [debug] [MainThread]: Spark adapter: Setting pyhive.hive logging to ERROR
+[0m03:56:47.669769 [debug] [MainThread]: Spark adapter: Setting thrift.transport logging to ERROR
+[0m03:56:47.670115 [debug] [MainThread]: Spark adapter: Setting thrift.protocol logging to ERROR
+[0m03:56:47.876179 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '64fc13e7-cd45-467e-8f87-3a7001fda3f1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe64f4cd220>]}
+[0m03:56:47.960864 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '64fc13e7-cd45-467e-8f87-3a7001fda3f1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe65013c100>]}
+[0m03:56:47.962228 [info ] [MainThread]: Registered adapter: spark=1.9.2
+[0m03:56:48.103592 [debug] [MainThread]: checksum: 5671c00892cdbcef29c3b00cc5ba7510c3d18a35c883caeb9ab9ee266dc29c8f, vars: {}, profile: , target: , version: 1.9.3
+[0m03:56:48.238029 [info ] [MainThread]: Unable to do partial parsing because a project config has changed
+[0m03:56:48.238882 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '64fc13e7-cd45-467e-8f87-3a7001fda3f1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe6501390a0>]}
+[0m03:56:49.801749 [error] [MainThread]: Encountered an error:
+Compilation Error
+  Model 'model.pipeml.fct_country_count' (models/marts/fct_country_count.sql) depends on a node named 'stg_raw_data' which was not found
+[0m03:56:49.803242 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 2.3149137, "process_in_blocks": "0", "process_kernel_time": 0.644004, "process_mem_max_rss": "104164", "process_out_blocks": "8", "process_user_time": 3.192366}
+[0m03:56:49.804127 [debug] [MainThread]: Command `dbt run` failed at 03:56:49.803991 after 2.32 seconds
+[0m03:56:49.804565 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe6508f3d30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe64e699cd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe64e699a30>]}
+[0m03:56:49.804984 [debug] [MainThread]: Flushing usage events
+[0m03:56:51.522274 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m03:57:33.580271 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ffbf2d87c40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ffbf1ece2e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ffbf1ece280>]}
+
+
+============================== 03:57:33.584653 | 086ed891-b3e8-45b1-adff-b91b64133085 ==============================
+[0m03:57:33.584653 [info ] [MainThread]: Running with dbt=1.9.3
+[0m03:57:33.585325 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': '/app/logs', 'fail_fast': 'False', 'profiles_dir': '/app', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': 'dbt run', 'send_anonymous_usage_stats': 'True'}
+[0m03:57:33.661488 [debug] [MainThread]: Spark adapter: Setting pyhive.hive logging to ERROR
+[0m03:57:33.662127 [debug] [MainThread]: Spark adapter: Setting thrift.transport logging to ERROR
+[0m03:57:33.662538 [debug] [MainThread]: Spark adapter: Setting thrift.protocol logging to ERROR
+[0m03:57:33.833560 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '086ed891-b3e8-45b1-adff-b91b64133085', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ffbf1f2db50>]}
+[0m03:57:33.902267 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '086ed891-b3e8-45b1-adff-b91b64133085', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ffbf22274c0>]}
+[0m03:57:33.903230 [info ] [MainThread]: Registered adapter: spark=1.9.2
+[0m03:57:34.031118 [debug] [MainThread]: checksum: 5671c00892cdbcef29c3b00cc5ba7510c3d18a35c883caeb9ab9ee266dc29c8f, vars: {}, profile: , target: , version: 1.9.3
+[0m03:57:34.148196 [info ] [MainThread]: Unable to do partial parsing because a project config has changed
+[0m03:57:34.148897 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '086ed891-b3e8-45b1-adff-b91b64133085', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ffbf2b9b550>]}
+[0m03:57:35.657760 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '086ed891-b3e8-45b1-adff-b91b64133085', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ffbf0a25130>]}
+[0m03:57:35.759148 [debug] [MainThread]: Wrote artifact WritableManifest to /app/target/manifest.json
+[0m03:57:35.766222 [debug] [MainThread]: Wrote artifact SemanticManifest to /app/target/semantic_manifest.json
+[0m03:57:35.784354 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '086ed891-b3e8-45b1-adff-b91b64133085', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ffbf0a2a160>]}
+[0m03:57:35.784957 [info ] [MainThread]: Found 3 models, 1 source, 473 macros
+[0m03:57:35.785377 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '086ed891-b3e8-45b1-adff-b91b64133085', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ffbf09d5f40>]}
+[0m03:57:35.787112 [info ] [MainThread]: 
+[0m03:57:35.787533 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m03:57:35.787846 [info ] [MainThread]: 
+[0m03:57:35.788438 [debug] [MainThread]: Acquiring new spark connection 'master'
+[0m03:57:35.797738 [debug] [ThreadPool]: Acquiring new spark connection 'list_schemas'
+[0m03:57:35.799007 [debug] [ThreadPool]: Acquiring new spark connection 'list_schemas'
+[0m03:57:35.826729 [debug] [ThreadPool]: Using spark connection "list_schemas"
+[0m03:57:35.830347 [debug] [ThreadPool]: Using spark connection "list_schemas"
+[0m03:57:35.830758 [debug] [ThreadPool]: On list_schemas: /* {"app": "dbt", "dbt_version": "1.9.3", "profile_name": "pipeml", "target_name": "dev", "connection_name": "list_schemas"} */
+
+    show databases
+  
+[0m03:57:35.831214 [debug] [ThreadPool]: On list_schemas: /* {"app": "dbt", "dbt_version": "1.9.3", "profile_name": "pipeml", "target_name": "dev", "connection_name": "list_schemas"} */
+
+    show databases
+  
+[0m03:57:35.832254 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m03:57:35.832654 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m03:57:40.519637 [debug] [ThreadPool]: Spark adapter: Poll status: 2, query complete
+[0m03:57:40.520201 [debug] [ThreadPool]: Spark adapter: Poll status: 2, query complete
+[0m03:57:40.520710 [debug] [ThreadPool]: SQL status: OK in 4.688 seconds
+[0m03:57:40.521139 [debug] [ThreadPool]: SQL status: OK in 4.688 seconds
+[0m03:57:40.679747 [debug] [ThreadPool]: On list_schemas: Close
+[0m03:57:40.681151 [debug] [ThreadPool]: On list_schemas: Close
+[0m03:57:40.719712 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_schemas, now create__raw_marts)
+[0m03:57:40.720485 [debug] [ThreadPool]: Creating schema "schema: "raw_marts"
+"
+[0m03:57:40.729806 [debug] [ThreadPool]: Spark adapter: NotImplemented: add_begin_query
+[0m03:57:40.730591 [debug] [ThreadPool]: Using spark connection "create__raw_marts"
+[0m03:57:40.730923 [debug] [ThreadPool]: On create__raw_marts: /* {"app": "dbt", "dbt_version": "1.9.3", "profile_name": "pipeml", "target_name": "dev", "connection_name": "create__raw_marts"} */
+create schema if not exists raw_marts
+  
+[0m03:57:40.731262 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m03:57:41.127155 [debug] [ThreadPool]: Spark adapter: Poll status: 2, query complete
+[0m03:57:41.127743 [debug] [ThreadPool]: SQL status: OK in 0.396 seconds
+[0m03:57:41.128950 [debug] [ThreadPool]: Spark adapter: NotImplemented: commit
+[0m03:57:41.129308 [debug] [ThreadPool]: On create__raw_marts: ROLLBACK
+[0m03:57:41.129625 [debug] [ThreadPool]: Spark adapter: NotImplemented: rollback
+[0m03:57:41.129914 [debug] [ThreadPool]: On create__raw_marts: Close
+[0m03:57:41.139369 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly create__raw_marts, now list_None_raw_marts)
+[0m03:57:41.142373 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_schemas, now list_None_raw_staging)
+[0m03:57:41.151353 [debug] [ThreadPool]: Spark adapter: NotImplemented: add_begin_query
+[0m03:57:41.156120 [debug] [ThreadPool]: Using spark connection "list_None_raw_marts"
+[0m03:57:41.156522 [debug] [ThreadPool]: On list_None_raw_marts: /* {"app": "dbt", "dbt_version": "1.9.3", "profile_name": "pipeml", "target_name": "dev", "connection_name": "list_None_raw_marts"} */
+show table extended in raw_marts like '*'
+  
+[0m03:57:41.155379 [debug] [ThreadPool]: Spark adapter: NotImplemented: add_begin_query
+[0m03:57:41.156991 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m03:57:41.158281 [debug] [ThreadPool]: Using spark connection "list_None_raw_staging"
+[0m03:57:41.159332 [debug] [ThreadPool]: On list_None_raw_staging: /* {"app": "dbt", "dbt_version": "1.9.3", "profile_name": "pipeml", "target_name": "dev", "connection_name": "list_None_raw_staging"} */
+show table extended in raw_staging like '*'
+  
+[0m03:57:41.159811 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m03:57:41.436964 [debug] [ThreadPool]: Spark adapter: Poll status: 2, query complete
+[0m03:57:41.437669 [debug] [ThreadPool]: SQL status: OK in 0.281 seconds
+[0m03:57:41.454732 [debug] [ThreadPool]: On list_None_raw_marts: ROLLBACK
+[0m03:57:41.457832 [debug] [ThreadPool]: Spark adapter: NotImplemented: rollback
+[0m03:57:41.458496 [debug] [ThreadPool]: On list_None_raw_marts: Close
+[0m03:57:41.701338 [debug] [ThreadPool]: Spark adapter: Poll status: 2, query complete
+[0m03:57:41.701969 [debug] [ThreadPool]: SQL status: OK in 0.542 seconds
+[0m03:57:41.712651 [debug] [ThreadPool]: On list_None_raw_staging: ROLLBACK
+[0m03:57:41.713180 [debug] [ThreadPool]: Spark adapter: NotImplemented: rollback
+[0m03:57:41.713482 [debug] [ThreadPool]: On list_None_raw_staging: Close
+[0m03:57:41.723749 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '086ed891-b3e8-45b1-adff-b91b64133085', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ffbf1ec0400>]}
+[0m03:57:41.724591 [debug] [MainThread]: Spark adapter: NotImplemented: add_begin_query
+[0m03:57:41.725157 [debug] [MainThread]: Spark adapter: NotImplemented: commit
+[0m03:57:41.734969 [debug] [Thread-1  ]: Began running node model.pipeml.stg_raw
+[0m03:57:41.735800 [info ] [Thread-1  ]: 1 of 3 START sql table model raw_staging.stg_raw ............................... [RUN]
+[0m03:57:41.736860 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly list_None_raw_staging, now model.pipeml.stg_raw)
+[0m03:57:41.737313 [debug] [Thread-1  ]: Began compiling node model.pipeml.stg_raw
+[0m03:57:41.752643 [debug] [Thread-1  ]: Writing injected SQL for node "model.pipeml.stg_raw"
+[0m03:57:41.757555 [debug] [Thread-1  ]: Began executing node model.pipeml.stg_raw
+[0m03:57:41.796940 [debug] [Thread-1  ]: Using spark connection "model.pipeml.stg_raw"
+[0m03:57:41.797573 [debug] [Thread-1  ]: On model.pipeml.stg_raw: /* {"app": "dbt", "dbt_version": "1.9.3", "profile_name": "pipeml", "target_name": "dev", "node_id": "model.pipeml.stg_raw"} */
+drop table if exists raw_staging.stg_raw
+[0m03:57:41.798106 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+[0m03:57:42.585257 [debug] [Thread-1  ]: Spark adapter: Poll status: 2, query complete
+[0m03:57:42.585908 [debug] [Thread-1  ]: SQL status: OK in 0.788 seconds
+[0m03:57:42.644146 [debug] [Thread-1  ]: Writing runtime sql for node "model.pipeml.stg_raw"
+[0m03:57:42.647193 [debug] [Thread-1  ]: Spark adapter: NotImplemented: add_begin_query
+[0m03:57:42.647640 [debug] [Thread-1  ]: Using spark connection "model.pipeml.stg_raw"
+[0m03:57:42.648026 [debug] [Thread-1  ]: On model.pipeml.stg_raw: /* {"app": "dbt", "dbt_version": "1.9.3", "profile_name": "pipeml", "target_name": "dev", "node_id": "model.pipeml.stg_raw"} */
+
+  
+    
+        create table raw_staging.stg_raw
+      
+      
+      
+      
+      
+      
+      
+      
+
+      as
+      
+
+with raw_data as (
+    select *
+    from raw.dev_api_data
+)
+
+select * from raw_data
+  
+[0m03:57:47.652654 [debug] [Thread-1  ]: Spark adapter: Poll status: 1, sleeping
+[0m03:57:52.654289 [debug] [Thread-1  ]: Spark adapter: Poll status: 1, sleeping
+[0m03:57:57.656261 [debug] [Thread-1  ]: Spark adapter: Poll status: 1, sleeping
+[0m03:58:02.579860 [debug] [Thread-1  ]: Spark adapter: Poll status: 2, query complete
+[0m03:58:02.580476 [debug] [Thread-1  ]: SQL status: OK in 19.932 seconds
+[0m03:58:02.612428 [debug] [Thread-1  ]: On model.pipeml.stg_raw: ROLLBACK
+[0m03:58:02.612929 [debug] [Thread-1  ]: Spark adapter: NotImplemented: rollback
+[0m03:58:02.613433 [debug] [Thread-1  ]: On model.pipeml.stg_raw: Close
+[0m03:58:02.629376 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '086ed891-b3e8-45b1-adff-b91b64133085', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ffbf007b6d0>]}
+[0m03:58:02.630385 [info ] [Thread-1  ]: 1 of 3 OK created sql table model raw_staging.stg_raw .......................... [[32mOK[0m in 20.89s]
+[0m03:58:02.631725 [debug] [Thread-1  ]: Finished running node model.pipeml.stg_raw
+[0m03:58:02.633050 [debug] [Thread-3  ]: Began running node model.pipeml.dim_users
+[0m03:58:02.633696 [info ] [Thread-3  ]: 2 of 3 START sql table model raw_marts.dim_users ............................... [RUN]
+[0m03:58:02.634663 [debug] [Thread-3  ]: Acquiring new spark connection 'model.pipeml.dim_users'
+[0m03:58:02.635172 [debug] [Thread-4  ]: Began running node model.pipeml.fct_country_count
+[0m03:58:02.635608 [debug] [Thread-3  ]: Began compiling node model.pipeml.dim_users
+[0m03:58:02.636834 [info ] [Thread-4  ]: 3 of 3 START sql table model raw_marts.fct_country_count ....................... [RUN]
+[0m03:58:02.644355 [debug] [Thread-3  ]: Writing injected SQL for node "model.pipeml.dim_users"
+[0m03:58:02.645467 [debug] [Thread-4  ]: Acquiring new spark connection 'model.pipeml.fct_country_count'
+[0m03:58:02.646454 [debug] [Thread-4  ]: Began compiling node model.pipeml.fct_country_count
+[0m03:58:02.651357 [debug] [Thread-4  ]: Writing injected SQL for node "model.pipeml.fct_country_count"
+[0m03:58:02.652878 [debug] [Thread-4  ]: Began executing node model.pipeml.fct_country_count
+[0m03:58:02.747593 [debug] [Thread-3  ]: Began executing node model.pipeml.dim_users
+[0m03:58:02.750613 [debug] [Thread-4  ]: Using spark connection "model.pipeml.fct_country_count"
+[0m03:58:02.756768 [debug] [Thread-3  ]: Using spark connection "model.pipeml.dim_users"
+[0m03:58:02.757537 [debug] [Thread-4  ]: On model.pipeml.fct_country_count: /* {"app": "dbt", "dbt_version": "1.9.3", "profile_name": "pipeml", "target_name": "dev", "node_id": "model.pipeml.fct_country_count"} */
+drop table if exists raw_marts.fct_country_count
+[0m03:58:02.758170 [debug] [Thread-3  ]: On model.pipeml.dim_users: /* {"app": "dbt", "dbt_version": "1.9.3", "profile_name": "pipeml", "target_name": "dev", "node_id": "model.pipeml.dim_users"} */
+drop table if exists raw_marts.dim_users
+[0m03:58:02.758767 [debug] [Thread-4  ]: Opening a new connection, currently in state init
+[0m03:58:02.759245 [debug] [Thread-3  ]: Opening a new connection, currently in state init
+[0m03:58:02.897715 [debug] [Thread-3  ]: Spark adapter: Poll status: 2, query complete
+[0m03:58:02.898479 [debug] [Thread-3  ]: SQL status: OK in 0.139 seconds
+[0m03:58:02.901510 [debug] [Thread-3  ]: Writing runtime sql for node "model.pipeml.dim_users"
+[0m03:58:02.902369 [debug] [Thread-3  ]: Spark adapter: NotImplemented: add_begin_query
+[0m03:58:02.902776 [debug] [Thread-3  ]: Using spark connection "model.pipeml.dim_users"
+[0m03:58:02.903144 [debug] [Thread-3  ]: On model.pipeml.dim_users: /* {"app": "dbt", "dbt_version": "1.9.3", "profile_name": "pipeml", "target_name": "dev", "node_id": "model.pipeml.dim_users"} */
+
+  
+    
+        create table raw_marts.dim_users
+      
+      
+      
+      
+      
+      
+      
+      
+
+      as
+      with staging as (
+    select * from raw_staging.stg_raw
+
+)
+
+select	
+	id,
+	uid,
+	first_name,
+	last_name, 
+	email, 
+	gender,
+	avatar,
+	date_of_birth,
+	employment.title,
+	address.city,
+	address.street_name,
+    	address.street_address,
+    	address.zip_code,
+    	address.state,
+    	address.country
+from staging
+  
+[0m03:58:02.939455 [debug] [Thread-4  ]: Spark adapter: Poll status: 2, query complete
+[0m03:58:02.942260 [debug] [Thread-4  ]: SQL status: OK in 0.182 seconds
+[0m03:58:02.946102 [debug] [Thread-4  ]: Writing runtime sql for node "model.pipeml.fct_country_count"
+[0m03:58:02.946974 [debug] [Thread-4  ]: Spark adapter: NotImplemented: add_begin_query
+[0m03:58:02.947496 [debug] [Thread-4  ]: Using spark connection "model.pipeml.fct_country_count"
+[0m03:58:02.947911 [debug] [Thread-4  ]: On model.pipeml.fct_country_count: /* {"app": "dbt", "dbt_version": "1.9.3", "profile_name": "pipeml", "target_name": "dev", "node_id": "model.pipeml.fct_country_count"} */
+
+  
+    
+        create table raw_marts.fct_country_count
+      
+      
+      
+      
+      
+      
+      
+      
+
+      as
+      with staging as (
+    select * from raw_staging.stg_raw
+
+select
+    address.country, count(*) as count_by_country
+    from staging
+    group by address.country
+  
+[0m03:58:03.098832 [debug] [Thread-4  ]: Spark adapter: Poll response: TGetOperationStatusResp(status=TStatus(statusCode=0, infoMessages=None, sqlState=None, errorCode=None, errorMessage=None), operationState=5, sqlState='42000', errorCode=0, errorMessage='org.apache.hive.service.cli.HiveSQLException: Error running query: [PARSE_SYNTAX_ERROR] org.apache.spark.sql.catalyst.parser.ParseException: \nSyntax error at or near \'select\': missing \')\'(line 19, pos 0)\n\n== SQL ==\n/* {"app": "dbt", "dbt_version": "1.9.3", "profile_name": "pipeml", "target_name": "dev", "node_id": "model.pipeml.fct_country_count"} */\n\n  \n    \n        create table raw_marts.fct_country_count\n      \n      \n      \n      \n      \n      \n      \n      \n\n      as\n      with staging as (\n    select * from raw_staging.stg_raw\n\nselect\n^^^\n    address.country, count(*) as count_by_country\n    from staging\n    group by address.country\n  \n\n\tat org.apache.spark.sql.hive.thriftserver.HiveThriftServerErrors$.runningQueryError(HiveThriftServerErrors.scala:43)\n\tat org.apache.spark.sql.hive.thriftserver.SparkExecuteStatementOperation.org$apache$spark$sql$hive$thriftserver$SparkExecuteStatementOperation$$execute(SparkExecuteStatementOperation.scala:325)\n\tat org.apache.spark.sql.hive.thriftserver.SparkExecuteStatementOperation$$anon$2$$anon$3.$anonfun$run$2(SparkExecuteStatementOperation.scala:230)\n\tat scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)\n\tat org.apache.spark.sql.hive.thriftserver.SparkOperation.withLocalProperties(SparkOperation.scala:79)\n\tat org.apache.spark.sql.hive.thriftserver.SparkOperation.withLocalProperties$(SparkOperation.scala:63)\n\tat org.apache.spark.sql.hive.thriftserver.SparkExecuteStatementOperation.withLocalProperties(SparkExecuteStatementOperation.scala:43)\n\tat org.apache.spark.sql.hive.thriftserver.SparkExecuteStatementOperation$$anon$2$$anon$3.run(SparkExecuteStatementOperation.scala:230)\n\tat org.apache.spark.sql.hive.thriftserver.SparkExecuteStatementOperation$$anon$2$$anon$3.run(SparkExecuteStatementOperation.scala:225)\n\tat java.base/java.security.AccessController.doPrivileged(Native Method)\n\tat java.base/javax.security.auth.Subject.doAs(Subject.java:423)\n\tat org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1878)\n\tat org.apache.spark.sql.hive.thriftserver.SparkExecuteStatementOperation$$anon$2.run(SparkExecuteStatementOperation.scala:239)\n\tat java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)\n\tat java.base/java.lang.Thread.run(Thread.java:829)\nCaused by: org.apache.spark.sql.catalyst.parser.ParseException: \nSyntax error at or near \'select\': missing \')\'(line 19, pos 0)\n\n== SQL ==\n/* {"app": "dbt", "dbt_version": "1.9.3", "profile_name": "pipeml", "target_name": "dev", "node_id": "model.pipeml.fct_country_count"} */\n\n  \n    \n        create table raw_marts.fct_country_count\n      \n      \n      \n      \n      \n      \n      \n      \n\n      as\n      with staging as (\n    select * from raw_staging.stg_raw\n\nselect\n^^^\n    address.country, count(*) as count_by_country\n    from staging\n    group by address.country\n  \n\n\tat org.apache.spark.sql.catalyst.parser.ParseException.withCommand(ParseDriver.scala:306)\n\tat org.apache.spark.sql.catalyst.parser.AbstractSqlParser.parse(ParseDriver.scala:143)\n\tat org.apache.spark.sql.execution.SparkSqlParser.parse(SparkSqlParser.scala:52)\n\tat org.apache.spark.sql.catalyst.parser.AbstractSqlParser.parsePlan(ParseDriver.scala:89)\n\tat io.delta.sql.parser.DeltaSqlParser.$anonfun$parsePlan$1(DeltaSqlParser.scala:78)\n\tat io.delta.sql.parser.DeltaSqlParser.parse(DeltaSqlParser.scala:111)\n\tat io.delta.sql.parser.DeltaSqlParser.parsePlan(DeltaSqlParser.scala:75)\n\tat org.apache.spark.sql.SparkSession.$anonfun$sql$2(SparkSession.scala:620)\n\tat org.apache.spark.sql.catalyst.QueryPlanningTracker.measurePhase(QueryPlanningTracker.scala:111)\n\tat org.apache.spark.sql.SparkSession.$anonfun$sql$1(SparkSession.scala:620)\n\tat org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:779)\n\tat org.apache.spark.sql.SparkSession.sql(SparkSession.scala:617)\n\tat org.apache.spark.sql.SQLContext.sql(SQLContext.scala:651)\n\tat org.apache.spark.sql.hive.thriftserver.SparkExecuteStatementOperation.org$apache$spark$sql$hive$thriftserver$SparkExecuteStatementOperation$$execute(SparkExecuteStatementOperation.scala:291)\n\t... 16 more\n', taskStatus=None, operationStarted=None, operationCompleted=None, hasResultSet=None, progressUpdateResponse=None)
+[0m03:58:03.099685 [debug] [Thread-4  ]: Spark adapter: Poll status: 5
+[0m03:58:03.100192 [debug] [Thread-4  ]: Spark adapter: Error while running:
+/* {"app": "dbt", "dbt_version": "1.9.3", "profile_name": "pipeml", "target_name": "dev", "node_id": "model.pipeml.fct_country_count"} */
+
+  
+    
+        create table raw_marts.fct_country_count
+      
+      
+      
+      
+      
+      
+      
+      
+
+      as
+      with staging as (
+    select * from raw_staging.stg_raw
+
+select
+    address.country, count(*) as count_by_country
+    from staging
+    group by address.country
+  
+[0m03:58:03.100772 [debug] [Thread-4  ]: Spark adapter: Database Error
+  org.apache.hive.service.cli.HiveSQLException: Error running query: [PARSE_SYNTAX_ERROR] org.apache.spark.sql.catalyst.parser.ParseException: 
+  Syntax error at or near 'select': missing ')'(line 19, pos 0)
+  
+  == SQL ==
+  /* {"app": "dbt", "dbt_version": "1.9.3", "profile_name": "pipeml", "target_name": "dev", "node_id": "model.pipeml.fct_country_count"} */
+  
+    
+      
+          create table raw_marts.fct_country_count
+        
+        
+        
+        
+        
+        
+        
+        
+  
+        as
+        with staging as (
+      select * from raw_staging.stg_raw
+  
+  select
+  ^^^
+      address.country, count(*) as count_by_country
+      from staging
+      group by address.country
+    
+  
+  	at org.apache.spark.sql.hive.thriftserver.HiveThriftServerErrors$.runningQueryError(HiveThriftServerErrors.scala:43)
+  	at org.apache.spark.sql.hive.thriftserver.SparkExecuteStatementOperation.org$apache$spark$sql$hive$thriftserver$SparkExecuteStatementOperation$$execute(SparkExecuteStatementOperation.scala:325)
+  	at org.apache.spark.sql.hive.thriftserver.SparkExecuteStatementOperation$$anon$2$$anon$3.$anonfun$run$2(SparkExecuteStatementOperation.scala:230)
+  	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+  	at org.apache.spark.sql.hive.thriftserver.SparkOperation.withLocalProperties(SparkOperation.scala:79)
+  	at org.apache.spark.sql.hive.thriftserver.SparkOperation.withLocalProperties$(SparkOperation.scala:63)
+  	at org.apache.spark.sql.hive.thriftserver.SparkExecuteStatementOperation.withLocalProperties(SparkExecuteStatementOperation.scala:43)
+  	at org.apache.spark.sql.hive.thriftserver.SparkExecuteStatementOperation$$anon$2$$anon$3.run(SparkExecuteStatementOperation.scala:230)
+  	at org.apache.spark.sql.hive.thriftserver.SparkExecuteStatementOperation$$anon$2$$anon$3.run(SparkExecuteStatementOperation.scala:225)
+  	at java.base/java.security.AccessController.doPrivileged(Native Method)
+  	at java.base/javax.security.auth.Subject.doAs(Subject.java:423)
+  	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1878)
+  	at org.apache.spark.sql.hive.thriftserver.SparkExecuteStatementOperation$$anon$2.run(SparkExecuteStatementOperation.scala:239)
+  	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+  	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+  	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+  	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+  	at java.base/java.lang.Thread.run(Thread.java:829)
+  Caused by: org.apache.spark.sql.catalyst.parser.ParseException: 
+  Syntax error at or near 'select': missing ')'(line 19, pos 0)
+  
+  == SQL ==
+  /* {"app": "dbt", "dbt_version": "1.9.3", "profile_name": "pipeml", "target_name": "dev", "node_id": "model.pipeml.fct_country_count"} */
+  
+    
+      
+          create table raw_marts.fct_country_count
+        
+        
+        
+        
+        
+        
+        
+        
+  
+        as
+        with staging as (
+      select * from raw_staging.stg_raw
+  
+  select
+  ^^^
+      address.country, count(*) as count_by_country
+      from staging
+      group by address.country
+    
+  
+  	at org.apache.spark.sql.catalyst.parser.ParseException.withCommand(ParseDriver.scala:306)
+  	at org.apache.spark.sql.catalyst.parser.AbstractSqlParser.parse(ParseDriver.scala:143)
+  	at org.apache.spark.sql.execution.SparkSqlParser.parse(SparkSqlParser.scala:52)
+  	at org.apache.spark.sql.catalyst.parser.AbstractSqlParser.parsePlan(ParseDriver.scala:89)
+  	at io.delta.sql.parser.DeltaSqlParser.$anonfun$parsePlan$1(DeltaSqlParser.scala:78)
+  	at io.delta.sql.parser.DeltaSqlParser.parse(DeltaSqlParser.scala:111)
+  	at io.delta.sql.parser.DeltaSqlParser.parsePlan(DeltaSqlParser.scala:75)
+  	at org.apache.spark.sql.SparkSession.$anonfun$sql$2(SparkSession.scala:620)
+  	at org.apache.spark.sql.catalyst.QueryPlanningTracker.measurePhase(QueryPlanningTracker.scala:111)
+  	at org.apache.spark.sql.SparkSession.$anonfun$sql$1(SparkSession.scala:620)
+  	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:779)
+  	at org.apache.spark.sql.SparkSession.sql(SparkSession.scala:617)
+  	at org.apache.spark.sql.SQLContext.sql(SQLContext.scala:651)
+  	at org.apache.spark.sql.hive.thriftserver.SparkExecuteStatementOperation.org$apache$spark$sql$hive$thriftserver$SparkExecuteStatementOperation$$execute(SparkExecuteStatementOperation.scala:291)
+  	... 16 more
+  
+[0m03:58:03.101459 [debug] [Thread-4  ]: On model.pipeml.fct_country_count: ROLLBACK
+[0m03:58:03.101882 [debug] [Thread-4  ]: Spark adapter: NotImplemented: rollback
+[0m03:58:03.102256 [debug] [Thread-4  ]: On model.pipeml.fct_country_count: Close
+[0m03:58:03.128386 [debug] [Thread-4  ]: Runtime Error in model fct_country_count (models/marts/fct_country_count.sql)
+  Database Error
+    org.apache.hive.service.cli.HiveSQLException: Error running query: [PARSE_SYNTAX_ERROR] org.apache.spark.sql.catalyst.parser.ParseException: 
+    Syntax error at or near 'select': missing ')'(line 19, pos 0)
+    
+    == SQL ==
+    /* {"app": "dbt", "dbt_version": "1.9.3", "profile_name": "pipeml", "target_name": "dev", "node_id": "model.pipeml.fct_country_count"} */
+    
+      
+        
+            create table raw_marts.fct_country_count
+          
+          
+          
+          
+          
+          
+          
+          
+    
+          as
+          with staging as (
+        select * from raw_staging.stg_raw
+    
+    select
+    ^^^
+        address.country, count(*) as count_by_country
+        from staging
+        group by address.country
+      
+    
+    	at org.apache.spark.sql.hive.thriftserver.HiveThriftServerErrors$.runningQueryError(HiveThriftServerErrors.scala:43)
+    	at org.apache.spark.sql.hive.thriftserver.SparkExecuteStatementOperation.org$apache$spark$sql$hive$thriftserver$SparkExecuteStatementOperation$$execute(SparkExecuteStatementOperation.scala:325)
+    	at org.apache.spark.sql.hive.thriftserver.SparkExecuteStatementOperation$$anon$2$$anon$3.$anonfun$run$2(SparkExecuteStatementOperation.scala:230)
+    	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+    	at org.apache.spark.sql.hive.thriftserver.SparkOperation.withLocalProperties(SparkOperation.scala:79)
+    	at org.apache.spark.sql.hive.thriftserver.SparkOperation.withLocalProperties$(SparkOperation.scala:63)
+    	at org.apache.spark.sql.hive.thriftserver.SparkExecuteStatementOperation.withLocalProperties(SparkExecuteStatementOperation.scala:43)
+    	at org.apache.spark.sql.hive.thriftserver.SparkExecuteStatementOperation$$anon$2$$anon$3.run(SparkExecuteStatementOperation.scala:230)
+    	at org.apache.spark.sql.hive.thriftserver.SparkExecuteStatementOperation$$anon$2$$anon$3.run(SparkExecuteStatementOperation.scala:225)
+    	at java.base/java.security.AccessController.doPrivileged(Native Method)
+    	at java.base/javax.security.auth.Subject.doAs(Subject.java:423)
+    	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1878)
+    	at org.apache.spark.sql.hive.thriftserver.SparkExecuteStatementOperation$$anon$2.run(SparkExecuteStatementOperation.scala:239)
+    	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+    	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+    	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+    	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+    	at java.base/java.lang.Thread.run(Thread.java:829)
+    Caused by: org.apache.spark.sql.catalyst.parser.ParseException: 
+    Syntax error at or near 'select': missing ')'(line 19, pos 0)
+    
+    == SQL ==
+    /* {"app": "dbt", "dbt_version": "1.9.3", "profile_name": "pipeml", "target_name": "dev", "node_id": "model.pipeml.fct_country_count"} */
+    
+      
+        
+            create table raw_marts.fct_country_count
+          
+          
+          
+          
+          
+          
+          
+          
+    
+          as
+          with staging as (
+        select * from raw_staging.stg_raw
+    
+    select
+    ^^^
+        address.country, count(*) as count_by_country
+        from staging
+        group by address.country
+      
+    
+    	at org.apache.spark.sql.catalyst.parser.ParseException.withCommand(ParseDriver.scala:306)
+    	at org.apache.spark.sql.catalyst.parser.AbstractSqlParser.parse(ParseDriver.scala:143)
+    	at org.apache.spark.sql.execution.SparkSqlParser.parse(SparkSqlParser.scala:52)
+    	at org.apache.spark.sql.catalyst.parser.AbstractSqlParser.parsePlan(ParseDriver.scala:89)
+    	at io.delta.sql.parser.DeltaSqlParser.$anonfun$parsePlan$1(DeltaSqlParser.scala:78)
+    	at io.delta.sql.parser.DeltaSqlParser.parse(DeltaSqlParser.scala:111)
+    	at io.delta.sql.parser.DeltaSqlParser.parsePlan(DeltaSqlParser.scala:75)
+    	at org.apache.spark.sql.SparkSession.$anonfun$sql$2(SparkSession.scala:620)
+    	at org.apache.spark.sql.catalyst.QueryPlanningTracker.measurePhase(QueryPlanningTracker.scala:111)
+    	at org.apache.spark.sql.SparkSession.$anonfun$sql$1(SparkSession.scala:620)
+    	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:779)
+    	at org.apache.spark.sql.SparkSession.sql(SparkSession.scala:617)
+    	at org.apache.spark.sql.SQLContext.sql(SQLContext.scala:651)
+    	at org.apache.spark.sql.hive.thriftserver.SparkExecuteStatementOperation.org$apache$spark$sql$hive$thriftserver$SparkExecuteStatementOperation$$execute(SparkExecuteStatementOperation.scala:291)
+    	... 16 more
+    
+[0m03:58:03.129632 [debug] [Thread-4  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '086ed891-b3e8-45b1-adff-b91b64133085', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ffbf008f0d0>]}
+[0m03:58:03.130728 [error] [Thread-4  ]: 3 of 3 ERROR creating sql table model raw_marts.fct_country_count .............. [[31mERROR[0m in 0.48s]
+[0m03:58:03.131949 [debug] [Thread-4  ]: Finished running node model.pipeml.fct_country_count
+[0m03:58:03.132884 [debug] [Thread-7  ]: Marking all children of 'model.pipeml.fct_country_count' to be skipped because of status 'error'.  Reason: Runtime Error in model fct_country_count (models/marts/fct_country_count.sql)
+  Database Error
+    org.apache.hive.service.cli.HiveSQLException: Error running query: [PARSE_SYNTAX_ERROR] org.apache.spark.sql.catalyst.parser.ParseException: 
+    Syntax error at or near 'select': missing ')'(line 19, pos 0)
+    
+    == SQL ==
+    /* {"app": "dbt", "dbt_version": "1.9.3", "profile_name": "pipeml", "target_name": "dev", "node_id": "model.pipeml.fct_country_count"} */
+    
+      
+        
+            create table raw_marts.fct_country_count
+          
+          
+          
+          
+          
+          
+          
+          
+    
+          as
+          with staging as (
+        select * from raw_staging.stg_raw
+    
+    select
+    ^^^
+        address.country, count(*) as count_by_country
+        from staging
+        group by address.country
+      
+    
+    	at org.apache.spark.sql.hive.thriftserver.HiveThriftServerErrors$.runningQueryError(HiveThriftServerErrors.scala:43)
+    	at org.apache.spark.sql.hive.thriftserver.SparkExecuteStatementOperation.org$apache$spark$sql$hive$thriftserver$SparkExecuteStatementOperation$$execute(SparkExecuteStatementOperation.scala:325)
+    	at org.apache.spark.sql.hive.thriftserver.SparkExecuteStatementOperation$$anon$2$$anon$3.$anonfun$run$2(SparkExecuteStatementOperation.scala:230)
+    	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+    	at org.apache.spark.sql.hive.thriftserver.SparkOperation.withLocalProperties(SparkOperation.scala:79)
+    	at org.apache.spark.sql.hive.thriftserver.SparkOperation.withLocalProperties$(SparkOperation.scala:63)
+    	at org.apache.spark.sql.hive.thriftserver.SparkExecuteStatementOperation.withLocalProperties(SparkExecuteStatementOperation.scala:43)
+    	at org.apache.spark.sql.hive.thriftserver.SparkExecuteStatementOperation$$anon$2$$anon$3.run(SparkExecuteStatementOperation.scala:230)
+    	at org.apache.spark.sql.hive.thriftserver.SparkExecuteStatementOperation$$anon$2$$anon$3.run(SparkExecuteStatementOperation.scala:225)
+    	at java.base/java.security.AccessController.doPrivileged(Native Method)
+    	at java.base/javax.security.auth.Subject.doAs(Subject.java:423)
+    	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1878)
+    	at org.apache.spark.sql.hive.thriftserver.SparkExecuteStatementOperation$$anon$2.run(SparkExecuteStatementOperation.scala:239)
+    	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+    	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+    	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+    	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+    	at java.base/java.lang.Thread.run(Thread.java:829)
+    Caused by: org.apache.spark.sql.catalyst.parser.ParseException: 
+    Syntax error at or near 'select': missing ')'(line 19, pos 0)
+    
+    == SQL ==
+    /* {"app": "dbt", "dbt_version": "1.9.3", "profile_name": "pipeml", "target_name": "dev", "node_id": "model.pipeml.fct_country_count"} */
+    
+      
+        
+            create table raw_marts.fct_country_count
+          
+          
+          
+          
+          
+          
+          
+          
+    
+          as
+          with staging as (
+        select * from raw_staging.stg_raw
+    
+    select
+    ^^^
+        address.country, count(*) as count_by_country
+        from staging
+        group by address.country
+      
+    
+    	at org.apache.spark.sql.catalyst.parser.ParseException.withCommand(ParseDriver.scala:306)
+    	at org.apache.spark.sql.catalyst.parser.AbstractSqlParser.parse(ParseDriver.scala:143)
+    	at org.apache.spark.sql.execution.SparkSqlParser.parse(SparkSqlParser.scala:52)
+    	at org.apache.spark.sql.catalyst.parser.AbstractSqlParser.parsePlan(ParseDriver.scala:89)
+    	at io.delta.sql.parser.DeltaSqlParser.$anonfun$parsePlan$1(DeltaSqlParser.scala:78)
+    	at io.delta.sql.parser.DeltaSqlParser.parse(DeltaSqlParser.scala:111)
+    	at io.delta.sql.parser.DeltaSqlParser.parsePlan(DeltaSqlParser.scala:75)
+    	at org.apache.spark.sql.SparkSession.$anonfun$sql$2(SparkSession.scala:620)
+    	at org.apache.spark.sql.catalyst.QueryPlanningTracker.measurePhase(QueryPlanningTracker.scala:111)
+    	at org.apache.spark.sql.SparkSession.$anonfun$sql$1(SparkSession.scala:620)
+    	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:779)
+    	at org.apache.spark.sql.SparkSession.sql(SparkSession.scala:617)
+    	at org.apache.spark.sql.SQLContext.sql(SQLContext.scala:651)
+    	at org.apache.spark.sql.hive.thriftserver.SparkExecuteStatementOperation.org$apache$spark$sql$hive$thriftserver$SparkExecuteStatementOperation$$execute(SparkExecuteStatementOperation.scala:291)
+    	... 16 more
+    .
+[0m03:58:04.439179 [debug] [Thread-3  ]: Spark adapter: Poll status: 2, query complete
+[0m03:58:04.440006 [debug] [Thread-3  ]: SQL status: OK in 1.536 seconds
+[0m03:58:04.442975 [debug] [Thread-3  ]: On model.pipeml.dim_users: ROLLBACK
+[0m03:58:04.443557 [debug] [Thread-3  ]: Spark adapter: NotImplemented: rollback
+[0m03:58:04.443927 [debug] [Thread-3  ]: On model.pipeml.dim_users: Close
+[0m03:58:04.452258 [debug] [Thread-3  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '086ed891-b3e8-45b1-adff-b91b64133085', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ffbf140a9d0>]}
+[0m03:58:04.453254 [info ] [Thread-3  ]: 2 of 3 OK created sql table model raw_marts.dim_users .......................... [[32mOK[0m in 1.82s]
+[0m03:58:04.454186 [debug] [Thread-3  ]: Finished running node model.pipeml.dim_users
+[0m03:58:04.458569 [debug] [MainThread]: On master: ROLLBACK
+[0m03:58:04.459331 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m03:58:04.523876 [debug] [MainThread]: Spark adapter: NotImplemented: rollback
+[0m03:58:04.524427 [debug] [MainThread]: Spark adapter: NotImplemented: add_begin_query
+[0m03:58:04.524758 [debug] [MainThread]: Spark adapter: NotImplemented: commit
+[0m03:58:04.525073 [debug] [MainThread]: On master: ROLLBACK
+[0m03:58:04.525375 [debug] [MainThread]: Spark adapter: NotImplemented: rollback
+[0m03:58:04.525820 [debug] [MainThread]: On master: Close
+[0m03:58:04.534622 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m03:58:04.535116 [debug] [MainThread]: Connection 'list_None_raw_marts' was properly closed.
+[0m03:58:04.535415 [debug] [MainThread]: Connection 'model.pipeml.stg_raw' was properly closed.
+[0m03:58:04.535746 [debug] [MainThread]: Connection 'model.pipeml.dim_users' was properly closed.
+[0m03:58:04.536020 [debug] [MainThread]: Connection 'model.pipeml.fct_country_count' was properly closed.
+[0m03:58:04.536441 [info ] [MainThread]: 
+[0m03:58:04.537062 [info ] [MainThread]: Finished running 3 table models in 0 hours 0 minutes and 28.75 seconds (28.75s).
+[0m03:58:04.538699 [debug] [MainThread]: Command end result
+[0m03:58:04.577316 [debug] [MainThread]: Wrote artifact WritableManifest to /app/target/manifest.json
+[0m03:58:04.580794 [debug] [MainThread]: Wrote artifact SemanticManifest to /app/target/semantic_manifest.json
+[0m03:58:04.593187 [debug] [MainThread]: Wrote artifact RunExecutionResult to /app/target/run_results.json
+[0m03:58:04.593724 [info ] [MainThread]: 
+[0m03:58:04.594336 [info ] [MainThread]: [31mCompleted with 1 error, 0 partial successes, and 0 warnings:[0m
+[0m03:58:04.594805 [info ] [MainThread]: 
+[0m03:58:04.595614 [error] [MainThread]:   Runtime Error in model fct_country_count (models/marts/fct_country_count.sql)
+  Database Error
+    org.apache.hive.service.cli.HiveSQLException: Error running query: [PARSE_SYNTAX_ERROR] org.apache.spark.sql.catalyst.parser.ParseException: 
+    Syntax error at or near 'select': missing ')'(line 19, pos 0)
+    
+    == SQL ==
+    /* {"app": "dbt", "dbt_version": "1.9.3", "profile_name": "pipeml", "target_name": "dev", "node_id": "model.pipeml.fct_country_count"} */
+    
+      
+        
+            create table raw_marts.fct_country_count
+          
+          
+          
+          
+          
+          
+          
+          
+    
+          as
+          with staging as (
+        select * from raw_staging.stg_raw
+    
+    select
+    ^^^
+        address.country, count(*) as count_by_country
+        from staging
+        group by address.country
+      
+    
+    	at org.apache.spark.sql.hive.thriftserver.HiveThriftServerErrors$.runningQueryError(HiveThriftServerErrors.scala:43)
+    	at org.apache.spark.sql.hive.thriftserver.SparkExecuteStatementOperation.org$apache$spark$sql$hive$thriftserver$SparkExecuteStatementOperation$$execute(SparkExecuteStatementOperation.scala:325)
+    	at org.apache.spark.sql.hive.thriftserver.SparkExecuteStatementOperation$$anon$2$$anon$3.$anonfun$run$2(SparkExecuteStatementOperation.scala:230)
+    	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+    	at org.apache.spark.sql.hive.thriftserver.SparkOperation.withLocalProperties(SparkOperation.scala:79)
+    	at org.apache.spark.sql.hive.thriftserver.SparkOperation.withLocalProperties$(SparkOperation.scala:63)
+    	at org.apache.spark.sql.hive.thriftserver.SparkExecuteStatementOperation.withLocalProperties(SparkExecuteStatementOperation.scala:43)
+    	at org.apache.spark.sql.hive.thriftserver.SparkExecuteStatementOperation$$anon$2$$anon$3.run(SparkExecuteStatementOperation.scala:230)
+    	at org.apache.spark.sql.hive.thriftserver.SparkExecuteStatementOperation$$anon$2$$anon$3.run(SparkExecuteStatementOperation.scala:225)
+    	at java.base/java.security.AccessController.doPrivileged(Native Method)
+    	at java.base/javax.security.auth.Subject.doAs(Subject.java:423)
+    	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1878)
+    	at org.apache.spark.sql.hive.thriftserver.SparkExecuteStatementOperation$$anon$2.run(SparkExecuteStatementOperation.scala:239)
+    	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+    	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+    	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+    	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+    	at java.base/java.lang.Thread.run(Thread.java:829)
+    Caused by: org.apache.spark.sql.catalyst.parser.ParseException: 
+    Syntax error at or near 'select': missing ')'(line 19, pos 0)
+    
+    == SQL ==
+    /* {"app": "dbt", "dbt_version": "1.9.3", "profile_name": "pipeml", "target_name": "dev", "node_id": "model.pipeml.fct_country_count"} */
+    
+      
+        
+            create table raw_marts.fct_country_count
+          
+          
+          
+          
+          
+          
+          
+          
+    
+          as
+          with staging as (
+        select * from raw_staging.stg_raw
+    
+    select
+    ^^^
+        address.country, count(*) as count_by_country
+        from staging
+        group by address.country
+      
+    
+    	at org.apache.spark.sql.catalyst.parser.ParseException.withCommand(ParseDriver.scala:306)
+    	at org.apache.spark.sql.catalyst.parser.AbstractSqlParser.parse(ParseDriver.scala:143)
+    	at org.apache.spark.sql.execution.SparkSqlParser.parse(SparkSqlParser.scala:52)
+    	at org.apache.spark.sql.catalyst.parser.AbstractSqlParser.parsePlan(ParseDriver.scala:89)
+    	at io.delta.sql.parser.DeltaSqlParser.$anonfun$parsePlan$1(DeltaSqlParser.scala:78)
+    	at io.delta.sql.parser.DeltaSqlParser.parse(DeltaSqlParser.scala:111)
+    	at io.delta.sql.parser.DeltaSqlParser.parsePlan(DeltaSqlParser.scala:75)
+    	at org.apache.spark.sql.SparkSession.$anonfun$sql$2(SparkSession.scala:620)
+    	at org.apache.spark.sql.catalyst.QueryPlanningTracker.measurePhase(QueryPlanningTracker.scala:111)
+    	at org.apache.spark.sql.SparkSession.$anonfun$sql$1(SparkSession.scala:620)
+    	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:779)
+    	at org.apache.spark.sql.SparkSession.sql(SparkSession.scala:617)
+    	at org.apache.spark.sql.SQLContext.sql(SQLContext.scala:651)
+    	at org.apache.spark.sql.hive.thriftserver.SparkExecuteStatementOperation.org$apache$spark$sql$hive$thriftserver$SparkExecuteStatementOperation$$execute(SparkExecuteStatementOperation.scala:291)
+    	... 16 more
+    
+[0m03:58:04.596536 [info ] [MainThread]: 
+[0m03:58:04.597075 [info ] [MainThread]: Done. PASS=2 WARN=0 ERROR=1 SKIP=0 TOTAL=3
+[0m03:58:04.598386 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 31.08949, "process_in_blocks": "744", "process_kernel_time": 0.480388, "process_mem_max_rss": "109332", "process_out_blocks": "2976", "process_user_time": 3.674971}
+[0m03:58:04.598852 [debug] [MainThread]: Command `dbt run` failed at 03:58:04.598735 after 31.09 seconds
+[0m03:58:04.599278 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ffbf2d87c40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ffbf2c4dd60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ffbf15f6100>]}
+[0m03:58:04.599688 [debug] [MainThread]: Flushing usage events
+[0m03:58:06.520130 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m03:59:04.239426 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9a19027ca0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9a1816d340>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9a1816d2e0>]}
+
+
+============================== 03:59:04.244645 | 7c357f77-9050-4d58-951f-26aa89cbcffe ==============================
+[0m03:59:04.244645 [info ] [MainThread]: Running with dbt=1.9.3
+[0m03:59:04.245361 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/app', 'version_check': 'True', 'warn_error': 'None', 'log_path': '/app/logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt run', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m03:59:04.323297 [debug] [MainThread]: Spark adapter: Setting pyhive.hive logging to ERROR
+[0m03:59:04.324129 [debug] [MainThread]: Spark adapter: Setting thrift.transport logging to ERROR
+[0m03:59:04.324695 [debug] [MainThread]: Spark adapter: Setting thrift.protocol logging to ERROR
+[0m03:59:04.496862 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '7c357f77-9050-4d58-951f-26aa89cbcffe', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9a188466a0>]}
+[0m03:59:04.577305 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '7c357f77-9050-4d58-951f-26aa89cbcffe', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9a18161400>]}
+[0m03:59:04.578398 [info ] [MainThread]: Registered adapter: spark=1.9.2
+[0m03:59:04.716039 [debug] [MainThread]: checksum: 5671c00892cdbcef29c3b00cc5ba7510c3d18a35c883caeb9ab9ee266dc29c8f, vars: {}, profile: , target: , version: 1.9.3
+[0m03:59:04.873981 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+[0m03:59:04.875009 [debug] [MainThread]: Partial parsing: updated file: pipeml://models/marts/fct_country_count.sql
+[0m03:59:05.253770 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '7c357f77-9050-4d58-951f-26aa89cbcffe', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9a16f87130>]}
+[0m03:59:05.371835 [debug] [MainThread]: Wrote artifact WritableManifest to /app/target/manifest.json
+[0m03:59:05.376778 [debug] [MainThread]: Wrote artifact SemanticManifest to /app/target/semantic_manifest.json
+[0m03:59:05.391481 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '7c357f77-9050-4d58-951f-26aa89cbcffe', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9a17718a90>]}
+[0m03:59:05.392213 [info ] [MainThread]: Found 3 models, 1 source, 473 macros
+[0m03:59:05.392765 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '7c357f77-9050-4d58-951f-26aa89cbcffe', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9a1771bf70>]}
+[0m03:59:05.394753 [info ] [MainThread]: 
+[0m03:59:05.395256 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m03:59:05.395704 [info ] [MainThread]: 
+[0m03:59:05.396376 [debug] [MainThread]: Acquiring new spark connection 'master'
+[0m03:59:05.406473 [debug] [ThreadPool]: Acquiring new spark connection 'list_schemas'
+[0m03:59:05.407752 [debug] [ThreadPool]: Acquiring new spark connection 'list_schemas'
+[0m03:59:05.511415 [debug] [ThreadPool]: Using spark connection "list_schemas"
+[0m03:59:05.511953 [debug] [ThreadPool]: On list_schemas: /* {"app": "dbt", "dbt_version": "1.9.3", "profile_name": "pipeml", "target_name": "dev", "connection_name": "list_schemas"} */
+
+    show databases
+  
+[0m03:59:05.512292 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m03:59:05.518429 [debug] [ThreadPool]: Using spark connection "list_schemas"
+[0m03:59:05.519205 [debug] [ThreadPool]: On list_schemas: /* {"app": "dbt", "dbt_version": "1.9.3", "profile_name": "pipeml", "target_name": "dev", "connection_name": "list_schemas"} */
+
+    show databases
+  
+[0m03:59:05.520027 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m03:59:05.634373 [debug] [ThreadPool]: Spark adapter: Poll status: 2, query complete
+[0m03:59:05.634947 [debug] [ThreadPool]: SQL status: OK in 0.123 seconds
+[0m03:59:05.643428 [debug] [ThreadPool]: On list_schemas: Close
+[0m03:59:05.650097 [debug] [ThreadPool]: Spark adapter: Poll status: 2, query complete
+[0m03:59:05.651164 [debug] [ThreadPool]: SQL status: OK in 0.131 seconds
+[0m03:59:05.656212 [debug] [ThreadPool]: On list_schemas: Close
+[0m03:59:05.667410 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_schemas, now list_None_raw_staging)
+[0m03:59:05.668217 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_schemas, now list_None_raw_marts)
+[0m03:59:05.681590 [debug] [ThreadPool]: Spark adapter: NotImplemented: add_begin_query
+[0m03:59:05.682834 [debug] [ThreadPool]: Spark adapter: NotImplemented: add_begin_query
+[0m03:59:05.683632 [debug] [ThreadPool]: Using spark connection "list_None_raw_staging"
+[0m03:59:05.683940 [debug] [ThreadPool]: On list_None_raw_staging: /* {"app": "dbt", "dbt_version": "1.9.3", "profile_name": "pipeml", "target_name": "dev", "connection_name": "list_None_raw_staging"} */
+show table extended in raw_staging like '*'
+  
+[0m03:59:05.684232 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m03:59:05.683246 [debug] [ThreadPool]: Using spark connection "list_None_raw_marts"
+[0m03:59:05.685495 [debug] [ThreadPool]: On list_None_raw_marts: /* {"app": "dbt", "dbt_version": "1.9.3", "profile_name": "pipeml", "target_name": "dev", "connection_name": "list_None_raw_marts"} */
+show table extended in raw_marts like '*'
+  
+[0m03:59:05.685833 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m03:59:05.878854 [debug] [ThreadPool]: Spark adapter: Poll status: 2, query complete
+[0m03:59:05.879635 [debug] [ThreadPool]: SQL status: OK in 0.195 seconds
+[0m03:59:05.885206 [debug] [ThreadPool]: On list_None_raw_staging: ROLLBACK
+[0m03:59:05.885761 [debug] [ThreadPool]: Spark adapter: NotImplemented: rollback
+[0m03:59:05.886083 [debug] [ThreadPool]: On list_None_raw_staging: Close
+[0m03:59:05.949775 [debug] [ThreadPool]: Spark adapter: Poll status: 2, query complete
+[0m03:59:05.950423 [debug] [ThreadPool]: SQL status: OK in 0.265 seconds
+[0m03:59:05.955848 [debug] [ThreadPool]: On list_None_raw_marts: ROLLBACK
+[0m03:59:05.957022 [debug] [ThreadPool]: Spark adapter: NotImplemented: rollback
+[0m03:59:05.958048 [debug] [ThreadPool]: On list_None_raw_marts: Close
+[0m03:59:05.964616 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '7c357f77-9050-4d58-951f-26aa89cbcffe', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9a176ec5b0>]}
+[0m03:59:05.965432 [debug] [MainThread]: Spark adapter: NotImplemented: add_begin_query
+[0m03:59:05.965901 [debug] [MainThread]: Spark adapter: NotImplemented: commit
+[0m03:59:05.973963 [debug] [Thread-1  ]: Began running node model.pipeml.stg_raw
+[0m03:59:05.975268 [info ] [Thread-1  ]: 1 of 3 START sql table model raw_staging.stg_raw ............................... [RUN]
+[0m03:59:05.976446 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly list_None_raw_marts, now model.pipeml.stg_raw)
+[0m03:59:05.976974 [debug] [Thread-1  ]: Began compiling node model.pipeml.stg_raw
+[0m03:59:05.996182 [debug] [Thread-1  ]: Writing injected SQL for node "model.pipeml.stg_raw"
+[0m03:59:05.998038 [debug] [Thread-1  ]: Began executing node model.pipeml.stg_raw
+[0m03:59:06.044027 [debug] [Thread-1  ]: Using spark connection "model.pipeml.stg_raw"
+[0m03:59:06.044706 [debug] [Thread-1  ]: On model.pipeml.stg_raw: /* {"app": "dbt", "dbt_version": "1.9.3", "profile_name": "pipeml", "target_name": "dev", "node_id": "model.pipeml.stg_raw"} */
+drop table if exists raw_staging.stg_raw
+[0m03:59:06.045390 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+[0m03:59:06.332500 [debug] [Thread-1  ]: Spark adapter: Poll status: 2, query complete
+[0m03:59:06.333187 [debug] [Thread-1  ]: SQL status: OK in 0.288 seconds
+[0m03:59:06.396477 [debug] [Thread-1  ]: Writing runtime sql for node "model.pipeml.stg_raw"
+[0m03:59:06.397593 [debug] [Thread-1  ]: Spark adapter: NotImplemented: add_begin_query
+[0m03:59:06.398074 [debug] [Thread-1  ]: Using spark connection "model.pipeml.stg_raw"
+[0m03:59:06.398488 [debug] [Thread-1  ]: On model.pipeml.stg_raw: /* {"app": "dbt", "dbt_version": "1.9.3", "profile_name": "pipeml", "target_name": "dev", "node_id": "model.pipeml.stg_raw"} */
+
+  
+    
+        create table raw_staging.stg_raw
+      
+      
+      
+      
+      
+      
+      
+      
+
+      as
+      
+
+with raw_data as (
+    select *
+    from raw.dev_api_data
+)
+
+select * from raw_data
+  
+[0m03:59:08.282069 [debug] [Thread-1  ]: Spark adapter: Poll status: 2, query complete
+[0m03:59:08.282693 [debug] [Thread-1  ]: SQL status: OK in 1.884 seconds
+[0m03:59:08.324404 [debug] [Thread-1  ]: On model.pipeml.stg_raw: ROLLBACK
+[0m03:59:08.325252 [debug] [Thread-1  ]: Spark adapter: NotImplemented: rollback
+[0m03:59:08.325618 [debug] [Thread-1  ]: On model.pipeml.stg_raw: Close
+[0m03:59:08.334494 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '7c357f77-9050-4d58-951f-26aa89cbcffe', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9a1a2b5e50>]}
+[0m03:59:08.335638 [info ] [Thread-1  ]: 1 of 3 OK created sql table model raw_staging.stg_raw .......................... [[32mOK[0m in 2.36s]
+[0m03:59:08.336890 [debug] [Thread-1  ]: Finished running node model.pipeml.stg_raw
+[0m03:59:08.341278 [debug] [Thread-3  ]: Began running node model.pipeml.dim_users
+[0m03:59:08.342003 [debug] [Thread-4  ]: Began running node model.pipeml.fct_country_count
+[0m03:59:08.342769 [info ] [Thread-3  ]: 2 of 3 START sql table model raw_marts.dim_users ............................... [RUN]
+[0m03:59:08.351943 [info ] [Thread-4  ]: 3 of 3 START sql table model raw_marts.fct_country_count ....................... [RUN]
+[0m03:59:08.353076 [debug] [Thread-3  ]: Acquiring new spark connection 'model.pipeml.dim_users'
+[0m03:59:08.356685 [debug] [Thread-4  ]: Acquiring new spark connection 'model.pipeml.fct_country_count'
+[0m03:59:08.357596 [debug] [Thread-3  ]: Began compiling node model.pipeml.dim_users
+[0m03:59:08.358669 [debug] [Thread-4  ]: Began compiling node model.pipeml.fct_country_count
+[0m03:59:08.368231 [debug] [Thread-4  ]: Writing injected SQL for node "model.pipeml.fct_country_count"
+[0m03:59:08.364640 [debug] [Thread-3  ]: Writing injected SQL for node "model.pipeml.dim_users"
+[0m03:59:08.370096 [debug] [Thread-4  ]: Began executing node model.pipeml.fct_country_count
+[0m03:59:08.371438 [debug] [Thread-3  ]: Began executing node model.pipeml.dim_users
+[0m03:59:08.399980 [debug] [Thread-4  ]: Using spark connection "model.pipeml.fct_country_count"
+[0m03:59:08.400716 [debug] [Thread-3  ]: Using spark connection "model.pipeml.dim_users"
+[0m03:59:08.402207 [debug] [Thread-4  ]: On model.pipeml.fct_country_count: /* {"app": "dbt", "dbt_version": "1.9.3", "profile_name": "pipeml", "target_name": "dev", "node_id": "model.pipeml.fct_country_count"} */
+drop table if exists raw_marts.fct_country_count
+[0m03:59:08.402806 [debug] [Thread-3  ]: On model.pipeml.dim_users: /* {"app": "dbt", "dbt_version": "1.9.3", "profile_name": "pipeml", "target_name": "dev", "node_id": "model.pipeml.dim_users"} */
+drop table if exists raw_marts.dim_users
+[0m03:59:08.406213 [debug] [Thread-3  ]: Opening a new connection, currently in state init
+[0m03:59:08.405487 [debug] [Thread-4  ]: Opening a new connection, currently in state init
+[0m03:59:08.600069 [debug] [Thread-4  ]: Spark adapter: Poll status: 2, query complete
+[0m03:59:08.600724 [debug] [Thread-4  ]: SQL status: OK in 0.195 seconds
+[0m03:59:08.607364 [debug] [Thread-4  ]: Writing runtime sql for node "model.pipeml.fct_country_count"
+[0m03:59:08.609049 [debug] [Thread-4  ]: Spark adapter: NotImplemented: add_begin_query
+[0m03:59:08.609603 [debug] [Thread-4  ]: Using spark connection "model.pipeml.fct_country_count"
+[0m03:59:08.610167 [debug] [Thread-4  ]: On model.pipeml.fct_country_count: /* {"app": "dbt", "dbt_version": "1.9.3", "profile_name": "pipeml", "target_name": "dev", "node_id": "model.pipeml.fct_country_count"} */
+
+  
+    
+        create table raw_marts.fct_country_count
+      
+      
+      
+      
+      
+      
+      
+      
+
+      as
+      with staging as (
+    select * from raw_staging.stg_raw
+)
+
+select
+    address.country, count(*) as count_by_country
+    from staging
+    group by address.country
+  
+[0m03:59:08.758300 [debug] [Thread-3  ]: Spark adapter: Poll status: 2, query complete
+[0m03:59:08.759084 [debug] [Thread-3  ]: SQL status: OK in 0.353 seconds
+[0m03:59:08.762145 [debug] [Thread-3  ]: Writing runtime sql for node "model.pipeml.dim_users"
+[0m03:59:08.763279 [debug] [Thread-3  ]: Spark adapter: NotImplemented: add_begin_query
+[0m03:59:08.763728 [debug] [Thread-3  ]: Using spark connection "model.pipeml.dim_users"
+[0m03:59:08.764179 [debug] [Thread-3  ]: On model.pipeml.dim_users: /* {"app": "dbt", "dbt_version": "1.9.3", "profile_name": "pipeml", "target_name": "dev", "node_id": "model.pipeml.dim_users"} */
+
+  
+    
+        create table raw_marts.dim_users
+      
+      
+      
+      
+      
+      
+      
+      
+
+      as
+      with staging as (
+    select * from raw_staging.stg_raw
+
+)
+
+select	
+	id,
+	uid,
+	first_name,
+	last_name, 
+	email, 
+	gender,
+	avatar,
+	date_of_birth,
+	employment.title,
+	address.city,
+	address.street_name,
+    	address.street_address,
+    	address.zip_code,
+    	address.state,
+    	address.country
+from staging
+  
+[0m03:59:10.410425 [debug] [Thread-3  ]: Spark adapter: Poll status: 2, query complete
+[0m03:59:10.411076 [debug] [Thread-3  ]: SQL status: OK in 1.646 seconds
+[0m03:59:10.413648 [debug] [Thread-3  ]: On model.pipeml.dim_users: ROLLBACK
+[0m03:59:10.414133 [debug] [Thread-3  ]: Spark adapter: NotImplemented: rollback
+[0m03:59:10.414581 [debug] [Thread-3  ]: On model.pipeml.dim_users: Close
+[0m03:59:10.423383 [debug] [Thread-3  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '7c357f77-9050-4d58-951f-26aa89cbcffe', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9a17c013a0>]}
+[0m03:59:10.424987 [info ] [Thread-3  ]: 2 of 3 OK created sql table model raw_marts.dim_users .......................... [[32mOK[0m in 2.07s]
+[0m03:59:10.426141 [debug] [Thread-3  ]: Finished running node model.pipeml.dim_users
+[0m03:59:11.149595 [debug] [Thread-4  ]: Spark adapter: Poll status: 2, query complete
+[0m03:59:11.150301 [debug] [Thread-4  ]: SQL status: OK in 2.540 seconds
+[0m03:59:11.152806 [debug] [Thread-4  ]: On model.pipeml.fct_country_count: ROLLBACK
+[0m03:59:11.153210 [debug] [Thread-4  ]: Spark adapter: NotImplemented: rollback
+[0m03:59:11.153584 [debug] [Thread-4  ]: On model.pipeml.fct_country_count: Close
+[0m03:59:11.162925 [debug] [Thread-4  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '7c357f77-9050-4d58-951f-26aa89cbcffe', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9a14628970>]}
+[0m03:59:11.163895 [info ] [Thread-4  ]: 3 of 3 OK created sql table model raw_marts.fct_country_count .................. [[32mOK[0m in 2.81s]
+[0m03:59:11.164690 [debug] [Thread-4  ]: Finished running node model.pipeml.fct_country_count
+[0m03:59:11.166611 [debug] [MainThread]: On master: ROLLBACK
+[0m03:59:11.166983 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m03:59:11.232162 [debug] [MainThread]: Spark adapter: NotImplemented: rollback
+[0m03:59:11.232711 [debug] [MainThread]: Spark adapter: NotImplemented: add_begin_query
+[0m03:59:11.233208 [debug] [MainThread]: Spark adapter: NotImplemented: commit
+[0m03:59:11.233609 [debug] [MainThread]: On master: ROLLBACK
+[0m03:59:11.233927 [debug] [MainThread]: Spark adapter: NotImplemented: rollback
+[0m03:59:11.234236 [debug] [MainThread]: On master: Close
+[0m03:59:11.246900 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m03:59:11.247574 [debug] [MainThread]: Connection 'model.pipeml.stg_raw' was properly closed.
+[0m03:59:11.247938 [debug] [MainThread]: Connection 'list_None_raw_staging' was properly closed.
+[0m03:59:11.248258 [debug] [MainThread]: Connection 'model.pipeml.dim_users' was properly closed.
+[0m03:59:11.248529 [debug] [MainThread]: Connection 'model.pipeml.fct_country_count' was properly closed.
+[0m03:59:11.248956 [info ] [MainThread]: 
+[0m03:59:11.249642 [info ] [MainThread]: Finished running 3 table models in 0 hours 0 minutes and 5.85 seconds (5.85s).
+[0m03:59:11.251034 [debug] [MainThread]: Command end result
+[0m03:59:11.290359 [debug] [MainThread]: Wrote artifact WritableManifest to /app/target/manifest.json
+[0m03:59:11.294070 [debug] [MainThread]: Wrote artifact SemanticManifest to /app/target/semantic_manifest.json
+[0m03:59:11.303505 [debug] [MainThread]: Wrote artifact RunExecutionResult to /app/target/run_results.json
+[0m03:59:11.304323 [info ] [MainThread]: 
+[0m03:59:11.305342 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m03:59:11.306248 [info ] [MainThread]: 
+[0m03:59:11.307282 [info ] [MainThread]: Done. PASS=3 WARN=0 ERROR=0 SKIP=0 TOTAL=3
+[0m03:59:11.310168 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 7.144149, "process_in_blocks": "0", "process_kernel_time": 0.51914, "process_mem_max_rss": "107392", "process_out_blocks": "2896", "process_user_time": 2.639293}
+[0m03:59:11.310770 [debug] [MainThread]: Command `dbt run` succeeded at 03:59:11.310640 after 7.15 seconds
+[0m03:59:11.311280 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9a19027ca0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9a188466a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9a18eb7e50>]}
+[0m03:59:11.311771 [debug] [MainThread]: Flushing usage events
+[0m03:59:12.809164 [debug] [MainThread]: An error was encountered while trying to flush usage events
